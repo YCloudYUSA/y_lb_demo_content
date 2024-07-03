@@ -21,19 +21,29 @@ source:
       uuid: '0900856e-0550-4b6a-b58f-71133638caab'
       links:
         - uri: 'https://facebook.com'
-          title: 'Facebook'
+          options:
+            attributes:
+              title: 'Facebook'
 
         - uri: 'https://instagram.com'
-          title: 'Instagram'
+          options:
+            attributes:
+              title: 'Instagram'
 
         - uri: 'https://linkedin.com'
-          title: 'Linkedin'
+          options:
+            attributes:
+              title: 'Linkedin'
 
         - uri: 'https://youtube.com'
-          title: 'Youtube'
+          options:
+            attributes:
+              title: 'Youtube'
 
-        - uri: 'https://twitter.com'
-          title: 'Twitter'
+        - uri: 'https://x.com'
+          options:
+            attributes:
+              title: 'X'
   ids:
     id:
       type: integer
