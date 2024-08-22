@@ -48,6 +48,7 @@ source:
       id: 23
       uuid: 'f77c9f1c-0e09-4ac4-8ecb-a6aa1d25b76e'
       title: 'Lorem ipsum dolor sit amet'
+      heading_level: h1
       description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>"
       media: promo_image_2
 
@@ -70,6 +71,10 @@ process:
     default_value: lb_hero
   uuid: uuid
   field_title: title
+  field_heading_level:
+    plugin: default_value
+    source: heading_level
+    default_value: h2
   field_description/value: description
   field_description/format:
     plugin: default_value

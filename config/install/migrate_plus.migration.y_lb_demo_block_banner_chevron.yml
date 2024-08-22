@@ -20,6 +20,7 @@ source:
       id: 18
       uuid: '92468ff3-8ce8-42ef-9baf-74871b74b214'
       title: 'YMCA of [Springfield]'
+      heading_level: h1
       description: "<p>We're so excited to welcome you on your journey of wellness, activity and community. Discover everything we have to offer across all of our programs.</p>"
       media: homepage_image_1
       cta:
@@ -29,6 +30,7 @@ source:
       id: 19
       uuid: 'a41b3c4c-b422-4e34-8445-2a80436b19fc'
       title: 'YMCA of [Springfield] Programs'
+      heading_level: h1
       description: "<p>From fitness and sports to events and volunteering, there are countless ways to live your best life with us.</p>"
       media: program_overview_page_image_1
       cta: {  }
@@ -36,6 +38,7 @@ source:
     - id: 20
       uuid: '4e4de786-6c2f-4d6b-a736-395b21cc403b'
       title: 'YMCA Membership'
+      heading_level: h1
       description: "<p>Becoming a member makes you part of a community that's dedicated to bringing about meaningful change for you, your family and your neighbors. Scroll on to explore all our membership options.</p>"
       media: membership_page_image_1
       cta: { }
@@ -43,6 +46,7 @@ source:
     - id: 21
       uuid: '8e457df4-2415-4319-97e5-1b9a76127de2'
       title: 'Events'
+      heading_level: h1
       description: "<p>We can't serve our community without having some fun. Scroll on to see what events are happening near you.</p>"
       media: events_page_image_1
       cta: { }
@@ -50,6 +54,7 @@ source:
     - id: 22
       uuid: '40c2d581-68a7-4228-952d-7fa82fae45a9'
       title: 'Contact Us'
+      heading_level: h1
       description: ""
       media: contactus_page_image_1
       cta: { }
@@ -58,6 +63,7 @@ source:
       id: 23
       uuid: '96c7d0ca-93ae-4fd5-82ae-f163504d6e85'
       title: 'Volunteer Opportunities'
+      heading_level: h1
       description: "<p>Help lead the YMCA of [Springfield] in responding to our community's needs.</p>"
       media: volunteer_ops_page_image_1
 
@@ -65,6 +71,7 @@ source:
       id: 24
       uuid: 'cbba2fc0-0b89-4a0b-8d97-ca24692fc7cb'
       title: 'Lorem ipsum dolor sit amet'
+      heading_level: h1
       description: "<p>Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Etiam dignissim diam quis enim lobortis.</p>"
       media: volunteer_ops_page_image_1
 
@@ -72,6 +79,7 @@ source:
       id: 25
       uuid: '45747841-124e-4a7c-b38c-74272e01f604'
       title: 'Lorem ipsum dolor sit amet'
+      heading_level: h1
       description: "<p>Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Etiam dignissim diam quis enim lobortis.</p>"
       media: promo_image_1
       promotion_include: 1
@@ -94,6 +102,10 @@ process:
     default_value: lb_hero
   uuid: uuid
   field_title: title
+  field_heading_level:
+    plugin: default_value
+    source: heading_level
+    default_value: h2
   field_description/value: description
   field_description/format:
     plugin: default_value
