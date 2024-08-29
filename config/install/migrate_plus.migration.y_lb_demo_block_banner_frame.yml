@@ -29,6 +29,7 @@ source:
       id: 2
       uuid: '8ec7a116-6b9e-427f-9345-19105a5f19e8'
       title: 'Youth Sports'
+      heading_level: h1
       description: "<p>Whether your kid is a rookie or a seasoned pro, they'll feel like part of the team.</p>"
       media: program_category_page_image_1
 
@@ -36,6 +37,7 @@ source:
       id: 3
       uuid: '32b9a7ed-c807-4c0c-9376-b55472947187'
       title: '[Downtown Springfield] Child Care'
+      heading_level: h1
       description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>"
       media: program_category_page_image_1
 
@@ -43,6 +45,7 @@ source:
       id: 4
       uuid: 'cb045fbe-0750-4db3-bf08-2f1fb29e9fa6'
       title: 'Schedules'
+      heading_level: h1
       description: "<p>The Y is here for you, even on your busiest days. Scroll on to learn more about our scheduled offerings.</p>"
       media: schedules_page_image_1
 
@@ -50,6 +53,7 @@ source:
       id: 5
       uuid: '2a0ea806-7478-43b1-bf26-d49219ea0e9b'
       title: 'YMCA of [Springfield] Jobs'
+      heading_level: h1
       description: "<p>Get paid to play at work with the Y. Explore a range of full-time and part-time jobs close to your home.</p>"
       media: jobs_page_image_1
       cta:
@@ -59,6 +63,7 @@ source:
       id: 6
       uuid: '4159eb7e-cc3e-4441-89e3-45c59e5e0eb2'
       title: 'Lorem ipsum dolor sit amet'
+      heading_level: h1
       description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>"
       media: promo_image_2
   ids:
@@ -80,6 +85,10 @@ process:
     default_value: lb_hero
   uuid: uuid
   field_title: title
+  field_heading_level:
+    plugin: default_value
+    source: heading_level
+    default_value: h2
   field_description/value: description
   field_description/format:
     plugin: default_value
