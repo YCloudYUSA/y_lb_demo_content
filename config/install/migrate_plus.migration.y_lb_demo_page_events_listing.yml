@@ -90,7 +90,7 @@ source:
               region: 'header_top_right'
               config:
                 id: 'system_menu_block:utility'
-                label: 'Demo Utility menu'
+                label: 'Utility menu'
                 label_display: '0'
                 provider: system
                 context_mapping: { }

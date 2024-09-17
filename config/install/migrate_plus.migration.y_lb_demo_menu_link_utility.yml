@@ -10,7 +10,7 @@ migration_tags:
   - openy_standard_installation
   - openy_extended_installation
 migration_group: y_lb_demo_content
-label: 'Create demo Utility menu links'
+label: 'Create Utility menu links'
 source:
   plugin: embedded_data
   data_rows:
