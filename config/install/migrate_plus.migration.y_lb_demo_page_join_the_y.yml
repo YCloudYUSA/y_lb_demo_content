@@ -85,6 +85,18 @@ source:
                 label_display: '0'
                 provider: y_lb
                 context_mapping: { }
+            utility:
+              block_config: true
+              region: 'header_top_right'
+              config:
+                id: 'system_menu_block:utility'
+                label: 'Utility menu'
+                label_display: '0'
+                provider: system
+                context_mapping: { }
+                level: 1
+                depth: 1
+                expand_all_items: false
         2banner:
           components:
             lb_hero:
