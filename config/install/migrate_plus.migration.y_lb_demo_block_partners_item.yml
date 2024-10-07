@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - lb_testimonials
+    - lb_partners_blocks
   enforced:
     module:
       - y_lb_demo_content
