@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - lb_testimonials
+    - lb_partners_blocks
   enforced:
     module:
       - y_lb_demo_content
@@ -22,10 +22,7 @@ source:
       title: "Our Partners"
       subtitle: "We put our all into making sure everyone has the opportunity to learn, grow and thrive. And we couldn't do it alone. Interested in making a positive impact in the community? Contact us for details."
       content_ids:
-        - content_id: partner_1
-        - content_id: partner_2
-        - content_id: partner_3
-        - content_id: partner_4
+        - content_id: tier_1
 
     - id: 381
       uuid: '06466af2-9449-4494-8bb5-aed8b1452050'
@@ -33,20 +30,15 @@ source:
       subtitle: "Want to be a sponsor? Email us at youthsports@example.org for details."
       format: full_html
       content_ids:
-        - content_id: partner_1
-        - content_id: partner_2
-        - content_id: partner_3
-        - content_id: partner_4
+        - content_id: tier_2
 
     - id: 382
       uuid: 'a3ab972b-e6f5-4a6c-9c1e-1c7ccb94d7d4'
       title: "Our Sponsors"
       subtitle: "Youth Soccer is proudly sponsored by"
       content_ids:
-        - content_id: partner_1
-        - content_id: partner_2
-        - content_id: partner_3
-        - content_id: partner_4
+        - content_id: tier_3
+
   ids:
     id:
       type: integer
@@ -74,7 +66,7 @@ process:
       target_id:
         plugin: migration_lookup
         migration:
-          - y_lb_demo_block_partners_item
+          - y_lb_demo_block_partners_tier
         source: content_id
 
 destination:
@@ -82,5 +74,5 @@ destination:
   default_bundle: 'lb_partners'
 migration_dependencies:
   required:
-    - y_lb_demo_block_partners_item
+    - y_lb_demo_block_partners_tier
   optional: {  }

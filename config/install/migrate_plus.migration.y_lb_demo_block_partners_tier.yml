@@ -1,0 +1,77 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - lb_partners_blocks
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_block_partners_tier
+migration_tags:
+  - openy_complete_installation
+  - openy_standard_installation
+  - openy_extended_installation
+migration_group: y_lb_demo_content
+label: 'Create Partners Tier blocks'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: tier_1
+      uuid: '2bc90be5-f9df-490d-8cee-056eba836e57'
+      name: 'Lorem ipsum'
+      content_ids:
+        - content_id: partner_1
+        - content_id: partner_2
+        - content_id: partner_3
+        - content_id: partner_4
+    -
+      id: tier_2
+      uuid: '2d92a210-d4b1-407d-9c2a-96459e45cece'
+      name: 'Lorem ipsum'
+      content_ids:
+        - content_id: partner_1
+        - content_id: partner_2
+        - content_id: partner_3
+        - content_id: partner_4
+    -
+      id: tier_3
+      uuid: 'da204378-b020-480d-8389-6ed8d6743410'
+      name: 'Lorem ipsum'
+      content_ids:
+        - content_id: partner_1
+        - content_id: partner_2
+        - content_id: partner_3
+        - content_id: partner_4
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: partners_tier
+  uuid: uuid
+  info: name
+  field_partners_items:
+    plugin: sub_process
+    source: content_ids
+    process:
+      target_id:
+        plugin: migration_lookup
+        migration:
+          - y_lb_demo_block_partners_item
+        source: content_id
+destination:
+  plugin: entity:block_content
+  default_bundle: 'partners_tier'
+migration_dependencies: {  }
