@@ -173,7 +173,7 @@ source:
         <p><em>This line rendered as italicized text.</em></p>
         <h3>Button examples</h3>
         <p>In general, buttons follow the guidelines for the <a href="https://getbootstrap.com/docs/4.6/components/buttons/">Bootstrap 4.6 button component</a>. Not all styles may be fully supported.</p>
-        <p>Click any button to copy the required classes to your clipboard.</p>
+        <p>Click any button to copy the required classes to your clipboard, then add the classes to the <a href="https://ds-docs.y.org/docs/user-documentation/text-editor/adding-links/#using-button-classes">Advanced link settings</a>.</p>
         <h4>Basic Buttons</h4>
         <p>
             The <code>btn</code> class is required for all buttons, then add a class for the corresponding style. For example, the primary button style uses the classes <code>btn btn-primary</code>.
