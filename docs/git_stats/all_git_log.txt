@@ -1,0 +1,2531 @@
+commit e0c49268f51fc5a6b7d6a3c3236331da8ffdd42b
+Merge: ab26dba 76bbe80
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Mon Dec 23 13:59:09 2024 +0200
+
+    Merge pull request #53 from YCloudYUSA/demo-buttons
+    
+    feat: Add more useful demo content to dummy page
+
+commit 76bbe80ece3825dd440d033ccbb620ebc6e49e28
+Author: Avi Schwab <froboy@gmail.com>
+Date:   Thu Dec 19 14:08:39 2024 -0600
+
+    Add link to docs
+
+:100644 100644 5b100da 25ce05e M	config/install/migrate_plus.migration.y_lb_demo_block_table_block.yml
+ config/install/migrate_plus.migration.y_lb_demo_block_table_block.yml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 62e7b52f8ec162877aa8750ef077628515c868ed
+Author: Avi Schwab <froboy@gmail.com>
+Date:   Thu Dec 19 12:29:10 2024 -0600
+
+    Add more useful demo content to dummy page
+
+:100644 100644 67d9f9a 5b100da M	config/install/migrate_plus.migration.y_lb_demo_block_table_block.yml
+ ..._plus.migration.y_lb_demo_block_table_block.yml | 101 ++++++++++++++++++++-
+ 1 file changed, 100 insertions(+), 1 deletion(-)
+
+commit ab26dba824f022e27276d0a6571b79eb264a8d72
+Merge: 79aaa26 3c58b7b
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Tue Sep 17 17:26:30 2024 +0300
+
+    Merge pull request #51 from froboy/DS-1579-utility-menu
+    
+    feat: DS-1579 Utility Menu
+
+commit 3c58b7b71cc67698b37dce4a3e3f6e99d2561fe0
+Author: Avi Schwab <froboy@gmail.com>
+Date:   Tue Sep 17 09:25:08 2024 -0500
+
+    Remove "Demo" from demo content
+    
+    Co-authored-by: Andrii Podanenko <podarokua@gmail.com>
+
+:100644 100644 31feb9e cf45a26 M	config/install/migrate_plus.migration.y_lb_demo_menu_link_utility.yml
+:100644 100644 981c3db 49609ff M	config/install/migrate_plus.migration.y_lb_demo_page_af.yml
+:100644 100644 ebf5f82 0bc8804 M	config/install/migrate_plus.migration.y_lb_demo_page_articles_listing.yml
+:100644 100644 d293d23 3492d8c M	config/install/migrate_plus.migration.y_lb_demo_page_contact_us.yml
+:100644 100644 2e26a1f be18034 M	config/install/migrate_plus.migration.y_lb_demo_page_donate.yml
+:100644 100644 f97c104 e47f184 M	config/install/migrate_plus.migration.y_lb_demo_page_dummy.yml
+:100644 100644 a00ba27 0573e3a M	config/install/migrate_plus.migration.y_lb_demo_page_events_listing.yml
+:100644 100644 e78c19e f699910 M	config/install/migrate_plus.migration.y_lb_demo_page_homepage.yml
+:100644 100644 18b9a14 6c87b81 M	config/install/migrate_plus.migration.y_lb_demo_page_jobs.yml
+:100644 100644 c83872d 02b993c M	config/install/migrate_plus.migration.y_lb_demo_page_join_the_y.yml
+:100644 100644 29bb35a 995a46e M	config/install/migrate_plus.migration.y_lb_demo_page_location.yml
+:100644 100644 b6a4100 ef24dbb M	config/install/migrate_plus.migration.y_lb_demo_page_location_child_page.yml
+:100644 100644 15a3511 559bbbc M	config/install/migrate_plus.migration.y_lb_demo_page_location_finder.yml
+:100644 100644 b79f203 72164c1 M	config/install/migrate_plus.migration.y_lb_demo_page_membership.yml
+:100644 100644 2e4098b f5f1cc5 M	config/install/migrate_plus.migration.y_lb_demo_page_paragraphs_content.yml
+:100644 100644 74d1b3c 0933e5b M	config/install/migrate_plus.migration.y_lb_demo_page_programs_category.yml
+:100644 100644 18c5545 e583c56 M	config/install/migrate_plus.migration.y_lb_demo_page_programs_individual.yml
+:100644 100644 38e44da 942d5ab M	config/install/migrate_plus.migration.y_lb_demo_page_programs_overview.yml
+:100644 100644 f96ba17 bdeda07 M	config/install/migrate_plus.migration.y_lb_demo_page_promotions.yml
+:100644 100644 aead554 ea1a940 M	config/install/migrate_plus.migration.y_lb_demo_page_schedules.yml
+:100644 100644 8a41c19 4423358 M	config/install/migrate_plus.migration.y_lb_demo_page_volunteer_ops.yml
+:100644 100644 b49fa6f 0d725a3 M	config/install/migrate_plus.migration.y_lb_demo_page_who_we_are.yml
+:100644 100644 fa93d56 4e8a402 M	modules/y_lb_demo_content_af_promotion/config/install/migrate_plus.migration.y_lb_demo_page_af_promo.yml
+ config/install/migrate_plus.migration.y_lb_demo_menu_link_utility.yml   | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_af.yml             | 2 +-
+ .../install/migrate_plus.migration.y_lb_demo_page_articles_listing.yml  | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_contact_us.yml     | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_donate.yml         | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_dummy.yml          | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_events_listing.yml | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_homepage.yml       | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_jobs.yml           | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_join_the_y.yml     | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_location.yml       | 2 +-
+ .../migrate_plus.migration.y_lb_demo_page_location_child_page.yml       | 2 +-
+ .../install/migrate_plus.migration.y_lb_demo_page_location_finder.yml   | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_membership.yml     | 2 +-
+ .../migrate_plus.migration.y_lb_demo_page_paragraphs_content.yml        | 2 +-
+ .../install/migrate_plus.migration.y_lb_demo_page_programs_category.yml | 2 +-
+ .../migrate_plus.migration.y_lb_demo_page_programs_individual.yml       | 2 +-
+ .../install/migrate_plus.migration.y_lb_demo_page_programs_overview.yml | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_promotions.yml     | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_schedules.yml      | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_volunteer_ops.yml  | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_who_we_are.yml     | 2 +-
+ .../config/install/migrate_plus.migration.y_lb_demo_page_af_promo.yml   | 2 +-
+ 23 files changed, 23 insertions(+), 23 deletions(-)
+
+commit 23354543143e8e19fb34896a85fe134f397d6039
+Author: Avi Schwab <froboy@gmail.com>
+Date:   Wed Sep 11 11:03:11 2024 -0500
+
+    DS-1579 Add Utility Menu to demo content pages
+
+:100644 100644 a62018c 981c3db M	config/install/migrate_plus.migration.y_lb_demo_page_af.yml
+:100644 100644 839fc96 ebf5f82 M	config/install/migrate_plus.migration.y_lb_demo_page_articles_listing.yml
+:100644 100644 c0635f9 d293d23 M	config/install/migrate_plus.migration.y_lb_demo_page_contact_us.yml
+:100644 100644 ce7ab2e 2e26a1f M	config/install/migrate_plus.migration.y_lb_demo_page_donate.yml
+:100644 100644 eee343a f97c104 M	config/install/migrate_plus.migration.y_lb_demo_page_dummy.yml
+:100644 100644 d55da25 a00ba27 M	config/install/migrate_plus.migration.y_lb_demo_page_events_listing.yml
+:100644 100644 db5f223 e78c19e M	config/install/migrate_plus.migration.y_lb_demo_page_homepage.yml
+:100644 100644 74a8119 18b9a14 M	config/install/migrate_plus.migration.y_lb_demo_page_jobs.yml
+:100644 100644 0e4b73b c83872d M	config/install/migrate_plus.migration.y_lb_demo_page_join_the_y.yml
+:100644 100644 8efcfb9 29bb35a M	config/install/migrate_plus.migration.y_lb_demo_page_location.yml
+:100644 100644 9c33e43 b6a4100 M	config/install/migrate_plus.migration.y_lb_demo_page_location_child_page.yml
+:100644 100644 d7de782 15a3511 M	config/install/migrate_plus.migration.y_lb_demo_page_location_finder.yml
+:100644 100644 b0b0db6 b79f203 M	config/install/migrate_plus.migration.y_lb_demo_page_membership.yml
+:100644 100644 acf8ab3 2e4098b M	config/install/migrate_plus.migration.y_lb_demo_page_paragraphs_content.yml
+:100644 100644 851b1ad 74d1b3c M	config/install/migrate_plus.migration.y_lb_demo_page_programs_category.yml
+:100644 100644 6015739 18c5545 M	config/install/migrate_plus.migration.y_lb_demo_page_programs_individual.yml
+:100644 100644 e3721f1 38e44da M	config/install/migrate_plus.migration.y_lb_demo_page_programs_overview.yml
+:100644 100644 f93e0ae f96ba17 M	config/install/migrate_plus.migration.y_lb_demo_page_promotions.yml
+:100644 100644 f255255 aead554 M	config/install/migrate_plus.migration.y_lb_demo_page_schedules.yml
+:100644 100644 b066989 8a41c19 M	config/install/migrate_plus.migration.y_lb_demo_page_volunteer_ops.yml
+:100644 100644 6c8c958 b49fa6f M	config/install/migrate_plus.migration.y_lb_demo_page_who_we_are.yml
+:100644 100644 49c31d8 fa93d56 M	modules/y_lb_demo_content_af_promotion/config/install/migrate_plus.migration.y_lb_demo_page_af_promo.yml
+ config/install/migrate_plus.migration.y_lb_demo_page_af.yml  | 12 ++++++++++++
+ ...igrate_plus.migration.y_lb_demo_page_articles_listing.yml | 12 ++++++++++++
+ .../migrate_plus.migration.y_lb_demo_page_contact_us.yml     | 12 ++++++++++++
+ .../install/migrate_plus.migration.y_lb_demo_page_donate.yml | 12 ++++++++++++
+ .../install/migrate_plus.migration.y_lb_demo_page_dummy.yml  | 12 ++++++++++++
+ .../migrate_plus.migration.y_lb_demo_page_events_listing.yml | 12 ++++++++++++
+ .../migrate_plus.migration.y_lb_demo_page_homepage.yml       | 12 ++++++++++++
+ .../install/migrate_plus.migration.y_lb_demo_page_jobs.yml   | 12 ++++++++++++
+ .../migrate_plus.migration.y_lb_demo_page_join_the_y.yml     | 12 ++++++++++++
+ .../migrate_plus.migration.y_lb_demo_page_location.yml       | 12 ++++++++++++
+ ...ate_plus.migration.y_lb_demo_page_location_child_page.yml | 12 ++++++++++++
+ ...migrate_plus.migration.y_lb_demo_page_location_finder.yml | 12 ++++++++++++
+ .../migrate_plus.migration.y_lb_demo_page_membership.yml     | 12 ++++++++++++
+ ...rate_plus.migration.y_lb_demo_page_paragraphs_content.yml | 12 ++++++++++++
+ ...grate_plus.migration.y_lb_demo_page_programs_category.yml | 12 ++++++++++++
+ ...ate_plus.migration.y_lb_demo_page_programs_individual.yml | 12 ++++++++++++
+ ...grate_plus.migration.y_lb_demo_page_programs_overview.yml | 12 ++++++++++++
+ .../migrate_plus.migration.y_lb_demo_page_promotions.yml     | 12 ++++++++++++
+ .../migrate_plus.migration.y_lb_demo_page_schedules.yml      | 12 ++++++++++++
+ .../migrate_plus.migration.y_lb_demo_page_volunteer_ops.yml  | 12 ++++++++++++
+ .../migrate_plus.migration.y_lb_demo_page_who_we_are.yml     | 12 ++++++++++++
+ .../migrate_plus.migration.y_lb_demo_page_af_promo.yml       | 12 ++++++++++++
+ 22 files changed, 264 insertions(+)
+
+commit cc2c4146b533bdd0a58dfbfd2f827cf0e39b544c
+Author: Avi Schwab <froboy@gmail.com>
+Date:   Wed Sep 11 10:46:35 2024 -0500
+
+    DS-1579 fix: Add Utility menu import.
+
+:000000 100644 0000000 31feb9e A	config/install/migrate_plus.migration.y_lb_demo_menu_link_utility.yml
+ ..._plus.migration.y_lb_demo_menu_link_utility.yml | 67 ++++++++++++++++++++++
+ 1 file changed, 67 insertions(+)
+
+commit 79aaa26b0b428a07e2fc5539b5f954fb2c56497c
+Merge: 2358061 5442e31
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Thu Aug 29 14:58:00 2024 +0300
+
+    Merge pull request #49 from aleevas/DS-1508
+    
+    feat: [DS-1508] - Add 'highlighted' text to the demo content
+
+commit 23580612163532c27aaf7814d425821af5e67e98
+Merge: a408dfd 7c50f3b
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Thu Aug 29 14:57:24 2024 +0300
+
+    Merge pull request #50 from aleevas/DS-1552
+    
+    feat: [DS-1552] - Add a value for the heading_level field in banner blocks
+
+commit 7c50f3bc35c43b95950cfe85889ec3139542c49f
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Thu Aug 29 14:56:39 2024 +0300
+
+    feat: add dependency
+    
+    Add dependency from https://www.drupal.org/project/lb_hero/releases/1.3.0
+
+:100644 100644 450ff0f 5156fa0 M	composer.json
+ composer.json | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit ef679b4f0e64c52b60ccb2cf1f8855763724aad1
+Author: Alexey <alexey.drupal@gmail.com>
+Date:   Thu Aug 22 15:01:03 2024 +0200
+
+    [DS-1552] - Add a value for the heading_level field in banner blocks
+
+:100644 100644 9290e2d 57d5a0c M	config/install/migrate_plus.migration.y_lb_demo_block_banner_chevron.yml
+:100644 100644 26074b5 074cbf0 M	config/install/migrate_plus.migration.y_lb_demo_block_banner_frame.yml
+:100644 100644 ac6b6c0 eaf08e6 M	config/install/migrate_plus.migration.y_lb_demo_block_banner_overlay.yml
+:100644 100644 e03c322 0bff2eb M	config/install/migrate_plus.migration.y_lb_demo_block_banner_standard.yml
+ ...migrate_plus.migration.y_lb_demo_block_banner_chevron.yml | 12 ++++++++++++
+ .../migrate_plus.migration.y_lb_demo_block_banner_frame.yml  |  9 +++++++++
+ ...migrate_plus.migration.y_lb_demo_block_banner_overlay.yml |  5 +++++
+ ...igrate_plus.migration.y_lb_demo_block_banner_standard.yml | 10 ++++++++++
+ 4 files changed, 36 insertions(+)
+
+commit 5442e31b4119c023b07dd6c011a5355110c2accd
+Author: Alexey <alexey.drupal@gmail.com>
+Date:   Tue Aug 20 15:21:15 2024 +0200
+
+    [DS-1508] - Add 'highlighted' text to the demo content
+
+:100644 100644 5c36a82 2545d7c M	config/install/migrate_plus.migration.y_lb_demo_articles.yml
+ config/install/migrate_plus.migration.y_lb_demo_articles.yml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit a408dfd9aeef4d3579831fdef40ff272d4b2d1ca
+Merge: aed8bc5 daaf61e
+Author: Dima Danylevskyi <dima.danylevskyi@jet.dev>
+Date:   Mon Jul 8 14:22:51 2024 +0300
+
+    Merge pull request #48 from froboy/reduce-file-size
+    
+    fix: Re-optimize images with imageoptim
+
+commit daaf61e6a6f6ebd88d4f425c890dcf2e153fcf4c
+Author: Avi Schwab <froboy@gmail.com>
+Date:   Fri Jul 5 09:07:20 2024 -0500
+
+    fix: Re-optimize images with imageoptim
+    
+    Saved 54.4 MB out of 109.9 MB. 49.5% overall (up to 93.4% per file)
+
+:100644 100644 e683916 fd3ed73 M	assets/images/01043122af208d09f0006d0b56f8ccac.jpeg
+:100644 100644 863f009 da7c036 M	assets/images/01704b582097202c65b0e69d9be850ee.jpeg
+:100644 100644 e7b8096 ad69490 M	assets/images/0c2e643554a85c0d985cc7c2800c9c15.jpeg
+:100644 100644 6bf8abb cdb7bee M	assets/images/1008a5283f4fc8b0374fbbab78d034f4.jpeg
+:100644 100644 d8d4644 9781122 M	assets/images/10ad1686d46fdda3cd66173fb2771b4c.jpeg
+:100644 100644 6b20586 bbea91a M	assets/images/120fc9507c3b13faa809f14c1796c04e.jpeg
+:100644 100644 5d77949 849cd8c M	assets/images/13b122698c3e4de84bceb9eea3c109a6.jpeg
+:100644 100644 252ecbd 2063bce M	assets/images/14f0a0ca67a74e24583ac88bdeb05a77.jpeg
+:100644 100644 3714a93 232ab07 M	assets/images/15afb3e70e4b1e2ae4b2ec51a6db876d.jpeg
+:100644 100644 f28e821 e25deed M	assets/images/15f11332dec53c97403199978883e040.jpeg
+:100644 100644 15945f0 acf2391 M	assets/images/16f6a90318a46adb0b11ed6730e24300.jpeg
+:100644 100644 9f7a6e2 f2110e1 M	assets/images/1e3567e9ecd1db19c9e23461fc090926.jpeg
+:100644 100644 37c09d0 d81179a M	assets/images/1ee1c49e5aae525799456af0c67ac5a8.jpeg
+:100644 100644 b93c1e6 129969b M	assets/images/217ea1ced3b93ff7412464a8abbfbb98.jpeg
+:100644 100644 b779171 9739b57 M	assets/images/218381245a187a7275dbeb9ee963c502.jpeg
+:100644 100644 c726ff5 cab2c28 M	assets/images/27bbd895877ff2653733e9f1d6e7419e.jpeg
+:100644 100644 ef1eed6 33585d0 M	assets/images/2e4a44bbb7ae69a87fac3e48d64757b1.jpeg
+:100644 100644 f643bbb 1400d02 M	assets/images/2ed97746554fdff700bb12717485a642.jpeg
+:100644 100644 fea81fe 79e2a93 M	assets/images/2fc092e291b6f3df144b46ac833a900c.jpeg
+:100644 100644 70d7c20 426dd7b M	assets/images/308bb99f95a24c97827db582c1766a14.jpeg
+:100644 100644 6a378dc 7c73e5e M	assets/images/325d1e492f917f3a5bd46156e3a3c08a.jpeg
+:100644 100644 817e398 1837103 M	assets/images/3a15b4653bc75bc2576c777b3c7dcb96.jpeg
+:100644 100644 5fbf928 ee058b5 M	assets/images/3c5682cd54969eedb39de59cf781762d.jpeg
+:100644 100644 c167137 9d5c91a M	assets/images/41cd8f1917f5bb5dd2fba73d0444a85c.jpeg
+:100644 100644 86cebd9 496d249 M	assets/images/4711e96001ff19b9bda7c7f4c1348847.jpeg
+:100644 100644 25762d3 dc2a33d M	assets/images/492f1ac9211f0c81b4de47bc41c95bf7.jpeg
+:100644 100644 ba2833e 691d5e5 M	assets/images/4e6f6ba946dd75008073b141a5bac658.jpeg
+:100644 100644 972a481 33f6dd4 M	assets/images/508b1c23b17edcfea74b878c316187c2.jpeg
+:100644 100644 f61003c 424db64 M	assets/images/51e7c03492ed63181c36c057a0cac20f.jpeg
+:100644 100644 06d6940 7eea088 M	assets/images/52defea6e4bf4f6f9d6b9fc3b5fa0ed9.jpeg
+:100644 100644 7b1aa80 99d80d5 M	assets/images/54995b5e097af81409d9a2238656862f.jpeg
+:100644 100644 54e595d f32706d M	assets/images/5a44e47c5c09f207f11a164e91a73ffd.jpeg
+:100644 100644 d5ed030 7bfed73 M	assets/images/5c040a9dead068de85843e6738a7f2d3.jpeg
+:100644 100644 3af67b6 2fcd515 M	assets/images/628efddc21d234c06e66240325c44426.jpeg
+:100644 100644 10d64d0 19a9c08 M	assets/images/6658194bb21aaa43bb911cd6bf63fb0e.jpeg
+:100644 100644 5215981 19b3a82 M	assets/images/6b23e4d7ff56880bd97f1bc7b6a84eed.jpeg
+:100644 100644 e611d1d 2eb10eb M	assets/images/6c3bb9ebf6c96083a2c4a32f94b04578.jpeg
+:100644 100644 ecbd28d f4da928 M	assets/images/6ce42d60bfc896f7720589b5e44b3cea.jpeg
+:100644 100644 657c02d 2236b4f M	assets/images/72283869c0cbf51c397e2b113d8563fc.jpeg
+:100644 100644 c17db7f fee7d31 M	assets/images/747f7f3aef8e9b0a50803598cf62bfeb.jpeg
+:100644 100644 5135d53 2b752f4 M	assets/images/752e2881d359abdbbe0aabdedd075375.jpeg
+:100644 100644 c259be0 e54e32a M	assets/images/76a27478d7b90a372dc324c54fb75067.jpeg
+:100644 100644 1f68951 2173f2b M	assets/images/7fd263dfd3f5e86d8b7088ae4498ab88.jpeg
+:100644 100644 7643449 c5c2ea5 M	assets/images/8061cd95751fa3407b61d7c03c7f99af.jpeg
+:100644 100644 cef84cf 9538250 M	assets/images/818875ea685e70553829416bd56254c0.jpeg
+:100644 100644 9f368ba 8d548c0 M	assets/images/8202d52e862d7c502b5f2a1610fa4468.jpeg
+:100644 100644 caf896e 179ca4a M	assets/images/83a77c2a3679ef576238fae5a1b8fc77.jpeg
+:100644 100644 94b51a0 498bee2 M	assets/images/88b230b52b18517fab947c61c60643f4.jpeg
+:100644 100644 bd40ea9 4230ed5 M	assets/images/8c669d1631431622611f8a346d4424f1.jpeg
+:100644 100644 af067dc b1a0415 M	assets/images/91585918869935065ff0923c10f8511c.jpeg
+:100644 100644 d1583d8 2c58c31 M	assets/images/969efa2f52a5073e3f1740ecf950cda8.jpeg
+:100644 100644 c3ed87a 9fb89b9 M	assets/images/98699b4f537cfeeab6892f9d9464f135.jpeg
+:100644 100644 91f30e1 202f2eb M	assets/images/9ae7d201bb2597ee50813d931c7f73d8.jpeg
+:100644 100644 28bfea7 a717933 M	assets/images/9eb776c2e1aa04e6f232963f0856e8a9.jpeg
+:100644 100644 58856ae bf96a84 M	assets/images/9efa8e57f87e9f1046c85d40e49998e7.jpeg
+:100644 100644 60d9305 8eba4e6 M	assets/images/a111d2a84a37c483f34b564466aff554.jpeg
+:100644 100644 f85c461 3f48b02 M	assets/images/a2cd21570dfa7f9b6860e38b3c9fc8d3.jpeg
+:100644 100644 9d83106 0e77d23 M	assets/images/a38f35b7c33ead52672563cd69b4a33e.jpeg
+:100644 100644 949ebb2 9164306 M	assets/images/a3a89a0b5ee079c7456bdc0df2313eec.jpeg
+:100644 100644 d0d0ba6 edbe0e3 M	assets/images/a3ba9b5b75f0305b58dcd9a5a1a1ea67.jpeg
+:100644 100644 b5183a1 a72ea1c M	assets/images/a51a5c7ac15de774417574337a986f3c.jpeg
+:100644 100644 c1c44b0 7a4306d M	assets/images/a6918fdd1d42d250230c2ecd8b4c9927.jpeg
+:100644 100644 83f58d2 56fc325 M	assets/images/a738b6fe7373feb5c4803d5b29859123.jpeg
+:100644 100644 07e134b 8996f70 M	assets/images/a85fb98720bc72dead261051b754042e.jpeg
+:100644 100644 1db1ced 49d01ad M	assets/images/a8b543802fa99a59284742db5ac8e0a3.jpeg
+:100644 100644 0fe6639 ba50aa2 M	assets/images/a9a5165a92faf4fd8327dadf46057e2c.jpeg
+:100644 100644 6a7b0d2 aa612c2 M	assets/images/aa4bec3feb385c931ef8919984fe4180.jpeg
+:100644 100644 bdc25c9 1fe2af5 M	assets/images/ab25ae75a5008de3ea12b8dfff3f3657.jpeg
+:100644 100644 9664980 5ac7767 M	assets/images/b1e98dff0a2e1b1289dff05d8b39de4c.jpeg
+:100644 100644 eff8a48 e134e57 M	assets/images/b3340c4c80e3e85f0cda8b1867518978.jpeg
+:100644 100644 c672327 17f64fa M	assets/images/b8a6b79f2d52d44aae1437cdea6c803c.jpeg
+:100644 100644 3a78db1 cdcaa88 M	assets/images/bcc9ab6734eda80eb14cb1c7a59b09df.jpeg
+:100644 100644 2306067 b68bba1 M	assets/images/bfc005420880835e0984f7f70106a69f.jpeg
+:100644 100644 56236bc 9c4112a M	assets/images/c290a2eb412d932e394a8e64176118bf.jpeg
+:100644 100644 7314875 359d6ac M	assets/images/c2a2ffbc2669432f55ebc9420d66ccc3.jpeg
+:100644 100644 37ea5d5 5f0c62b M	assets/images/c9ef09c261e8a9c5a8ae5df29e405143.jpeg
+:100644 100644 41fba31 f74b68b M	assets/images/cbfff24e346a28702c24442df3566c9d.jpeg
+:100644 100644 e8a1f86 b83dbfa M	assets/images/cccc84632104497cb971766bc7bf56b3.jpeg
+:100644 100644 549825b a9cb962 M	assets/images/cd74a7783d56263857c2eecdf750bfb2.jpeg
+:100644 100644 498443a 96ba4e6 M	assets/images/cf9a31313144607395c0e68c37ed24d7.jpeg
+:100644 100644 360a432 5c07e49 M	assets/images/d2e04c902e2a8203022e2a61afc497e6.jpeg
+:100644 100644 201cf0f e7cb043 M	assets/images/deae4315c2a4695e623731aa1c9a9e8a.jpeg
+:100644 100644 5826c80 c17984e M	assets/images/decfdb1f76a83e7c3bba7d6040e5b2dd.jpeg
+:100644 100644 e5bd700 b146afa M	assets/images/e25597d2255d74a8d947d1916c0a8dc7.jpeg
+:100644 100644 e7405e5 e234887 M	assets/images/e321822085592bab6df847b5bfb0ab87.jpeg
+:100644 100644 a08691d 9a6f8de M	assets/images/e33fddb7b02cd420316a02ff9ab59169.jpeg
+:100644 100644 b5a8a79 6c53904 M	assets/images/e76ec65cbfd5fbfe80b29751562bf00d.jpeg
+:100644 100644 0274fa5 cb9d92b M	assets/images/edd41947a59b3ca07e94e7a4b50ba28d.jpeg
+:100644 100644 3a57667 c785130 M	assets/images/ef12f667a36156fdf054d504c1a45931.jpeg
+:100644 100644 f04c382 0dc6c26 M	assets/images/ef8ff48a67ec4ed6a432f4d916af13a0.jpeg
+:100644 100644 f4f9cd8 b1b333d M	assets/images/f1ff886f7df5408753215421007d66bd.jpeg
+:100644 100644 66a4726 c18380a M	assets/images/f642d499b58cf6e4dfe92772201b352e.jpeg
+:100644 100644 d5a14d9 1d96c24 M	assets/images/f9d66171742d557e6a0134ad134f0b8a.jpeg
+:100644 100644 525927a 635b706 M	assets/images/fbf59b9df2bfa17497c242a574a0a443.jpeg
+:100644 100644 6ef34b0 1e6dd57 M	assets/images/icon-calendar-bg-white.png
+:100644 100644 01a1e48 827f519 M	assets/images/icon-fundraising.png
+:100644 100644 fbd4404 05d354e M	assets/images/icon-generalcamp.png
+:100644 100644 b83202b 68d4fa7 M	assets/images/icon-heartbeat.png
+:100644 100644 41df6c0 71c7ae8 M	assets/images/icon-kids.png
+:100644 100644 64a6351 5f965cf M	assets/images/icon-partnership-bg-white.png
+:100644 100644 5b82e8b f7b1d00 M	assets/images/icon-youthdevelopment.png
+ .../images/01043122af208d09f0006d0b56f8ccac.jpeg   | Bin 385583 -> 372912 bytes
+ .../images/01704b582097202c65b0e69d9be850ee.jpeg   | Bin 10421470 -> 689362 bytes
+ .../images/0c2e643554a85c0d985cc7c2800c9c15.jpeg   | Bin 280854 -> 272948 bytes
+ .../images/1008a5283f4fc8b0374fbbab78d034f4.jpeg   | Bin 483892 -> 465558 bytes
+ .../images/10ad1686d46fdda3cd66173fb2771b4c.jpeg   | Bin 557747 -> 549513 bytes
+ .../images/120fc9507c3b13faa809f14c1796c04e.jpeg   | Bin 361149 -> 352740 bytes
+ .../images/13b122698c3e4de84bceb9eea3c109a6.jpeg   | Bin 11912764 -> 1330882 bytes
+ .../images/14f0a0ca67a74e24583ac88bdeb05a77.jpeg   | Bin 796317 -> 778947 bytes
+ .../images/15afb3e70e4b1e2ae4b2ec51a6db876d.jpeg   | Bin 443374 -> 440353 bytes
+ .../images/15f11332dec53c97403199978883e040.jpeg   | Bin 2945359 -> 1459040 bytes
+ .../images/16f6a90318a46adb0b11ed6730e24300.jpeg   | Bin 562835 -> 555412 bytes
+ .../images/1e3567e9ecd1db19c9e23461fc090926.jpeg   | Bin 846703 -> 815619 bytes
+ .../images/1ee1c49e5aae525799456af0c67ac5a8.jpeg   | Bin 486261 -> 484481 bytes
+ .../images/217ea1ced3b93ff7412464a8abbfbb98.jpeg   | Bin 1578600 -> 403218 bytes
+ .../images/218381245a187a7275dbeb9ee963c502.jpeg   | Bin 753673 -> 742136 bytes
+ .../images/27bbd895877ff2653733e9f1d6e7419e.jpeg   | Bin 640231 -> 630128 bytes
+ .../images/2e4a44bbb7ae69a87fac3e48d64757b1.jpeg   | Bin 388408 -> 374536 bytes
+ .../images/2ed97746554fdff700bb12717485a642.jpeg   | Bin 576102 -> 561635 bytes
+ .../images/2fc092e291b6f3df144b46ac833a900c.jpeg   | Bin 72439 -> 70470 bytes
+ .../images/308bb99f95a24c97827db582c1766a14.jpeg   | Bin 477729 -> 459944 bytes
+ .../images/325d1e492f917f3a5bd46156e3a3c08a.jpeg   | Bin 425564 -> 420639 bytes
+ .../images/3a15b4653bc75bc2576c777b3c7dcb96.jpeg   | Bin 564440 -> 562831 bytes
+ .../images/3c5682cd54969eedb39de59cf781762d.jpeg   | Bin 354345 -> 349768 bytes
+ .../images/41cd8f1917f5bb5dd2fba73d0444a85c.jpeg   | Bin 429809 -> 422284 bytes
+ .../images/4711e96001ff19b9bda7c7f4c1348847.jpeg   | Bin 572256 -> 178591 bytes
+ .../images/492f1ac9211f0c81b4de47bc41c95bf7.jpeg   | Bin 329337 -> 322647 bytes
+ .../images/4e6f6ba946dd75008073b141a5bac658.jpeg   | Bin 593869 -> 573905 bytes
+ .../images/508b1c23b17edcfea74b878c316187c2.jpeg   | Bin 568393 -> 567517 bytes
+ .../images/51e7c03492ed63181c36c057a0cac20f.jpeg   | Bin 684953 -> 676181 bytes
+ .../images/52defea6e4bf4f6f9d6b9fc3b5fa0ed9.jpeg   | Bin 394421 -> 392270 bytes
+ .../images/54995b5e097af81409d9a2238656862f.jpeg   | Bin 7169490 -> 801605 bytes
+ .../images/5a44e47c5c09f207f11a164e91a73ffd.jpeg   | Bin 1038741 -> 1013859 bytes
+ .../images/5c040a9dead068de85843e6738a7f2d3.jpeg   | Bin 420264 -> 407779 bytes
+ .../images/628efddc21d234c06e66240325c44426.jpeg   | Bin 644947 -> 617917 bytes
+ .../images/6658194bb21aaa43bb911cd6bf63fb0e.jpeg   | Bin 9426568 -> 1096928 bytes
+ .../images/6b23e4d7ff56880bd97f1bc7b6a84eed.jpeg   | Bin 6126278 -> 410908 bytes
+ .../images/6c3bb9ebf6c96083a2c4a32f94b04578.jpeg   | Bin 262410 -> 247213 bytes
+ .../images/6ce42d60bfc896f7720589b5e44b3cea.jpeg   | Bin 383883 -> 378068 bytes
+ .../images/72283869c0cbf51c397e2b113d8563fc.jpeg   | Bin 532703 -> 519640 bytes
+ .../images/747f7f3aef8e9b0a50803598cf62bfeb.jpeg   | Bin 406263 -> 400922 bytes
+ .../images/752e2881d359abdbbe0aabdedd075375.jpeg   | Bin 299465 -> 291460 bytes
+ .../images/76a27478d7b90a372dc324c54fb75067.jpeg   | Bin 413905 -> 406969 bytes
+ .../images/7fd263dfd3f5e86d8b7088ae4498ab88.jpeg   | Bin 374559 -> 363410 bytes
+ .../images/8061cd95751fa3407b61d7c03c7f99af.jpeg   | Bin 6901985 -> 524644 bytes
+ .../images/818875ea685e70553829416bd56254c0.jpeg   | Bin 359251 -> 352673 bytes
+ .../images/8202d52e862d7c502b5f2a1610fa4468.jpeg   | Bin 298787 -> 288407 bytes
+ .../images/83a77c2a3679ef576238fae5a1b8fc77.jpeg   | Bin 394724 -> 389071 bytes
+ .../images/88b230b52b18517fab947c61c60643f4.jpeg   | Bin 24261 -> 24005 bytes
+ .../images/8c669d1631431622611f8a346d4424f1.jpeg   | Bin 1853011 -> 1788558 bytes
+ .../images/91585918869935065ff0923c10f8511c.jpeg   | Bin 265094 -> 260402 bytes
+ .../images/969efa2f52a5073e3f1740ecf950cda8.jpeg   | Bin 535001 -> 532252 bytes
+ .../images/98699b4f537cfeeab6892f9d9464f135.jpeg   | Bin 241037 -> 229144 bytes
+ .../images/9ae7d201bb2597ee50813d931c7f73d8.jpeg   | Bin 29536 -> 29472 bytes
+ .../images/9eb776c2e1aa04e6f232963f0856e8a9.jpeg   | Bin 531292 -> 513320 bytes
+ .../images/9efa8e57f87e9f1046c85d40e49998e7.jpeg   | Bin 276658 -> 269848 bytes
+ .../images/a111d2a84a37c483f34b564466aff554.jpeg   | Bin 1220599 -> 1171971 bytes
+ .../images/a2cd21570dfa7f9b6860e38b3c9fc8d3.jpeg   | Bin 457861 -> 451182 bytes
+ .../images/a38f35b7c33ead52672563cd69b4a33e.jpeg   | Bin 496352 -> 489162 bytes
+ .../images/a3a89a0b5ee079c7456bdc0df2313eec.jpeg   | Bin 554117 -> 547730 bytes
+ .../images/a3ba9b5b75f0305b58dcd9a5a1a1ea67.jpeg   | Bin 355625 -> 349984 bytes
+ .../images/a51a5c7ac15de774417574337a986f3c.jpeg   | Bin 323309 -> 306501 bytes
+ .../images/a6918fdd1d42d250230c2ecd8b4c9927.jpeg   | Bin 3111710 -> 2125031 bytes
+ .../images/a738b6fe7373feb5c4803d5b29859123.jpeg   | Bin 358570 -> 350181 bytes
+ .../images/a85fb98720bc72dead261051b754042e.jpeg   | Bin 384027 -> 373630 bytes
+ .../images/a8b543802fa99a59284742db5ac8e0a3.jpeg   | Bin 6386788 -> 547546 bytes
+ .../images/a9a5165a92faf4fd8327dadf46057e2c.jpeg   | Bin 895487 -> 872243 bytes
+ .../images/aa4bec3feb385c931ef8919984fe4180.jpeg   | Bin 349566 -> 341268 bytes
+ .../images/ab25ae75a5008de3ea12b8dfff3f3657.jpeg   | Bin 385187 -> 382163 bytes
+ .../images/b1e98dff0a2e1b1289dff05d8b39de4c.jpeg   | Bin 416241 -> 414672 bytes
+ .../images/b3340c4c80e3e85f0cda8b1867518978.jpeg   | Bin 370545 -> 366233 bytes
+ .../images/b8a6b79f2d52d44aae1437cdea6c803c.jpeg   | Bin 354718 -> 342388 bytes
+ .../images/bcc9ab6734eda80eb14cb1c7a59b09df.jpeg   | Bin 402632 -> 394055 bytes
+ .../images/bfc005420880835e0984f7f70106a69f.jpeg   | Bin 362517 -> 353233 bytes
+ .../images/c290a2eb412d932e394a8e64176118bf.jpeg   | Bin 894729 -> 875672 bytes
+ .../images/c2a2ffbc2669432f55ebc9420d66ccc3.jpeg   | Bin 283263 -> 272900 bytes
+ .../images/c9ef09c261e8a9c5a8ae5df29e405143.jpeg   | Bin 416457 -> 410860 bytes
+ .../images/cbfff24e346a28702c24442df3566c9d.jpeg   | Bin 696023 -> 685456 bytes
+ .../images/cccc84632104497cb971766bc7bf56b3.jpeg   | Bin 682537 -> 659783 bytes
+ .../images/cd74a7783d56263857c2eecdf750bfb2.jpeg   | Bin 368252 -> 363512 bytes
+ .../images/cf9a31313144607395c0e68c37ed24d7.jpeg   | Bin 278272 -> 272796 bytes
+ .../images/d2e04c902e2a8203022e2a61afc497e6.jpeg   | Bin 806594 -> 780662 bytes
+ .../images/deae4315c2a4695e623731aa1c9a9e8a.jpeg   | Bin 545056 -> 542430 bytes
+ .../images/decfdb1f76a83e7c3bba7d6040e5b2dd.jpeg   | Bin 511444 -> 496363 bytes
+ .../images/e25597d2255d74a8d947d1916c0a8dc7.jpeg   | Bin 645558 -> 619243 bytes
+ .../images/e321822085592bab6df847b5bfb0ab87.jpeg   | Bin 537966 -> 521027 bytes
+ .../images/e33fddb7b02cd420316a02ff9ab59169.jpeg   | Bin 748252 -> 726155 bytes
+ .../images/e76ec65cbfd5fbfe80b29751562bf00d.jpeg   | Bin 688406 -> 672823 bytes
+ .../images/edd41947a59b3ca07e94e7a4b50ba28d.jpeg   | Bin 1204744 -> 664151 bytes
+ .../images/ef12f667a36156fdf054d504c1a45931.jpeg   | Bin 370247 -> 369026 bytes
+ .../images/ef8ff48a67ec4ed6a432f4d916af13a0.jpeg   | Bin 421050 -> 419780 bytes
+ .../images/f1ff886f7df5408753215421007d66bd.jpeg   | Bin 583284 -> 575413 bytes
+ .../images/f642d499b58cf6e4dfe92772201b352e.jpeg   | Bin 398059 -> 397057 bytes
+ .../images/f9d66171742d557e6a0134ad134f0b8a.jpeg   | Bin 416590 -> 406321 bytes
+ .../images/fbf59b9df2bfa17497c242a574a0a443.jpeg   | Bin 545448 -> 531554 bytes
+ assets/images/icon-calendar-bg-white.png           | Bin 3103 -> 3100 bytes
+ assets/images/icon-fundraising.png                 | Bin 4311 -> 4309 bytes
+ assets/images/icon-generalcamp.png                 | Bin 3735 -> 3710 bytes
+ assets/images/icon-heartbeat.png                   | Bin 4304 -> 4295 bytes
+ assets/images/icon-kids.png                        | Bin 4789 -> 4778 bytes
+ assets/images/icon-partnership-bg-white.png        | Bin 4435 -> 4426 bytes
+ assets/images/icon-youthdevelopment.png            | Bin 4717 -> 4704 bytes
+ 101 files changed, 0 insertions(+), 0 deletions(-)
+
+commit aed8bc5ad6baeb4662effb95656ce4291b5444f7
+Merge: 7cc5391 90c55e4
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Wed Jul 3 17:10:24 2024 +0300
+
+    Merge pull request #47 from froboy/DS-1440-twitter-to-x
+    
+    DS-1440 fix: Change Twitter to X and import titles properly.
+
+commit 90c55e45f860b14d3979ffaaf9fd099642ebf01c
+Author: Avi Schwab <froboy@gmail.com>
+Date:   Wed Jul 3 08:54:19 2024 -0500
+
+    DS-1440 fix: Change Twitter to X and import titles properly.
+
+:100644 100644 a6be451 a83a8ce M	config/install/migrate_plus.migration.y_lb_demo_block_social_links.yml
+ ...plus.migration.y_lb_demo_block_social_links.yml | 22 ++++++++++++++++------
+ 1 file changed, 16 insertions(+), 6 deletions(-)
+
+commit 7cc5391b66d7ebee9eec6998e382a08811c5e828
+Merge: 9a10d13 a532558
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Tue May 28 15:32:49 2024 +0300
+
+    Merge pull request #46 from YCloudYUSA/add_ws_promotion
+    
+    feat: add ws_promotion to dependencies
+
+commit a5325589b36eb366b3fa4a546207617e5d146765
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Tue May 28 15:32:15 2024 +0300
+
+    feat: add ws_promotion to dependencies
+    
+    DIscussion: https://yusaslackinstance.slack.com/archives/C04167AKMST/p1716899206429259
+
+:100644 100644 dc8d4ff 450ff0f M	composer.json
+ composer.json | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit 9a10d13f816549eac0795ae842f4ce5b9762dc4f
+Merge: 3b7160f dce99d2
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Fri Apr 19 09:52:56 2024 +0300
+
+    Merge pull request #44 from froboy/main
+    
+    feat: Move card items from plain text to rich text description
+
+commit dce99d2bfde24df72aad74708ad991df68a559bc
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Fri Apr 19 09:52:44 2024 +0300
+
+    Update composer.json
+
+:100644 100644 4492256 dc8d4ff M	composer.json
+ composer.json | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit fdb62a74b8b63255b99f890e7610f601cdc18685
+Author: Avi Schwab <froboy@gmail.com>
+Date:   Tue Apr 16 10:09:14 2024 -0500
+
+    fix: Update dependency
+    
+    see https://www.drupal.org/project/lb_cards/releases/2.0.15
+
+:100644 100644 b29fcb9 4492256 M	composer.json
+ composer.json | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 6349efb0ba95c3ed73fe91447a9bba3e70cdf820
+Author: Avi Schwab <froboy@gmail.com>
+Date:   Mon Apr 15 13:49:56 2024 -0500
+
+    feat: Move card items from plain text to rich text description
+    
+    To be merged with https://www.drupal.org/project/lb_cards/issues/3440545
+
+:100644 100644 7380085 70ef796 M	config/install/migrate_plus.migration.y_lb_demo_block_cards_item.yml
+ config/install/migrate_plus.migration.y_lb_demo_block_cards_item.yml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 3b7160fe3ad9b6281ce5a09bccb3a920923f3999
+Merge: d6e75f4 2529c7e
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Fri Mar 15 15:46:00 2024 +0200
+
+    Merge pull request #43 from YCloudYUSA/drupal102
+    
+    feat: fix dependencies
+
+commit 2529c7eb0c32bbfca6f27674712d7d12b20c92f1
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Fri Mar 15 15:39:21 2024 +0200
+
+    fix(cleanup): non needed dependency
+
+:100644 100644 21692d9 b29fcb9 M	composer.json
+ composer.json | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 43c68a801495502ca981feca3bf1ee6c41539811
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Fri Mar 15 14:55:50 2024 +0200
+
+    Update migrate_plus.migration.y_lb_demo_block_testimonial_item.yml
+
+:100644 100644 2d90a0b bc5639b M	config/install/migrate_plus.migration.y_lb_demo_block_testimonial_item.yml
+ .../install/migrate_plus.migration.y_lb_demo_block_testimonial_item.yml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit b943a4f260027976217e635c6d0d169083a227db
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Fri Mar 15 14:55:31 2024 +0200
+
+    Update migrate_plus.migration.y_lb_demo_block_testimonials.yml
+
+:100644 100644 c012a48 8658645 M	config/install/migrate_plus.migration.y_lb_demo_block_testimonials.yml
+ config/install/migrate_plus.migration.y_lb_demo_block_testimonials.yml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d1fde5331033f1415249a7af2b6b725f10eba906
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Fri Mar 15 14:55:14 2024 +0200
+
+    Update migrate_plus.migration.y_lb_demo_block_partners_item.yml
+
+:100644 100644 11b980a 9f2f9ec M	config/install/migrate_plus.migration.y_lb_demo_block_partners_item.yml
+ config/install/migrate_plus.migration.y_lb_demo_block_partners_item.yml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit e5d4c91b04499ee15940250a6ef76acbc1549a8e
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Fri Mar 15 14:54:48 2024 +0200
+
+    Update migrate_plus.migration.y_lb_demo_block_partners.yml
+
+:100644 100644 ca9ea59 6073827 M	config/install/migrate_plus.migration.y_lb_demo_block_partners.yml
+ config/install/migrate_plus.migration.y_lb_demo_block_partners.yml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit b2981f96520bb1ba504d9164de15765986149ebc
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Fri Mar 15 14:11:34 2024 +0200
+
+    Update y_lb_demo_content.info.yml
+
+:100644 100644 e86f794 1eec142 M	y_lb_demo_content.info.yml
+ y_lb_demo_content.info.yml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit c12ceb15bf527e81a97e81429b6763d36d9a0917
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Fri Mar 15 14:10:17 2024 +0200
+
+    Update y_lb_demo_content.info.yml
+
+:100644 100644 14a839a e86f794 M	y_lb_demo_content.info.yml
+ y_lb_demo_content.info.yml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 9fc107f2fdbd61fd85826013b2aaebfaba45d4f4
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Thu Mar 14 12:44:34 2024 +0200
+
+    Update composer.json
+
+:100644 100644 b29fcb9 21692d9 M	composer.json
+ composer.json | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit fcb84d761df8efe7616fa7cbcba70d35403694a8
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Thu Mar 14 12:14:32 2024 +0200
+
+    feat: fix dependencies
+
+:100644 100644 58900df 14a839a M	y_lb_demo_content.info.yml
+ y_lb_demo_content.info.yml | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit d6e75f4c5ab60dada9b98af2570b4a9b4a05fa49
+Merge: 901095d 6dddda3
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Fri Mar 8 14:56:32 2024 +0200
+
+    Merge pull request #42 from YCloudYUSA/recurring-events
+    
+    feat: Update event migration to support recurring events
+
+commit 6dddda345fd9876e7df5e97fa4e3345927efd8a3
+Author: Avi Schwab <froboy@gmail.com>
+Date:   Wed Mar 6 11:21:43 2024 -0600
+
+    feat: Bump version requirement for recurring events support
+
+:100644 100644 5319f85 b29fcb9 M	composer.json
+ composer.json | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 1278e0bcdb7e2f849bc6776a4792e4b15153e73d
+Author: Avi Schwab <froboy@gmail.com>
+Date:   Wed Mar 6 11:19:47 2024 -0600
+
+    feat: Update event migration to support recurring events
+
+:100644 100644 42400d8 9547383 M	config/install/migrate_plus.migration.y_lb_demo_events.yml
+ .../migrate_plus.migration.y_lb_demo_events.yml    | 24 +++++++++++-----------
+ 1 file changed, 12 insertions(+), 12 deletions(-)
+
+commit 901095d92b690f7c8c6e554b6f00504029b47f53
+Merge: d373c32 b6cf3c7
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Tue Jan 30 15:24:51 2024 +0200
+
+    Merge pull request #41 from aleevas/DS-1318
+    
+    feat: [DS-1318] Update article types of the demo content.
+
+commit b6cf3c78c2c5bac5bc73de1bcab2da6ee9edf014
+Author: Alexey <alexey.drupal@gmail.com>
+Date:   Fri Jan 26 14:34:56 2024 +0100
+
+    [DS-1318] Update article types of the demo content.
+
+:100644 100644 07acff5 5c36a82 M	config/install/migrate_plus.migration.y_lb_demo_articles.yml
+ config/install/migrate_plus.migration.y_lb_demo_articles.yml | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+
+commit d373c329ff24e41d39225f235163bd7f240cc576
+Merge: a444e8b 71f720b
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Mon Jan 22 12:04:02 2024 +0200
+
+    Merge pull request #40 from aleevas/DS-1285
+    
+    feat: [DS-1285] Add Demo Content pages for Promotion content type
+
+commit 71f720b5c9bf36ca6e1c675cc0ec98abb4117e35
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Mon Jan 22 12:01:17 2024 +0200
+
+    feat: Add lowest version dependency
+    
+    Addresses: https://github.com/YCloudYUSA/y_lb_demo_content/pull/40/#pullrequestreview-1829677623
+
+:100644 100644 c8c6822 5319f85 M	composer.json
+ composer.json | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 805d94ac55c7a1f7d1b9422766766964fddf82f8
+Author: Alexey <alexey.drupal@gmail.com>
+Date:   Thu Jan 18 14:02:12 2024 +0100
+
+    [DS-1285] Remove common migration/process plugins to further place it to Y LB main module
+
+:100644 000000 d982fa6 0000000 D	src/Plugin/migrate/process/MergeRecursive.php
+:100644 000000 23c8dc3 0000000 D	src/Plugin/migrate/process/YLBSection.php
+ src/Plugin/migrate/process/MergeRecursive.php |  36 ---------
+ src/Plugin/migrate/process/YLBSection.php     | 107 --------------------------
+ 2 files changed, 143 deletions(-)
+
+commit 31561df1b66c9ffecfe58253190020f0bd951b8f
+Author: Alexey <alexey.drupal@gmail.com>
+Date:   Thu Jan 18 13:31:52 2024 +0100
+
+    [DS-1285] Move AF4 with Promo Demo page to the submodule.
+
+:100644 100644 a8755ad 9b55e85 R081	config/install/migrate_plus.migration.y_lb_demo_block_af.yml	modules/y_lb_demo_content_af_promotion/config/install/migrate_plus.migration.y_lb_demo_block_af.yml
+:100644 100644 604bcf2 49c31d8 R097	config/install/migrate_plus.migration.y_lb_demo_page_af_promo.yml	modules/y_lb_demo_content_af_promotion/config/install/migrate_plus.migration.y_lb_demo_page_af_promo.yml
+:000000 100644 0000000 22cd53e A	modules/y_lb_demo_content_af_promotion/y_lb_demo_content_af_promotion.info.yml
+:000000 100644 0000000 058d692 A	modules/y_lb_demo_content_af_promotion/y_lb_demo_content_af_promotion.install
+:100644 100644 90a4c77 58900df M	y_lb_demo_content.info.yml
+ .../migrate_plus.migration.y_lb_demo_block_af.yml  | 10 +++-------
+ ...rate_plus.migration.y_lb_demo_page_af_promo.yml | 10 +++-------
+ .../y_lb_demo_content_af_promotion.info.yml        | 13 +++++++++++++
+ .../y_lb_demo_content_af_promotion.install         | 22 ++++++++++++++++++++++
+ y_lb_demo_content.info.yml                         |  2 --
+ 5 files changed, 41 insertions(+), 16 deletions(-)
+
+commit 1eec2805325f6c9d85088bc599849c193bcad1a5
+Author: Alexey <alexey.drupal@gmail.com>
+Date:   Mon Jan 15 17:47:46 2024 +0100
+
+    [DS-1285] Add Demo Content pages for Promotion content type
+
+:000000 100644 0000000 f28e821 A	assets/images/15f11332dec53c97403199978883e040.jpeg
+:000000 100644 0000000 7643449 A	assets/images/8061cd95751fa3407b61d7c03c7f99af.jpeg
+:000000 100644 0000000 c1c44b0 A	assets/images/a6918fdd1d42d250230c2ecd8b4c9927.jpeg
+:000000 100644 0000000 a8755ad A	config/install/migrate_plus.migration.y_lb_demo_block_af.yml
+:100644 100644 50994dc 9290e2d M	config/install/migrate_plus.migration.y_lb_demo_block_banner_chevron.yml
+:100644 100644 f72730f 26074b5 M	config/install/migrate_plus.migration.y_lb_demo_block_banner_frame.yml
+:100644 100644 97831fe ac6b6c0 M	config/install/migrate_plus.migration.y_lb_demo_block_banner_overlay.yml
+:100644 100644 21d0dc7 e03c322 M	config/install/migrate_plus.migration.y_lb_demo_block_banner_standard.yml
+:000000 100644 0000000 f49ff3a A	config/install/migrate_plus.migration.y_lb_demo_block_modal.yml
+:100644 100644 014f65a 3128de5 M	config/install/migrate_plus.migration.y_lb_demo_file.yml
+:100644 100644 6ea1d26 e905ccd M	config/install/migrate_plus.migration.y_lb_demo_media_image.yml
+:000000 100644 0000000 604bcf2 A	config/install/migrate_plus.migration.y_lb_demo_page_af_promo.yml
+:000000 100644 0000000 f93e0ae A	config/install/migrate_plus.migration.y_lb_demo_page_promotions.yml
+:000000 100644 0000000 7d947a3 A	config/install/migrate_plus.migration.y_lb_demo_promotions.yml
+:100644 100644 077e1c1 90a4c77 M	y_lb_demo_content.info.yml
+ .../images/15f11332dec53c97403199978883e040.jpeg   | Bin 0 -> 2945359 bytes
+ .../images/8061cd95751fa3407b61d7c03c7f99af.jpeg   | Bin 0 -> 6901985 bytes
+ .../images/a6918fdd1d42d250230c2ecd8b4c9927.jpeg   | Bin 0 -> 3111710 bytes
+ .../migrate_plus.migration.y_lb_demo_block_af.yml  |  46 +++
+ ...us.migration.y_lb_demo_block_banner_chevron.yml |   8 +
+ ...plus.migration.y_lb_demo_block_banner_frame.yml |   6 +
+ ...us.migration.y_lb_demo_block_banner_overlay.yml |   7 +
+ ...s.migration.y_lb_demo_block_banner_standard.yml |   6 +
+ ...igrate_plus.migration.y_lb_demo_block_modal.yml |  53 +++
+ .../migrate_plus.migration.y_lb_demo_file.yml      |   6 +
+ ...igrate_plus.migration.y_lb_demo_media_image.yml |   9 +
+ ...rate_plus.migration.y_lb_demo_page_af_promo.yml | 248 ++++++++++++
+ ...te_plus.migration.y_lb_demo_page_promotions.yml | 432 +++++++++++++++++++++
+ ...migrate_plus.migration.y_lb_demo_promotions.yml | 109 ++++++
+ y_lb_demo_content.info.yml                         |   8 +
+ 15 files changed, 938 insertions(+)
+
+commit a444e8b9d4cd95c473ea5fbe58c3827cf1658a7e
+Merge: b5a467b dfeb03b
+Author: Dima Danylevskyi <dima.danylevskyi@jet.dev>
+Date:   Tue Jan 9 16:37:31 2024 +0200
+
+    Merge pull request #39 from aleevas/DS-1290
+    
+    [DS-1290] Add Demo Articles and Demo Article listing page
+
+commit dfeb03bbe096f1be68b3665e9d02c731f7e463a4
+Author: Alexey <alexey.drupal@gmail.com>
+Date:   Fri Jan 5 18:37:37 2024 +0100
+
+    [DS-1290] Add Demo Articles and Demo Article listing page
+
+:000000 100644 0000000 863f009 A	assets/images/01704b582097202c65b0e69d9be850ee.jpeg
+:000000 100644 0000000 5d77949 A	assets/images/13b122698c3e4de84bceb9eea3c109a6.jpeg
+:000000 100644 0000000 86cebd9 A	assets/images/4711e96001ff19b9bda7c7f4c1348847.jpeg
+:000000 100644 0000000 7b1aa80 A	assets/images/54995b5e097af81409d9a2238656862f.jpeg
+:000000 100644 0000000 10d64d0 A	assets/images/6658194bb21aaa43bb911cd6bf63fb0e.jpeg
+:000000 100644 0000000 5215981 A	assets/images/6b23e4d7ff56880bd97f1bc7b6a84eed.jpeg
+:000000 100644 0000000 1db1ced A	assets/images/a8b543802fa99a59284742db5ac8e0a3.jpeg
+:000000 100644 0000000 0274fa5 A	assets/images/edd41947a59b3ca07e94e7a4b50ba28d.jpeg
+:000000 100644 0000000 07acff5 A	config/install/migrate_plus.migration.y_lb_demo_articles.yml
+:000000 100644 0000000 d181597 A	config/install/migrate_plus.migration.y_lb_demo_block_articles_filter.yml
+:000000 100644 0000000 a52d04d A	config/install/migrate_plus.migration.y_lb_demo_block_articles_listing.yml
+:000000 100644 0000000 09797d3 A	config/install/migrate_plus.migration.y_lb_demo_block_featured_article.yml
+:100644 100644 dc39982 014f65a M	config/install/migrate_plus.migration.y_lb_demo_file.yml
+:100644 100644 29e59e5 6ea1d26 M	config/install/migrate_plus.migration.y_lb_demo_media_image.yml
+:000000 100644 0000000 839fc96 A	config/install/migrate_plus.migration.y_lb_demo_page_articles_listing.yml
+ .../images/01704b582097202c65b0e69d9be850ee.jpeg   | Bin 0 -> 10421470 bytes
+ .../images/13b122698c3e4de84bceb9eea3c109a6.jpeg   | Bin 0 -> 11912764 bytes
+ .../images/4711e96001ff19b9bda7c7f4c1348847.jpeg   | Bin 0 -> 572256 bytes
+ .../images/54995b5e097af81409d9a2238656862f.jpeg   | Bin 0 -> 7169490 bytes
+ .../images/6658194bb21aaa43bb911cd6bf63fb0e.jpeg   | Bin 0 -> 9426568 bytes
+ .../images/6b23e4d7ff56880bd97f1bc7b6a84eed.jpeg   | Bin 0 -> 6126278 bytes
+ .../images/a8b543802fa99a59284742db5ac8e0a3.jpeg   | Bin 0 -> 6386788 bytes
+ .../images/edd41947a59b3ca07e94e7a4b50ba28d.jpeg   | Bin 0 -> 1204744 bytes
+ .../migrate_plus.migration.y_lb_demo_articles.yml  | 194 ++++++++++++++++
+ ...s.migration.y_lb_demo_block_articles_filter.yml |  47 ++++
+ ....migration.y_lb_demo_block_articles_listing.yml |  41 ++++
+ ....migration.y_lb_demo_block_featured_article.yml |  63 ++++++
+ .../migrate_plus.migration.y_lb_demo_file.yml      |  16 ++
+ ...igrate_plus.migration.y_lb_demo_media_image.yml |  24 ++
+ ...s.migration.y_lb_demo_page_articles_listing.yml | 244 +++++++++++++++++++++
+ 15 files changed, 629 insertions(+)
+
+commit b5a467b5735b12c7875b562ebb047a306d19128b
+Merge: 9e4707f c1c8f4b
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Wed Dec 6 11:43:52 2023 +0200
+
+    Merge pull request #38 from david-storm/main
+    
+    fix: add token [site:url] to url
+
+commit c1c8f4bf15e475e70a028ad42c289f5c923b22ad
+Author: davyd.burianuvatyi@ua.nestle.com <venia7vedmak@gmail.com>
+Date:   Wed Dec 6 10:43:49 2023 +0200
+
+    fix: add token [site:url] to url
+
+:100644 100644 1d6982b 222cda0 M	config/install/migrate_plus.migration.y_lb_demo_block_accordion_item.yml
+ ...ate_plus.migration.y_lb_demo_block_accordion_item.yml | 16 ++++++++--------
+ 1 file changed, 8 insertions(+), 8 deletions(-)
+
+commit 9e4707f2857e02da5d65908d252f2ee7093522ea
+Merge: 11c65e9 8cd90e5
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Thu Nov 30 15:38:54 2023 +0200
+
+    Merge pull request #37 from aleevas/DS-1221
+    
+    fix: [DS-1221] Fixed meta image for the Demo Membership page
+
+commit 8cd90e5fa631297b1dfcdc7fb3a44aefec48d9e4
+Author: Alexey <alexey.drupal@gmail.com>
+Date:   Thu Nov 30 13:27:25 2023 +0100
+
+    [DS-1221] Fixed meta image for the Demo Membership page
+
+:100644 100644 23ffc34 b0b0db6 M	config/install/migrate_plus.migration.y_lb_demo_page_membership.yml
+ config/install/migrate_plus.migration.y_lb_demo_page_membership.yml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 11c65e99ace7642b49765affcd3c570e98ab64da
+Merge: 12b400a 5664d83
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Wed Nov 29 17:11:46 2023 +0200
+
+    Merge pull request #36 from aleevas/DS-1186
+    
+    fix: [DS-1186] Import Demo Content in Standard type of profile's installation
+
+commit 5664d83ecb0e8cb1bd581c9995847b94e73a578f
+Author: Alexey <alexey.drupal@gmail.com>
+Date:   Wed Nov 29 16:09:05 2023 +0100
+
+    [DS-1186] Import Demo Content in Extended type of profile's installation
+
+:100644 100644 58e36bb 23410de M	config/install/migrate_plus.migration.y_lb_demo_block_accordion.yml
+:100644 100644 869e593 1d6982b M	config/install/migrate_plus.migration.y_lb_demo_block_accordion_item.yml
+:100644 100644 ec8f9bc 50994dc M	config/install/migrate_plus.migration.y_lb_demo_block_banner_chevron.yml
+:100644 100644 6f7db49 f72730f M	config/install/migrate_plus.migration.y_lb_demo_block_banner_frame.yml
+:100644 100644 6c62fd5 97831fe M	config/install/migrate_plus.migration.y_lb_demo_block_banner_overlay.yml
+:100644 100644 afbfa57 21d0dc7 M	config/install/migrate_plus.migration.y_lb_demo_block_banner_standard.yml
+:100644 100644 8a5201f 42a52ca M	config/install/migrate_plus.migration.y_lb_demo_block_branch_amenities.yml
+:100644 100644 a09df14 60fefda M	config/install/migrate_plus.migration.y_lb_demo_block_cards.yml
+:100644 100644 ff18e6b 7380085 M	config/install/migrate_plus.migration.y_lb_demo_block_cards_item.yml
+:100644 100644 98726b0 674b1fb M	config/install/migrate_plus.migration.y_lb_demo_block_carousel.yml
+:100644 100644 0e0b2c7 0f36906 M	config/install/migrate_plus.migration.y_lb_demo_block_carousel_item.yml
+:100644 100644 b276d36 a32bbbe M	config/install/migrate_plus.migration.y_lb_demo_block_donate.yml
+:100644 100644 e4f8152 3c13e29 M	config/install/migrate_plus.migration.y_lb_demo_block_donate_item.yml
+:100644 100644 8ba9c3d df8bc08 M	config/install/migrate_plus.migration.y_lb_demo_block_events_filter.yml
+:100644 100644 4e7388e 2db9b8c M	config/install/migrate_plus.migration.y_lb_demo_block_events_listing.yml
+:100644 100644 6a849cb 286d17e M	config/install/migrate_plus.migration.y_lb_demo_block_featured_event.yml
+:100644 100644 969de95 49c0d98 M	config/install/migrate_plus.migration.y_lb_demo_block_icon_grid.yml
+:100644 100644 380989c 0f52876 M	config/install/migrate_plus.migration.y_lb_demo_block_icon_grid_item.yml
+:100644 100644 955a2dc 3aa4645 M	config/install/migrate_plus.migration.y_lb_demo_block_location_finder.yml
+:100644 100644 cfe2d6a 9983bc0 M	config/install/migrate_plus.migration.y_lb_demo_block_menu_cta.yml
+:100644 100644 f71116e ca9ea59 M	config/install/migrate_plus.migration.y_lb_demo_block_partners.yml
+:100644 100644 b9d7585 11b980a M	config/install/migrate_plus.migration.y_lb_demo_block_partners_item.yml
+:100644 100644 06009ff a5869b2 M	config/install/migrate_plus.migration.y_lb_demo_block_ping_pong.yml
+:100644 100644 dcdc864 8311cb7 M	config/install/migrate_plus.migration.y_lb_demo_block_simple_menu.yml
+:100644 100644 981a783 a6be451 M	config/install/migrate_plus.migration.y_lb_demo_block_social_links.yml
+:100644 100644 1b9eb58 ad19fb0 M	config/install/migrate_plus.migration.y_lb_demo_block_statistics.yml
+:100644 100644 dcaa37e 91e4b16 M	config/install/migrate_plus.migration.y_lb_demo_block_statistics_item.yml
+:100644 100644 30b4d99 67d9f9a M	config/install/migrate_plus.migration.y_lb_demo_block_table_block.yml
+:100644 100644 dc9df51 2d90a0b M	config/install/migrate_plus.migration.y_lb_demo_block_testimonial_item.yml
+:100644 100644 f8a474e c012a48 M	config/install/migrate_plus.migration.y_lb_demo_block_testimonials.yml
+:100644 100644 ef93911 73e7a26 M	config/install/migrate_plus.migration.y_lb_demo_block_upcoming_events.yml
+:100644 100644 d5dcff1 d5d040a M	config/install/migrate_plus.migration.y_lb_demo_block_webform.yml
+:100644 100644 8955963 42400d8 M	config/install/migrate_plus.migration.y_lb_demo_events.yml
+:100644 100644 d1d2dcf dc39982 M	config/install/migrate_plus.migration.y_lb_demo_file.yml
+:100644 100644 ba36d35 29e59e5 M	config/install/migrate_plus.migration.y_lb_demo_media_image.yml
+:100644 100644 e31fe1f ca5ddd3 M	config/install/migrate_plus.migration.y_lb_demo_menu_link_account.yml
+:100644 100644 084afeb fb472d0 M	config/install/migrate_plus.migration.y_lb_demo_menu_link_helpful_links.yml
+:100644 100644 12d6ed2 a145feb M	config/install/migrate_plus.migration.y_lb_demo_menu_link_main.yml
+:100644 100644 a3b9640 a62018c M	config/install/migrate_plus.migration.y_lb_demo_page_af.yml
+:100644 100644 bfa8054 eb615dc M	config/install/migrate_plus.migration.y_lb_demo_page_contact_us.yml
+:100644 100644 6683c2c ce7ab2e M	config/install/migrate_plus.migration.y_lb_demo_page_donate.yml
+:100644 100644 242c6d4 eee343a M	config/install/migrate_plus.migration.y_lb_demo_page_dummy.yml
+:100644 100644 29b0171 d55da25 M	config/install/migrate_plus.migration.y_lb_demo_page_events_listing.yml
+:100644 100644 2fd2096 db5f223 M	config/install/migrate_plus.migration.y_lb_demo_page_homepage.yml
+:100644 100644 3382153 74a8119 M	config/install/migrate_plus.migration.y_lb_demo_page_jobs.yml
+:100644 100644 01159db 0e4b73b M	config/install/migrate_plus.migration.y_lb_demo_page_join_the_y.yml
+:100644 100644 0fd588d 8efcfb9 M	config/install/migrate_plus.migration.y_lb_demo_page_location.yml
+:100644 100644 ebb6832 9c33e43 M	config/install/migrate_plus.migration.y_lb_demo_page_location_child_page.yml
+:100644 100644 8db5efd d7de782 M	config/install/migrate_plus.migration.y_lb_demo_page_location_finder.yml
+:100644 100644 69b253f 23ffc34 M	config/install/migrate_plus.migration.y_lb_demo_page_membership.yml
+:100644 100644 dad439f acf8ab3 M	config/install/migrate_plus.migration.y_lb_demo_page_paragraphs_content.yml
+:100644 100644 411d421 851b1ad M	config/install/migrate_plus.migration.y_lb_demo_page_programs_category.yml
+:100644 100644 9c37bdd 6015739 M	config/install/migrate_plus.migration.y_lb_demo_page_programs_individual.yml
+:100644 100644 d9c9308 e3721f1 M	config/install/migrate_plus.migration.y_lb_demo_page_programs_overview.yml
+:100644 100644 d29dc7c f255255 M	config/install/migrate_plus.migration.y_lb_demo_page_schedules.yml
+:100644 100644 89bce8f b066989 M	config/install/migrate_plus.migration.y_lb_demo_page_volunteer_ops.yml
+:100644 100644 6e3e9f0 6c8c958 M	config/install/migrate_plus.migration.y_lb_demo_page_who_we_are.yml
+:100644 100644 fa717ff d986615 M	config/install/migrate_plus.migration.y_lb_demo_tags.yml
+ config/install/migrate_plus.migration.y_lb_demo_block_accordion.yml     | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_accordion_item.yml   | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_banner_chevron.yml   | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_banner_frame.yml  | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_banner_overlay.yml   | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_banner_standard.yml  | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_branch_amenities.yml | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_cards.yml         | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_cards_item.yml    | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_carousel.yml      | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_carousel_item.yml | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_donate.yml        | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_donate_item.yml   | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_events_filter.yml | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_events_listing.yml   | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_featured_event.yml   | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_icon_grid.yml     | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_icon_grid_item.yml   | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_location_finder.yml  | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_menu_cta.yml      | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_partners.yml      | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_partners_item.yml | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_ping_pong.yml     | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_simple_menu.yml   | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_social_links.yml  | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_statistics.yml    | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_statistics_item.yml  | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_table_block.yml   | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_testimonial_item.yml | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_testimonials.yml  | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_upcoming_events.yml  | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_webform.yml       | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_events.yml              | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_file.yml                | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_media_image.yml         | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_menu_link_account.yml   | 1 +
+ .../migrate_plus.migration.y_lb_demo_menu_link_helpful_links.yml        | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_menu_link_main.yml      | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_af.yml             | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_contact_us.yml     | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_donate.yml         | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_dummy.yml          | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_events_listing.yml | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_homepage.yml       | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_jobs.yml           | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_join_the_y.yml     | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_location.yml       | 1 +
+ .../migrate_plus.migration.y_lb_demo_page_location_child_page.yml       | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_page_location_finder.yml   | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_membership.yml     | 1 +
+ .../migrate_plus.migration.y_lb_demo_page_paragraphs_content.yml        | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_page_programs_category.yml | 1 +
+ .../migrate_plus.migration.y_lb_demo_page_programs_individual.yml       | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_page_programs_overview.yml | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_schedules.yml      | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_volunteer_ops.yml  | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_who_we_are.yml     | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_tags.yml                | 1 +
+ 58 files changed, 58 insertions(+), 2 deletions(-)
+
+commit c0de5b19f1f4ada0b17edc0cce27fc10ac906660
+Author: Alexey <alexey.drupal@gmail.com>
+Date:   Wed Nov 29 09:51:19 2023 +0100
+
+    [DS-1186] Import Demo Content in Standard type of profile's installation
+
+:100644 100644 9693404 58e36bb M	config/install/migrate_plus.migration.y_lb_demo_block_accordion.yml
+:100644 100644 6d7921f 869e593 M	config/install/migrate_plus.migration.y_lb_demo_block_accordion_item.yml
+:100644 100644 1d90c62 ec8f9bc M	config/install/migrate_plus.migration.y_lb_demo_block_banner_chevron.yml
+:100644 100644 7406da3 6f7db49 M	config/install/migrate_plus.migration.y_lb_demo_block_banner_frame.yml
+:100644 100644 313f8ac 6c62fd5 M	config/install/migrate_plus.migration.y_lb_demo_block_banner_overlay.yml
+:100644 100644 653b553 afbfa57 M	config/install/migrate_plus.migration.y_lb_demo_block_banner_standard.yml
+:100644 100644 2f8d567 8a5201f M	config/install/migrate_plus.migration.y_lb_demo_block_branch_amenities.yml
+:100644 100644 b7d0155 a09df14 M	config/install/migrate_plus.migration.y_lb_demo_block_cards.yml
+:100644 100644 4a460a8 ff18e6b M	config/install/migrate_plus.migration.y_lb_demo_block_cards_item.yml
+:100644 100644 8ae56c8 98726b0 M	config/install/migrate_plus.migration.y_lb_demo_block_carousel.yml
+:100644 100644 a98e434 0e0b2c7 M	config/install/migrate_plus.migration.y_lb_demo_block_carousel_item.yml
+:100644 100644 d92ac49 b276d36 M	config/install/migrate_plus.migration.y_lb_demo_block_donate.yml
+:100644 100644 e7aca98 e4f8152 M	config/install/migrate_plus.migration.y_lb_demo_block_donate_item.yml
+:100644 100644 f364b69 8ba9c3d M	config/install/migrate_plus.migration.y_lb_demo_block_events_filter.yml
+:100644 100644 a23c7ee 4e7388e M	config/install/migrate_plus.migration.y_lb_demo_block_events_listing.yml
+:100644 100644 a88fb26 6a849cb M	config/install/migrate_plus.migration.y_lb_demo_block_featured_event.yml
+:100644 100644 9eb0480 969de95 M	config/install/migrate_plus.migration.y_lb_demo_block_icon_grid.yml
+:100644 100644 a1f925d 380989c M	config/install/migrate_plus.migration.y_lb_demo_block_icon_grid_item.yml
+:100644 100644 2cd8fc5 955a2dc M	config/install/migrate_plus.migration.y_lb_demo_block_location_finder.yml
+:100644 100644 1312b24 cfe2d6a M	config/install/migrate_plus.migration.y_lb_demo_block_menu_cta.yml
+:100644 100644 e024362 f71116e M	config/install/migrate_plus.migration.y_lb_demo_block_partners.yml
+:100644 100644 e302af6 b9d7585 M	config/install/migrate_plus.migration.y_lb_demo_block_partners_item.yml
+:100644 100644 af6a55d 06009ff M	config/install/migrate_plus.migration.y_lb_demo_block_ping_pong.yml
+:100644 100644 97e296d dcdc864 M	config/install/migrate_plus.migration.y_lb_demo_block_simple_menu.yml
+:100644 100644 0fb5333 981a783 M	config/install/migrate_plus.migration.y_lb_demo_block_social_links.yml
+:100644 100644 659157d 1b9eb58 M	config/install/migrate_plus.migration.y_lb_demo_block_statistics.yml
+:100644 100644 07ca5d4 dcaa37e M	config/install/migrate_plus.migration.y_lb_demo_block_statistics_item.yml
+:100644 100644 979d02c 30b4d99 M	config/install/migrate_plus.migration.y_lb_demo_block_table_block.yml
+:100644 100644 99943c9 dc9df51 M	config/install/migrate_plus.migration.y_lb_demo_block_testimonial_item.yml
+:100644 100644 095f59a f8a474e M	config/install/migrate_plus.migration.y_lb_demo_block_testimonials.yml
+:100644 100644 a2c60e4 ef93911 M	config/install/migrate_plus.migration.y_lb_demo_block_upcoming_events.yml
+:100644 100644 ba4f3c3 d5dcff1 M	config/install/migrate_plus.migration.y_lb_demo_block_webform.yml
+:100644 100644 30a84a3 8955963 M	config/install/migrate_plus.migration.y_lb_demo_events.yml
+:100644 100644 523f804 d1d2dcf M	config/install/migrate_plus.migration.y_lb_demo_file.yml
+:100644 100644 1997cfc ba36d35 M	config/install/migrate_plus.migration.y_lb_demo_media_image.yml
+:100644 100644 ea1ca7c e31fe1f M	config/install/migrate_plus.migration.y_lb_demo_menu_link_account.yml
+:100644 100644 064a6ac 084afeb M	config/install/migrate_plus.migration.y_lb_demo_menu_link_helpful_links.yml
+:100644 100644 e5e8d1a 12d6ed2 M	config/install/migrate_plus.migration.y_lb_demo_menu_link_main.yml
+:100644 100644 07de67b a3b9640 M	config/install/migrate_plus.migration.y_lb_demo_page_af.yml
+:100644 100644 d20dfdc bfa8054 M	config/install/migrate_plus.migration.y_lb_demo_page_contact_us.yml
+:100644 100644 a5899d5 6683c2c M	config/install/migrate_plus.migration.y_lb_demo_page_donate.yml
+:100644 100644 aa4658e 242c6d4 M	config/install/migrate_plus.migration.y_lb_demo_page_dummy.yml
+:100644 100644 b2df76b 29b0171 M	config/install/migrate_plus.migration.y_lb_demo_page_events_listing.yml
+:100644 100644 bdbf251 2fd2096 M	config/install/migrate_plus.migration.y_lb_demo_page_homepage.yml
+:100644 100644 3a34e0c 3382153 M	config/install/migrate_plus.migration.y_lb_demo_page_jobs.yml
+:100644 100644 3ab2189 01159db M	config/install/migrate_plus.migration.y_lb_demo_page_join_the_y.yml
+:100644 100644 5375809 0fd588d M	config/install/migrate_plus.migration.y_lb_demo_page_location.yml
+:100644 100644 19907ec ebb6832 M	config/install/migrate_plus.migration.y_lb_demo_page_location_child_page.yml
+:100644 100644 32bd4ed 8db5efd M	config/install/migrate_plus.migration.y_lb_demo_page_location_finder.yml
+:100644 100644 f79cfdb 69b253f M	config/install/migrate_plus.migration.y_lb_demo_page_membership.yml
+:100644 100644 427d8aa dad439f M	config/install/migrate_plus.migration.y_lb_demo_page_paragraphs_content.yml
+:100644 100644 409e2e1 411d421 M	config/install/migrate_plus.migration.y_lb_demo_page_programs_category.yml
+:100644 100644 7dd77f4 9c37bdd M	config/install/migrate_plus.migration.y_lb_demo_page_programs_individual.yml
+:100644 100644 6efd9dc d9c9308 M	config/install/migrate_plus.migration.y_lb_demo_page_programs_overview.yml
+:100644 100644 32f2ed5 d29dc7c M	config/install/migrate_plus.migration.y_lb_demo_page_schedules.yml
+:100644 100644 3533ca7 89bce8f M	config/install/migrate_plus.migration.y_lb_demo_page_volunteer_ops.yml
+:100644 100644 54cac33 6e3e9f0 M	config/install/migrate_plus.migration.y_lb_demo_page_who_we_are.yml
+:100644 100644 9c9b9bc fa717ff M	config/install/migrate_plus.migration.y_lb_demo_tags.yml
+ config/install/migrate_plus.migration.y_lb_demo_block_accordion.yml     | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_accordion_item.yml   | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_banner_chevron.yml   | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_block_banner_frame.yml  | 2 +-
+ .../install/migrate_plus.migration.y_lb_demo_block_banner_overlay.yml   | 2 +-
+ .../install/migrate_plus.migration.y_lb_demo_block_banner_standard.yml  | 2 +-
+ .../install/migrate_plus.migration.y_lb_demo_block_branch_amenities.yml | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_cards.yml         | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_cards_item.yml    | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_carousel.yml      | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_carousel_item.yml | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_donate.yml        | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_donate_item.yml   | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_events_filter.yml | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_events_listing.yml   | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_featured_event.yml   | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_icon_grid.yml     | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_icon_grid_item.yml   | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_location_finder.yml  | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_menu_cta.yml      | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_partners.yml      | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_partners_item.yml | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_ping_pong.yml     | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_simple_menu.yml   | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_social_links.yml  | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_statistics.yml    | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_statistics_item.yml  | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_table_block.yml   | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_testimonial_item.yml | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_testimonials.yml  | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_block_upcoming_events.yml  | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_block_webform.yml       | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_events.yml              | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_file.yml                | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_media_image.yml         | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_menu_link_account.yml   | 1 +
+ .../migrate_plus.migration.y_lb_demo_menu_link_helpful_links.yml        | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_menu_link_main.yml      | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_af.yml             | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_contact_us.yml     | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_donate.yml         | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_dummy.yml          | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_events_listing.yml | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_homepage.yml       | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_jobs.yml           | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_join_the_y.yml     | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_location.yml       | 1 +
+ .../migrate_plus.migration.y_lb_demo_page_location_child_page.yml       | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_page_location_finder.yml   | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_membership.yml     | 1 +
+ .../migrate_plus.migration.y_lb_demo_page_paragraphs_content.yml        | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_page_programs_category.yml | 1 +
+ .../migrate_plus.migration.y_lb_demo_page_programs_individual.yml       | 1 +
+ .../install/migrate_plus.migration.y_lb_demo_page_programs_overview.yml | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_schedules.yml      | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_volunteer_ops.yml  | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_page_who_we_are.yml     | 1 +
+ config/install/migrate_plus.migration.y_lb_demo_tags.yml                | 1 +
+ 58 files changed, 58 insertions(+), 4 deletions(-)
+
+commit 12b400a6ea76f39f33ceeebcaff11ad4199bb93d
+Merge: 7f67603 9eeafaa
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Tue Nov 28 14:37:21 2023 +0200
+
+    Merge pull request #35 from aleevas/DS-1202
+    
+    [DS-1202] Fix text in description meta tag for the Contact Us page
+
+commit 9eeafaa8976e07bb6e327cf40658f5c617f27a51
+Author: Alexey <alexey.drupal@gmail.com>
+Date:   Tue Nov 28 11:47:22 2023 +0100
+
+    [DS-1202] Fix text in description meta tag for the Contact Us page
+
+:100644 100644 d20dfdc a4821f8 M	config/install/migrate_plus.migration.y_lb_demo_page_contact_us.yml
+ config/install/migrate_plus.migration.y_lb_demo_page_contact_us.yml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 7f676030933b395b631aee91bf78348d72359411
+Merge: b3dd198 2a9cef9
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Thu Nov 23 16:51:22 2023 +0200
+
+    Merge pull request #34 from aleevas/DS-1202
+    
+    [DS-1202] Add data for the meta_description and meta_image fields
+
+commit 2a9cef90d1a94be7961d813b484ec56f43407dd3
+Author: Alexey <alexey.drupal@gmail.com>
+Date:   Thu Nov 23 15:06:00 2023 +0100
+
+    [DS-1202] Add data for the meta_description and meta_image fields
+
+:100644 100644 a40a2bc 07de67b M	config/install/migrate_plus.migration.y_lb_demo_page_af.yml
+:100644 100644 a19d0a3 d20dfdc M	config/install/migrate_plus.migration.y_lb_demo_page_contact_us.yml
+:100644 100644 1dbcc44 a5899d5 M	config/install/migrate_plus.migration.y_lb_demo_page_donate.yml
+:100644 100644 c2d4cfe aa4658e M	config/install/migrate_plus.migration.y_lb_demo_page_dummy.yml
+:100644 100644 54d0ce1 b2df76b M	config/install/migrate_plus.migration.y_lb_demo_page_events_listing.yml
+:100644 100644 637030c bdbf251 M	config/install/migrate_plus.migration.y_lb_demo_page_homepage.yml
+:100644 100644 15209f1 3a34e0c M	config/install/migrate_plus.migration.y_lb_demo_page_jobs.yml
+:100644 100644 ae9a11f 3ab2189 M	config/install/migrate_plus.migration.y_lb_demo_page_join_the_y.yml
+:100644 100644 93f09ef 5375809 M	config/install/migrate_plus.migration.y_lb_demo_page_location.yml
+:100644 100644 8f68306 19907ec M	config/install/migrate_plus.migration.y_lb_demo_page_location_child_page.yml
+:100644 100644 a563d46 32bd4ed M	config/install/migrate_plus.migration.y_lb_demo_page_location_finder.yml
+:100644 100644 b8425d4 f79cfdb M	config/install/migrate_plus.migration.y_lb_demo_page_membership.yml
+:100644 100644 ae9e227 409e2e1 M	config/install/migrate_plus.migration.y_lb_demo_page_programs_category.yml
+:100644 100644 5ab47b6 7dd77f4 M	config/install/migrate_plus.migration.y_lb_demo_page_programs_individual.yml
+:100644 100644 f865424 6efd9dc M	config/install/migrate_plus.migration.y_lb_demo_page_programs_overview.yml
+:100644 100644 c7b4e49 32f2ed5 M	config/install/migrate_plus.migration.y_lb_demo_page_schedules.yml
+:100644 100644 b6fd323 3533ca7 M	config/install/migrate_plus.migration.y_lb_demo_page_volunteer_ops.yml
+:100644 100644 09c8040 54cac33 M	config/install/migrate_plus.migration.y_lb_demo_page_who_we_are.yml
+ config/install/migrate_plus.migration.y_lb_demo_page_af.yml        | 7 +++++++
+ .../install/migrate_plus.migration.y_lb_demo_page_contact_us.yml   | 7 +++++++
+ config/install/migrate_plus.migration.y_lb_demo_page_donate.yml    | 7 +++++++
+ config/install/migrate_plus.migration.y_lb_demo_page_dummy.yml     | 7 +++++++
+ .../migrate_plus.migration.y_lb_demo_page_events_listing.yml       | 7 +++++++
+ config/install/migrate_plus.migration.y_lb_demo_page_homepage.yml  | 7 +++++++
+ config/install/migrate_plus.migration.y_lb_demo_page_jobs.yml      | 7 +++++++
+ .../install/migrate_plus.migration.y_lb_demo_page_join_the_y.yml   | 7 +++++++
+ config/install/migrate_plus.migration.y_lb_demo_page_location.yml  | 7 +++++++
+ .../migrate_plus.migration.y_lb_demo_page_location_child_page.yml  | 7 +++++++
+ .../migrate_plus.migration.y_lb_demo_page_location_finder.yml      | 7 +++++++
+ .../install/migrate_plus.migration.y_lb_demo_page_membership.yml   | 7 +++++++
+ .../migrate_plus.migration.y_lb_demo_page_programs_category.yml    | 7 +++++++
+ .../migrate_plus.migration.y_lb_demo_page_programs_individual.yml  | 7 +++++++
+ .../migrate_plus.migration.y_lb_demo_page_programs_overview.yml    | 7 +++++++
+ config/install/migrate_plus.migration.y_lb_demo_page_schedules.yml | 7 +++++++
+ .../migrate_plus.migration.y_lb_demo_page_volunteer_ops.yml        | 7 +++++++
+ .../install/migrate_plus.migration.y_lb_demo_page_who_we_are.yml   | 7 +++++++
+ 18 files changed, 126 insertions(+)
+
+commit b3dd198ff397e7151de9bd388d1dd2504f63a225
+Merge: a92b740 3edaa63
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Tue Nov 21 18:26:02 2023 +0200
+
+    Merge pull request #33 from aleevas/DS-1193
+    
+    fix: [DS-1193] Update a link to the Old Home Page
+
+commit 3edaa6365044741f06859e800c8a8c3d0474bd04
+Author: Alexey <alexey.drupal@gmail.com>
+Date:   Tue Nov 21 17:21:51 2023 +0100
+
+    [DS-1193] Update a link to the Old Home Page
+
+:100644 100644 ee017ca 979d02c M	config/install/migrate_plus.migration.y_lb_demo_block_table_block.yml
+ config/install/migrate_plus.migration.y_lb_demo_block_table_block.yml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit a92b740fc5ec02e609c1c9bd4a1ab1cf7ffa820d
+Merge: d6931c3 4da1f6a
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Tue Nov 21 16:15:27 2023 +0200
+
+    Merge pull request #32 from aleevas/DS-1193
+    
+    feat!: [DS-1193] Add new page with links for the old Paragraph's Demo Content
+
+commit 4da1f6a408fe1e2a61e91c980a936c0a62198593
+Author: Alexey <alexey.drupal@gmail.com>
+Date:   Tue Nov 21 14:27:00 2023 +0100
+
+    [DS-1193] Add new page with links for the old Paragraph's Demo Content
+
+:100644 100644 d5d72b1 653b553 M	config/install/migrate_plus.migration.y_lb_demo_block_banner_standard.yml
+:100644 100644 22e0027 ee017ca M	config/install/migrate_plus.migration.y_lb_demo_block_table_block.yml
+:100644 100644 30b2aa9 e5e8d1a M	config/install/migrate_plus.migration.y_lb_demo_menu_link_main.yml
+:000000 100644 0000000 427d8aa A	config/install/migrate_plus.migration.y_lb_demo_page_paragraphs_content.yml
+ ...s.migration.y_lb_demo_block_banner_standard.yml |   5 +
+ ..._plus.migration.y_lb_demo_block_table_block.yml |   6 +
+ ...ate_plus.migration.y_lb_demo_menu_link_main.yml | 322 +--------------------
+ ...migration.y_lb_demo_page_paragraphs_content.yml | 238 +++++++++++++++
+ 4 files changed, 252 insertions(+), 319 deletions(-)
+
+commit d6931c30f6573d9d3bb9a8f0d9a3d10ce2761a79
+Merge: 6fc404b ce548ce
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Fri Nov 17 13:29:34 2023 +0200
+
+    Merge pull request #31 from froboy/DS-1187-shrink-images
+    
+    fix: DS-1187 fix: Resize images to further reduce size
+
+commit ce548ce48c2dd585e8023d163d8e9b8dc84b3c31
+Author: Avi Schwab <froboy@gmail.com>
+Date:   Thu Nov 16 14:44:44 2023 -0600
+
+    DS-1187 fix: Revert a few more things that got worse instead of better
+
+:100644 100644 16ae5b6 8728384 M	assets/images/fc43181e0e91e3134105465d81f75144.jpeg
+:100644 100644 b3da7ce 008c2f4 M	assets/images/logo-ab5cc8314658dcbce4226affc4772f78.jpg
+:100644 100644 0f03ce1 9298f0c M	assets/images/logo-dc5cc9314658dcbad4536affc4772f78.jpg
+:100644 100644 5ae5e95 02a0777 M	assets/images/logo-dc8cc8314658dcbce4536afac4772f78.jpg
+ assets/images/fc43181e0e91e3134105465d81f75144.jpeg | Bin 48743 -> 47882 bytes
+ .../logo-ab5cc8314658dcbce4226affc4772f78.jpg       | Bin 2897 -> 879 bytes
+ .../logo-dc5cc9314658dcbad4536affc4772f78.jpg       | Bin 3789 -> 1755 bytes
+ .../logo-dc8cc8314658dcbce4536afac4772f78.jpg       | Bin 2886 -> 862 bytes
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 7efdd4caca04b931d61dd40c98b04f0eb3db599a
+Author: Avi Schwab <froboy@gmail.com>
+Date:   Thu Nov 16 14:42:06 2023 -0600
+
+    DS-1187 fix: Revert PNGs because they actually got bigger :(
+
+:100644 100644 ef4d4ce 6a4d47d M	assets/images/icon-basketball.png
+:100644 100644 3876f4b 6ef34b0 M	assets/images/icon-calendar-bg-white.png
+:100644 100644 989a640 a0b4e38 M	assets/images/icon-calendar.png
+:100644 100644 daba241 8609075 M	assets/images/icon-careers-bg-white.png
+:100644 100644 e7aaf26 61a2929 M	assets/images/icon-careers.png
+:100644 100644 c538a9d 0a6d163 M	assets/images/icon-flag.png
+:100644 100644 b4e2b31 01a1e48 M	assets/images/icon-fundraising.png
+:100644 100644 a6b6468 7dab95a M	assets/images/icon-general-fitness-bg-white.png
+:100644 100644 b8e7a4e fbd4404 M	assets/images/icon-generalcamp.png
+:100644 100644 b36d8a3 fe060b9 M	assets/images/icon-grape.png
+:100644 100644 27aa529 f39f09e M	assets/images/icon-handshake.png
+:100644 100644 f2ac4e2 b83202b M	assets/images/icon-heartbeat.png
+:100644 100644 33dc558 41df6c0 M	assets/images/icon-kids.png
+:100644 100644 c6d914e 42d113b M	assets/images/icon-mail.png
+:100644 100644 702b130 31a25b0 M	assets/images/icon-membership-bg-white.png
+:100644 100644 dda4a91 5e694a6 M	assets/images/icon-membership.png
+:100644 100644 eaa313f 64a6351 M	assets/images/icon-partnership-bg-white.png
+:100644 100644 fdfaab1 267862a M	assets/images/icon-phone.png
+:100644 100644 d902264 fea72e2 M	assets/images/icon-responsibility.png
+:100644 100644 9c6efa0 963b659 M	assets/images/icon-soccer-bg-white.png
+:100644 100644 ea434c8 99fecaa M	assets/images/icon-soccer.png
+:100644 100644 8f27b18 2eaea86 M	assets/images/icon-sports-aerobics.png
+:100644 100644 a9aec78 7ed68f9 M	assets/images/icon-sports-climbing.png
+:100644 100644 4612e74 fd1cc8e M	assets/images/icon-sports-yoga.png
+:100644 100644 411c043 2735c01 M	assets/images/icon-swimming.png
+:100644 100644 4cddd0d 6c38d11 M	assets/images/icon-volunteerism-bg-white.png
+:100644 100644 3d9eeb3 13f581b M	assets/images/icon-volunteerism.png
+:100644 100644 1351053 9b3a310 M	assets/images/icon-wire.png
+:100644 100644 e991d8b 60418b2 M	assets/images/icon-youthdevelopment-bg-white.png
+:100644 100644 3443df9 5b82e8b M	assets/images/icon-youthdevelopment.png
+:100644 100644 dca27e2 dc9ae1c M	assets/images/logo-dc5cc8314658dcbce4536affc4772f78.png
+ assets/images/icon-basketball.png                     | Bin 5399 -> 4442 bytes
+ assets/images/icon-calendar-bg-white.png              | Bin 3904 -> 3103 bytes
+ assets/images/icon-calendar.png                       | Bin 2907 -> 2474 bytes
+ assets/images/icon-careers-bg-white.png               | Bin 3734 -> 2952 bytes
+ assets/images/icon-careers.png                        | Bin 3776 -> 2992 bytes
+ assets/images/icon-flag.png                           | Bin 4661 -> 3753 bytes
+ assets/images/icon-fundraising.png                    | Bin 5334 -> 4311 bytes
+ assets/images/icon-general-fitness-bg-white.png       | Bin 5269 -> 4200 bytes
+ assets/images/icon-generalcamp.png                    | Bin 4725 -> 3735 bytes
+ assets/images/icon-grape.png                          | Bin 3856 -> 3032 bytes
+ assets/images/icon-handshake.png                      | Bin 5442 -> 4487 bytes
+ assets/images/icon-heartbeat.png                      | Bin 5316 -> 4304 bytes
+ assets/images/icon-kids.png                           | Bin 5830 -> 4789 bytes
+ assets/images/icon-mail.png                           | Bin 4389 -> 3255 bytes
+ assets/images/icon-membership-bg-white.png            | Bin 4594 -> 3693 bytes
+ assets/images/icon-membership.png                     | Bin 4727 -> 3856 bytes
+ assets/images/icon-partnership-bg-white.png           | Bin 5400 -> 4435 bytes
+ assets/images/icon-phone.png                          | Bin 4135 -> 3076 bytes
+ assets/images/icon-responsibility.png                 | Bin 6676 -> 5614 bytes
+ assets/images/icon-soccer-bg-white.png                | Bin 4927 -> 3883 bytes
+ assets/images/icon-soccer.png                         | Bin 5034 -> 3959 bytes
+ assets/images/icon-sports-aerobics.png                | Bin 5603 -> 4473 bytes
+ assets/images/icon-sports-climbing.png                | Bin 5205 -> 4165 bytes
+ assets/images/icon-sports-yoga.png                    | Bin 5167 -> 4146 bytes
+ assets/images/icon-swimming.png                       | Bin 5167 -> 4104 bytes
+ assets/images/icon-volunteerism-bg-white.png          | Bin 4531 -> 3617 bytes
+ assets/images/icon-volunteerism.png                   | Bin 4570 -> 3645 bytes
+ assets/images/icon-wire.png                           | Bin 5639 -> 4369 bytes
+ assets/images/icon-youthdevelopment-bg-white.png      | Bin 5366 -> 4313 bytes
+ assets/images/icon-youthdevelopment.png               | Bin 5641 -> 4717 bytes
+ .../images/logo-dc5cc8314658dcbce4536affc4772f78.png  | Bin 2406 -> 1875 bytes
+ 31 files changed, 0 insertions(+), 0 deletions(-)
+
+commit e9bf909b0edb51c2c193b02fce48bd7938e83f5a
+Author: Avi Schwab <froboy@gmail.com>
+Date:   Thu Nov 16 14:36:44 2023 -0600
+
+    DS-1187 fix: Resize images to further reduce size
+    
+    ╰─ for f in */**/*.jp*; do echo "Processing $f file..."; convert $f -resize 3840x3840\> $f; done
+    ╰─ for f in */**/*.png; do echo "Processing $f file..."; convert $f -resize 3840x3840\> $f; done
+
+:100644 100644 b22bd54 e683916 M	assets/images/01043122af208d09f0006d0b56f8ccac.jpeg
+:100644 100644 895454e e7b8096 M	assets/images/0c2e643554a85c0d985cc7c2800c9c15.jpeg
+:100644 100644 ba08a5e 6bf8abb M	assets/images/1008a5283f4fc8b0374fbbab78d034f4.jpeg
+:100644 100644 98fef00 d8d4644 M	assets/images/10ad1686d46fdda3cd66173fb2771b4c.jpeg
+:100644 100644 86ad192 6b20586 M	assets/images/120fc9507c3b13faa809f14c1796c04e.jpeg
+:100644 100644 8992bef 252ecbd M	assets/images/14f0a0ca67a74e24583ac88bdeb05a77.jpeg
+:100644 100644 e1a91ad 3714a93 M	assets/images/15afb3e70e4b1e2ae4b2ec51a6db876d.jpeg
+:100644 100644 f56752c 15945f0 M	assets/images/16f6a90318a46adb0b11ed6730e24300.jpeg
+:100644 100644 0df259b 9f7a6e2 M	assets/images/1e3567e9ecd1db19c9e23461fc090926.jpeg
+:100644 100644 df84c1c 37c09d0 M	assets/images/1ee1c49e5aae525799456af0c67ac5a8.jpeg
+:100644 100644 104559a b93c1e6 M	assets/images/217ea1ced3b93ff7412464a8abbfbb98.jpeg
+:100644 100644 eb8bfa0 b779171 M	assets/images/218381245a187a7275dbeb9ee963c502.jpeg
+:100644 100644 42e8d75 c726ff5 M	assets/images/27bbd895877ff2653733e9f1d6e7419e.jpeg
+:100644 100644 44ea00c ef1eed6 M	assets/images/2e4a44bbb7ae69a87fac3e48d64757b1.jpeg
+:100644 100644 c67d371 f643bbb M	assets/images/2ed97746554fdff700bb12717485a642.jpeg
+:100644 100644 3e80139 fea81fe M	assets/images/2fc092e291b6f3df144b46ac833a900c.jpeg
+:100644 100644 2cadbfb 70d7c20 M	assets/images/308bb99f95a24c97827db582c1766a14.jpeg
+:100644 100644 973b903 2eb5aac M	assets/images/31d583df14b9bc0678ff13b62440c1f3.jpeg
+:100644 100644 38cbb0d 6a378dc M	assets/images/325d1e492f917f3a5bd46156e3a3c08a.jpeg
+:100644 100644 4e0e4cb 817e398 M	assets/images/3a15b4653bc75bc2576c777b3c7dcb96.jpeg
+:100644 100644 0dd0db6 5fbf928 M	assets/images/3c5682cd54969eedb39de59cf781762d.jpeg
+:100644 100644 cc1e811 c167137 M	assets/images/41cd8f1917f5bb5dd2fba73d0444a85c.jpeg
+:100644 100644 d140e78 25762d3 M	assets/images/492f1ac9211f0c81b4de47bc41c95bf7.jpeg
+:100644 100644 433827b ba2833e M	assets/images/4e6f6ba946dd75008073b141a5bac658.jpeg
+:100644 100644 24c66e5 972a481 M	assets/images/508b1c23b17edcfea74b878c316187c2.jpeg
+:100644 100644 bcab14a f61003c M	assets/images/51e7c03492ed63181c36c057a0cac20f.jpeg
+:100644 100644 bbe63f2 06d6940 M	assets/images/52defea6e4bf4f6f9d6b9fc3b5fa0ed9.jpeg
+:100644 100644 c2f3de8 54e595d M	assets/images/5a44e47c5c09f207f11a164e91a73ffd.jpeg
+:100644 100644 93584a5 d5ed030 M	assets/images/5c040a9dead068de85843e6738a7f2d3.jpeg
+:100644 100644 08e0483 3af67b6 M	assets/images/628efddc21d234c06e66240325c44426.jpeg
+:100644 100644 f3e5921 e611d1d M	assets/images/6c3bb9ebf6c96083a2c4a32f94b04578.jpeg
+:100644 100644 6865684 ecbd28d M	assets/images/6ce42d60bfc896f7720589b5e44b3cea.jpeg
+:100644 100644 41209ae 657c02d M	assets/images/72283869c0cbf51c397e2b113d8563fc.jpeg
+:100644 100644 47960b0 c17db7f M	assets/images/747f7f3aef8e9b0a50803598cf62bfeb.jpeg
+:100644 100644 1f248f5 5135d53 M	assets/images/752e2881d359abdbbe0aabdedd075375.jpeg
+:100644 100644 237aa41 c259be0 M	assets/images/76a27478d7b90a372dc324c54fb75067.jpeg
+:100644 100644 3a39910 1f68951 M	assets/images/7fd263dfd3f5e86d8b7088ae4498ab88.jpeg
+:100644 100644 c7ad67c cef84cf M	assets/images/818875ea685e70553829416bd56254c0.jpeg
+:100644 100644 42a911b 9f368ba M	assets/images/8202d52e862d7c502b5f2a1610fa4468.jpeg
+:100644 100644 075d924 caf896e M	assets/images/83a77c2a3679ef576238fae5a1b8fc77.jpeg
+:100644 100644 38862f8 94b51a0 M	assets/images/88b230b52b18517fab947c61c60643f4.jpeg
+:100644 100644 3368ad1 bd40ea9 M	assets/images/8c669d1631431622611f8a346d4424f1.jpeg
+:100644 100644 e661bc5 af067dc M	assets/images/91585918869935065ff0923c10f8511c.jpeg
+:100644 100644 72e6054 d1583d8 M	assets/images/969efa2f52a5073e3f1740ecf950cda8.jpeg
+:100644 100644 884dc3e c3ed87a M	assets/images/98699b4f537cfeeab6892f9d9464f135.jpeg
+:100644 100644 15848e6 91f30e1 M	assets/images/9ae7d201bb2597ee50813d931c7f73d8.jpeg
+:100644 100644 3e20605 28bfea7 M	assets/images/9eb776c2e1aa04e6f232963f0856e8a9.jpeg
+:100644 100644 1222d9c 58856ae M	assets/images/9efa8e57f87e9f1046c85d40e49998e7.jpeg
+:100644 100644 2c93f11 60d9305 M	assets/images/a111d2a84a37c483f34b564466aff554.jpeg
+:100644 100644 4151d47 f85c461 M	assets/images/a2cd21570dfa7f9b6860e38b3c9fc8d3.jpeg
+:100644 100644 e05d8d2 9d83106 M	assets/images/a38f35b7c33ead52672563cd69b4a33e.jpeg
+:100644 100644 0b0d747 949ebb2 M	assets/images/a3a89a0b5ee079c7456bdc0df2313eec.jpeg
+:100644 100644 7d578fb d0d0ba6 M	assets/images/a3ba9b5b75f0305b58dcd9a5a1a1ea67.jpeg
+:100644 100644 939ed7f b5183a1 M	assets/images/a51a5c7ac15de774417574337a986f3c.jpeg
+:100644 100644 160f4b3 83f58d2 M	assets/images/a738b6fe7373feb5c4803d5b29859123.jpeg
+:100644 100644 270c8aa 07e134b M	assets/images/a85fb98720bc72dead261051b754042e.jpeg
+:100644 100644 1f74cbb 0fe6639 M	assets/images/a9a5165a92faf4fd8327dadf46057e2c.jpeg
+:100644 100644 b6a9d49 6a7b0d2 M	assets/images/aa4bec3feb385c931ef8919984fe4180.jpeg
+:100644 100644 dc0fb53 bdc25c9 M	assets/images/ab25ae75a5008de3ea12b8dfff3f3657.jpeg
+:100644 100644 82fb44d 9664980 M	assets/images/b1e98dff0a2e1b1289dff05d8b39de4c.jpeg
+:100644 100644 d5fc1bd eff8a48 M	assets/images/b3340c4c80e3e85f0cda8b1867518978.jpeg
+:100644 100644 9dad611 c672327 M	assets/images/b8a6b79f2d52d44aae1437cdea6c803c.jpeg
+:100644 100644 983f690 3a78db1 M	assets/images/bcc9ab6734eda80eb14cb1c7a59b09df.jpeg
+:100644 100644 99f3953 2306067 M	assets/images/bfc005420880835e0984f7f70106a69f.jpeg
+:100644 100644 38f2ea9 56236bc M	assets/images/c290a2eb412d932e394a8e64176118bf.jpeg
+:100644 100644 daa360e 7314875 M	assets/images/c2a2ffbc2669432f55ebc9420d66ccc3.jpeg
+:100644 100644 223af91 37ea5d5 M	assets/images/c9ef09c261e8a9c5a8ae5df29e405143.jpeg
+:100644 100644 95c1336 41fba31 M	assets/images/cbfff24e346a28702c24442df3566c9d.jpeg
+:100644 100644 bdba449 e8a1f86 M	assets/images/cccc84632104497cb971766bc7bf56b3.jpeg
+:100644 100644 21aa034 549825b M	assets/images/cd74a7783d56263857c2eecdf750bfb2.jpeg
+:100644 100644 8e5d1c4 498443a M	assets/images/cf9a31313144607395c0e68c37ed24d7.jpeg
+:100644 100644 6e24cac 360a432 M	assets/images/d2e04c902e2a8203022e2a61afc497e6.jpeg
+:100644 100644 3aaafa7 fb0ec1a M	assets/images/d376a00cf6767f605d314cb8b8f17f9e.jpeg
+:100644 100644 c7213f1 201cf0f M	assets/images/deae4315c2a4695e623731aa1c9a9e8a.jpeg
+:100644 100644 e014e77 5826c80 M	assets/images/decfdb1f76a83e7c3bba7d6040e5b2dd.jpeg
+:100644 100644 fd11b2b e5bd700 M	assets/images/e25597d2255d74a8d947d1916c0a8dc7.jpeg
+:100644 100644 b1a89aa e7405e5 M	assets/images/e321822085592bab6df847b5bfb0ab87.jpeg
+:100644 100644 b819b23 a08691d M	assets/images/e33fddb7b02cd420316a02ff9ab59169.jpeg
+:100644 100644 a6f9274 b5a8a79 M	assets/images/e76ec65cbfd5fbfe80b29751562bf00d.jpeg
+:100644 100644 caa78fc 3a57667 M	assets/images/ef12f667a36156fdf054d504c1a45931.jpeg
+:100644 100644 6f1ca61 f04c382 M	assets/images/ef8ff48a67ec4ed6a432f4d916af13a0.jpeg
+:100644 100644 5257aff f4f9cd8 M	assets/images/f1ff886f7df5408753215421007d66bd.jpeg
+:100644 100644 113fd1b 66a4726 M	assets/images/f642d499b58cf6e4dfe92772201b352e.jpeg
+:100644 100644 53b2ff7 d5a14d9 M	assets/images/f9d66171742d557e6a0134ad134f0b8a.jpeg
+:100644 100644 984905c a8a0cdb M	assets/images/fb7b49dbe072d1c3aa285cbafae45b68.jpeg
+:100644 100644 83ca893 525927a M	assets/images/fbf59b9df2bfa17497c242a574a0a443.jpeg
+:100644 100644 8728384 16ae5b6 M	assets/images/fc43181e0e91e3134105465d81f75144.jpeg
+:100644 100644 6a4d47d ef4d4ce M	assets/images/icon-basketball.png
+:100644 100644 6ef34b0 3876f4b M	assets/images/icon-calendar-bg-white.png
+:100644 100644 a0b4e38 989a640 M	assets/images/icon-calendar.png
+:100644 100644 8609075 daba241 M	assets/images/icon-careers-bg-white.png
+:100644 100644 61a2929 e7aaf26 M	assets/images/icon-careers.png
+:100644 100644 0a6d163 c538a9d M	assets/images/icon-flag.png
+:100644 100644 01a1e48 b4e2b31 M	assets/images/icon-fundraising.png
+:100644 100644 7dab95a a6b6468 M	assets/images/icon-general-fitness-bg-white.png
+:100644 100644 fbd4404 b8e7a4e M	assets/images/icon-generalcamp.png
+:100644 100644 fe060b9 b36d8a3 M	assets/images/icon-grape.png
+:100644 100644 f39f09e 27aa529 M	assets/images/icon-handshake.png
+:100644 100644 b83202b f2ac4e2 M	assets/images/icon-heartbeat.png
+:100644 100644 41df6c0 33dc558 M	assets/images/icon-kids.png
+:100644 100644 42d113b c6d914e M	assets/images/icon-mail.png
+:100644 100644 31a25b0 702b130 M	assets/images/icon-membership-bg-white.png
+:100644 100644 5e694a6 dda4a91 M	assets/images/icon-membership.png
+:100644 100644 64a6351 eaa313f M	assets/images/icon-partnership-bg-white.png
+:100644 100644 267862a fdfaab1 M	assets/images/icon-phone.png
+:100644 100644 fea72e2 d902264 M	assets/images/icon-responsibility.png
+:100644 100644 963b659 9c6efa0 M	assets/images/icon-soccer-bg-white.png
+:100644 100644 99fecaa ea434c8 M	assets/images/icon-soccer.png
+:100644 100644 2eaea86 8f27b18 M	assets/images/icon-sports-aerobics.png
+:100644 100644 7ed68f9 a9aec78 M	assets/images/icon-sports-climbing.png
+:100644 100644 fd1cc8e 4612e74 M	assets/images/icon-sports-yoga.png
+:100644 100644 2735c01 411c043 M	assets/images/icon-swimming.png
+:100644 100644 6c38d11 4cddd0d M	assets/images/icon-volunteerism-bg-white.png
+:100644 100644 13f581b 3d9eeb3 M	assets/images/icon-volunteerism.png
+:100644 100644 9b3a310 1351053 M	assets/images/icon-wire.png
+:100644 100644 60418b2 e991d8b M	assets/images/icon-youthdevelopment-bg-white.png
+:100644 100644 5b82e8b 3443df9 M	assets/images/icon-youthdevelopment.png
+:100644 100644 008c2f4 b3da7ce M	assets/images/logo-ab5cc8314658dcbce4226affc4772f78.jpg
+:100644 100644 dc9ae1c dca27e2 M	assets/images/logo-dc5cc8314658dcbce4536affc4772f78.png
+:100644 100644 9298f0c 0f03ce1 M	assets/images/logo-dc5cc9314658dcbad4536affc4772f78.jpg
+:100644 100644 02a0777 5ae5e95 M	assets/images/logo-dc8cc8314658dcbce4536afac4772f78.jpg
+ .../images/01043122af208d09f0006d0b56f8ccac.jpeg   | Bin 676447 -> 385583 bytes
+ .../images/0c2e643554a85c0d985cc7c2800c9c15.jpeg   | Bin 470427 -> 280854 bytes
+ .../images/1008a5283f4fc8b0374fbbab78d034f4.jpeg   | Bin 948595 -> 483892 bytes
+ .../images/10ad1686d46fdda3cd66173fb2771b4c.jpeg   | Bin 1049659 -> 557747 bytes
+ .../images/120fc9507c3b13faa809f14c1796c04e.jpeg   | Bin 505939 -> 361149 bytes
+ .../images/14f0a0ca67a74e24583ac88bdeb05a77.jpeg   | Bin 1387097 -> 796317 bytes
+ .../images/15afb3e70e4b1e2ae4b2ec51a6db876d.jpeg   | Bin 811023 -> 443374 bytes
+ .../images/16f6a90318a46adb0b11ed6730e24300.jpeg   | Bin 1056483 -> 562835 bytes
+ .../images/1e3567e9ecd1db19c9e23461fc090926.jpeg   | Bin 1185158 -> 846703 bytes
+ .../images/1ee1c49e5aae525799456af0c67ac5a8.jpeg   | Bin 867703 -> 486261 bytes
+ .../images/217ea1ced3b93ff7412464a8abbfbb98.jpeg   | Bin 1979525 -> 1578600 bytes
+ .../images/218381245a187a7275dbeb9ee963c502.jpeg   | Bin 1234733 -> 753673 bytes
+ .../images/27bbd895877ff2653733e9f1d6e7419e.jpeg   | Bin 1104359 -> 640231 bytes
+ .../images/2e4a44bbb7ae69a87fac3e48d64757b1.jpeg   | Bin 689928 -> 388408 bytes
+ .../images/2ed97746554fdff700bb12717485a642.jpeg   | Bin 823132 -> 576102 bytes
+ .../images/2fc092e291b6f3df144b46ac833a900c.jpeg   | Bin 103584 -> 72439 bytes
+ .../images/308bb99f95a24c97827db582c1766a14.jpeg   | Bin 951862 -> 477729 bytes
+ .../images/31d583df14b9bc0678ff13b62440c1f3.jpeg   | Bin 986479 -> 572713 bytes
+ .../images/325d1e492f917f3a5bd46156e3a3c08a.jpeg   | Bin 914111 -> 425564 bytes
+ .../images/3a15b4653bc75bc2576c777b3c7dcb96.jpeg   | Bin 1000421 -> 564440 bytes
+ .../images/3c5682cd54969eedb39de59cf781762d.jpeg   | Bin 618068 -> 354345 bytes
+ .../images/41cd8f1917f5bb5dd2fba73d0444a85c.jpeg   | Bin 804271 -> 429809 bytes
+ .../images/492f1ac9211f0c81b4de47bc41c95bf7.jpeg   | Bin 597240 -> 329337 bytes
+ .../images/4e6f6ba946dd75008073b141a5bac658.jpeg   | Bin 988931 -> 593869 bytes
+ .../images/508b1c23b17edcfea74b878c316187c2.jpeg   | Bin 1022739 -> 568393 bytes
+ .../images/51e7c03492ed63181c36c057a0cac20f.jpeg   | Bin 1156187 -> 684953 bytes
+ .../images/52defea6e4bf4f6f9d6b9fc3b5fa0ed9.jpeg   | Bin 703042 -> 394421 bytes
+ .../images/5a44e47c5c09f207f11a164e91a73ffd.jpeg   | Bin 1658356 -> 1038741 bytes
+ .../images/5c040a9dead068de85843e6738a7f2d3.jpeg   | Bin 585737 -> 420264 bytes
+ .../images/628efddc21d234c06e66240325c44426.jpeg   | Bin 931619 -> 644947 bytes
+ .../images/6c3bb9ebf6c96083a2c4a32f94b04578.jpeg   | Bin 455344 -> 262410 bytes
+ .../images/6ce42d60bfc896f7720589b5e44b3cea.jpeg   | Bin 550803 -> 383883 bytes
+ .../images/72283869c0cbf51c397e2b113d8563fc.jpeg   | Bin 748381 -> 532703 bytes
+ .../images/747f7f3aef8e9b0a50803598cf62bfeb.jpeg   | Bin 700421 -> 406263 bytes
+ .../images/752e2881d359abdbbe0aabdedd075375.jpeg   | Bin 579938 -> 299465 bytes
+ .../images/76a27478d7b90a372dc324c54fb75067.jpeg   | Bin 593643 -> 413905 bytes
+ .../images/7fd263dfd3f5e86d8b7088ae4498ab88.jpeg   | Bin 670344 -> 374559 bytes
+ .../images/818875ea685e70553829416bd56254c0.jpeg   | Bin 629281 -> 359251 bytes
+ .../images/8202d52e862d7c502b5f2a1610fa4468.jpeg   | Bin 548358 -> 298787 bytes
+ .../images/83a77c2a3679ef576238fae5a1b8fc77.jpeg   | Bin 727705 -> 394724 bytes
+ .../images/88b230b52b18517fab947c61c60643f4.jpeg   | Bin 34304 -> 24261 bytes
+ .../images/8c669d1631431622611f8a346d4424f1.jpeg   | Bin 3130532 -> 1853011 bytes
+ .../images/91585918869935065ff0923c10f8511c.jpeg   | Bin 380328 -> 265094 bytes
+ .../images/969efa2f52a5073e3f1740ecf950cda8.jpeg   | Bin 924652 -> 535001 bytes
+ .../images/98699b4f537cfeeab6892f9d9464f135.jpeg   | Bin 435180 -> 241037 bytes
+ .../images/9ae7d201bb2597ee50813d931c7f73d8.jpeg   | Bin 41962 -> 29536 bytes
+ .../images/9eb776c2e1aa04e6f232963f0856e8a9.jpeg   | Bin 1044369 -> 531292 bytes
+ .../images/9efa8e57f87e9f1046c85d40e49998e7.jpeg   | Bin 500543 -> 276658 bytes
+ .../images/a111d2a84a37c483f34b564466aff554.jpeg   | Bin 1839541 -> 1220599 bytes
+ .../images/a2cd21570dfa7f9b6860e38b3c9fc8d3.jpeg   | Bin 836468 -> 457861 bytes
+ .../images/a38f35b7c33ead52672563cd69b4a33e.jpeg   | Bin 925428 -> 496352 bytes
+ .../images/a3a89a0b5ee079c7456bdc0df2313eec.jpeg   | Bin 1032268 -> 554117 bytes
+ .../images/a3ba9b5b75f0305b58dcd9a5a1a1ea67.jpeg   | Bin 628115 -> 355625 bytes
+ .../images/a51a5c7ac15de774417574337a986f3c.jpeg   | Bin 547692 -> 323309 bytes
+ .../images/a738b6fe7373feb5c4803d5b29859123.jpeg   | Bin 680626 -> 358570 bytes
+ .../images/a85fb98720bc72dead261051b754042e.jpeg   | Bin 677709 -> 384027 bytes
+ .../images/a9a5165a92faf4fd8327dadf46057e2c.jpeg   | Bin 1499392 -> 895487 bytes
+ .../images/aa4bec3feb385c931ef8919984fe4180.jpeg   | Bin 497676 -> 349566 bytes
+ .../images/ab25ae75a5008de3ea12b8dfff3f3657.jpeg   | Bin 727895 -> 385187 bytes
+ .../images/b1e98dff0a2e1b1289dff05d8b39de4c.jpeg   | Bin 743186 -> 416241 bytes
+ .../images/b3340c4c80e3e85f0cda8b1867518978.jpeg   | Bin 765439 -> 370545 bytes
+ .../images/b8a6b79f2d52d44aae1437cdea6c803c.jpeg   | Bin 622536 -> 354718 bytes
+ .../images/bcc9ab6734eda80eb14cb1c7a59b09df.jpeg   | Bin 746820 -> 402632 bytes
+ .../images/bfc005420880835e0984f7f70106a69f.jpeg   | Bin 644798 -> 362517 bytes
+ .../images/c290a2eb412d932e394a8e64176118bf.jpeg   | Bin 1778620 -> 894729 bytes
+ .../images/c2a2ffbc2669432f55ebc9420d66ccc3.jpeg   | Bin 499683 -> 283263 bytes
+ .../images/c9ef09c261e8a9c5a8ae5df29e405143.jpeg   | Bin 754792 -> 416457 bytes
+ .../images/cbfff24e346a28702c24442df3566c9d.jpeg   | Bin 1278182 -> 696023 bytes
+ .../images/cccc84632104497cb971766bc7bf56b3.jpeg   | Bin 945872 -> 682537 bytes
+ .../images/cd74a7783d56263857c2eecdf750bfb2.jpeg   | Bin 717450 -> 368252 bytes
+ .../images/cf9a31313144607395c0e68c37ed24d7.jpeg   | Bin 533122 -> 278272 bytes
+ .../images/d2e04c902e2a8203022e2a61afc497e6.jpeg   | Bin 1335372 -> 806594 bytes
+ .../images/d376a00cf6767f605d314cb8b8f17f9e.jpeg   | Bin 718963 -> 375426 bytes
+ .../images/deae4315c2a4695e623731aa1c9a9e8a.jpeg   | Bin 1006611 -> 545056 bytes
+ .../images/decfdb1f76a83e7c3bba7d6040e5b2dd.jpeg   | Bin 772153 -> 511444 bytes
+ .../images/e25597d2255d74a8d947d1916c0a8dc7.jpeg   | Bin 1274978 -> 645558 bytes
+ .../images/e321822085592bab6df847b5bfb0ab87.jpeg   | Bin 826739 -> 537966 bytes
+ .../images/e33fddb7b02cd420316a02ff9ab59169.jpeg   | Bin 1279817 -> 748252 bytes
+ .../images/e76ec65cbfd5fbfe80b29751562bf00d.jpeg   | Bin 1206797 -> 688406 bytes
+ .../images/ef12f667a36156fdf054d504c1a45931.jpeg   | Bin 650531 -> 370247 bytes
+ .../images/ef8ff48a67ec4ed6a432f4d916af13a0.jpeg   | Bin 832963 -> 421050 bytes
+ .../images/f1ff886f7df5408753215421007d66bd.jpeg   | Bin 1085358 -> 583284 bytes
+ .../images/f642d499b58cf6e4dfe92772201b352e.jpeg   | Bin 729687 -> 398059 bytes
+ .../images/f9d66171742d557e6a0134ad134f0b8a.jpeg   | Bin 567590 -> 416590 bytes
+ .../images/fb7b49dbe072d1c3aa285cbafae45b68.jpeg   | Bin 796485 -> 460118 bytes
+ .../images/fbf59b9df2bfa17497c242a574a0a443.jpeg   | Bin 750618 -> 545448 bytes
+ .../images/fc43181e0e91e3134105465d81f75144.jpeg   | Bin 47882 -> 48743 bytes
+ assets/images/icon-basketball.png                  | Bin 4442 -> 5399 bytes
+ assets/images/icon-calendar-bg-white.png           | Bin 3103 -> 3904 bytes
+ assets/images/icon-calendar.png                    | Bin 2474 -> 2907 bytes
+ assets/images/icon-careers-bg-white.png            | Bin 2952 -> 3734 bytes
+ assets/images/icon-careers.png                     | Bin 2992 -> 3776 bytes
+ assets/images/icon-flag.png                        | Bin 3753 -> 4661 bytes
+ assets/images/icon-fundraising.png                 | Bin 4311 -> 5334 bytes
+ assets/images/icon-general-fitness-bg-white.png    | Bin 4200 -> 5269 bytes
+ assets/images/icon-generalcamp.png                 | Bin 3735 -> 4725 bytes
+ assets/images/icon-grape.png                       | Bin 3032 -> 3856 bytes
+ assets/images/icon-handshake.png                   | Bin 4487 -> 5442 bytes
+ assets/images/icon-heartbeat.png                   | Bin 4304 -> 5316 bytes
+ assets/images/icon-kids.png                        | Bin 4789 -> 5830 bytes
+ assets/images/icon-mail.png                        | Bin 3255 -> 4389 bytes
+ assets/images/icon-membership-bg-white.png         | Bin 3693 -> 4594 bytes
+ assets/images/icon-membership.png                  | Bin 3856 -> 4727 bytes
+ assets/images/icon-partnership-bg-white.png        | Bin 4435 -> 5400 bytes
+ assets/images/icon-phone.png                       | Bin 3076 -> 4135 bytes
+ assets/images/icon-responsibility.png              | Bin 5614 -> 6676 bytes
+ assets/images/icon-soccer-bg-white.png             | Bin 3883 -> 4927 bytes
+ assets/images/icon-soccer.png                      | Bin 3959 -> 5034 bytes
+ assets/images/icon-sports-aerobics.png             | Bin 4473 -> 5603 bytes
+ assets/images/icon-sports-climbing.png             | Bin 4165 -> 5205 bytes
+ assets/images/icon-sports-yoga.png                 | Bin 4146 -> 5167 bytes
+ assets/images/icon-swimming.png                    | Bin 4104 -> 5167 bytes
+ assets/images/icon-volunteerism-bg-white.png       | Bin 3617 -> 4531 bytes
+ assets/images/icon-volunteerism.png                | Bin 3645 -> 4570 bytes
+ assets/images/icon-wire.png                        | Bin 4369 -> 5639 bytes
+ assets/images/icon-youthdevelopment-bg-white.png   | Bin 4313 -> 5366 bytes
+ assets/images/icon-youthdevelopment.png            | Bin 4717 -> 5641 bytes
+ .../logo-ab5cc8314658dcbce4226affc4772f78.jpg      | Bin 879 -> 2897 bytes
+ .../logo-dc5cc8314658dcbce4536affc4772f78.png      | Bin 1875 -> 2406 bytes
+ .../logo-dc5cc9314658dcbad4536affc4772f78.jpg      | Bin 1755 -> 3789 bytes
+ .../logo-dc8cc8314658dcbce4536afac4772f78.jpg      | Bin 862 -> 2886 bytes
+ 121 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 6fc404be18092276d5024b7d6d376ad3ce48d423
+Merge: 4b544c0 b2d2665
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Thu Nov 16 17:06:25 2023 +0200
+
+    Merge pull request #28 from YCloudYUSA/v3
+    
+    V3 into main
+
+commit b2d2665f05bec474fb065029fee0a95a456b71a2
+Merge: 24911e3 2fb727b
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Thu Nov 16 17:06:11 2023 +0200
+
+    Merge pull request #29 from froboy/shrink-images
+    
+    fix: DS-1187 Shrink images with imageoptim
+
+commit 2fb727bd42e71c5fa778833f43ba765eaf5901aa
+Author: Avi Schwab <froboy@gmail.com>
+Date:   Thu Nov 16 08:53:58 2023 -0600
+
+    fix: DS-1187 Shrink images with imageoptim
+
+:100644 100644 4ec7ea3 b22bd54 M	assets/images/01043122af208d09f0006d0b56f8ccac.jpeg
+:100644 100644 2637790 895454e M	assets/images/0c2e643554a85c0d985cc7c2800c9c15.jpeg
+:100644 100644 3511c69 ba08a5e M	assets/images/1008a5283f4fc8b0374fbbab78d034f4.jpeg
+:100644 100644 460d6cb 98fef00 M	assets/images/10ad1686d46fdda3cd66173fb2771b4c.jpeg
+:100644 100644 0cc37da 86ad192 M	assets/images/120fc9507c3b13faa809f14c1796c04e.jpeg
+:100644 100644 2e39bbb 8992bef M	assets/images/14f0a0ca67a74e24583ac88bdeb05a77.jpeg
+:100644 100644 cbcead8 e1a91ad M	assets/images/15afb3e70e4b1e2ae4b2ec51a6db876d.jpeg
+:100644 100644 b2ee315 f56752c M	assets/images/16f6a90318a46adb0b11ed6730e24300.jpeg
+:100644 100644 1a8f0cd 0df259b M	assets/images/1e3567e9ecd1db19c9e23461fc090926.jpeg
+:100644 100644 4207465 df84c1c M	assets/images/1ee1c49e5aae525799456af0c67ac5a8.jpeg
+:100644 100644 c9c15bc 104559a M	assets/images/217ea1ced3b93ff7412464a8abbfbb98.jpeg
+:100644 100644 b306fd1 eb8bfa0 M	assets/images/218381245a187a7275dbeb9ee963c502.jpeg
+:100644 100644 d3bd0c0 42e8d75 M	assets/images/27bbd895877ff2653733e9f1d6e7419e.jpeg
+:100644 100644 eea8d5e 44ea00c M	assets/images/2e4a44bbb7ae69a87fac3e48d64757b1.jpeg
+:100644 100644 4aeb918 c67d371 M	assets/images/2ed97746554fdff700bb12717485a642.jpeg
+:100644 100644 3a6516b 3e80139 M	assets/images/2fc092e291b6f3df144b46ac833a900c.jpeg
+:100644 100644 6d3ac9e 2cadbfb M	assets/images/308bb99f95a24c97827db582c1766a14.jpeg
+:100644 100644 7303972 973b903 M	assets/images/31d583df14b9bc0678ff13b62440c1f3.jpeg
+:100644 100644 876fef6 38cbb0d M	assets/images/325d1e492f917f3a5bd46156e3a3c08a.jpeg
+:100644 100644 107624c 4e0e4cb M	assets/images/3a15b4653bc75bc2576c777b3c7dcb96.jpeg
+:100644 100644 6763288 0dd0db6 M	assets/images/3c5682cd54969eedb39de59cf781762d.jpeg
+:100644 100644 ad5350e cc1e811 M	assets/images/41cd8f1917f5bb5dd2fba73d0444a85c.jpeg
+:100644 100644 f19bce9 d140e78 M	assets/images/492f1ac9211f0c81b4de47bc41c95bf7.jpeg
+:100644 100644 1d641d3 433827b M	assets/images/4e6f6ba946dd75008073b141a5bac658.jpeg
+:100644 100644 c36647d 24c66e5 M	assets/images/508b1c23b17edcfea74b878c316187c2.jpeg
+:100644 100644 3096b8d bcab14a M	assets/images/51e7c03492ed63181c36c057a0cac20f.jpeg
+:100644 100644 b975009 bbe63f2 M	assets/images/52defea6e4bf4f6f9d6b9fc3b5fa0ed9.jpeg
+:100644 100644 31c9972 c2f3de8 M	assets/images/5a44e47c5c09f207f11a164e91a73ffd.jpeg
+:100644 100644 dc6b5d8 93584a5 M	assets/images/5c040a9dead068de85843e6738a7f2d3.jpeg
+:100644 100644 44123f5 08e0483 M	assets/images/628efddc21d234c06e66240325c44426.jpeg
+:100644 100644 e558aa5 f3e5921 M	assets/images/6c3bb9ebf6c96083a2c4a32f94b04578.jpeg
+:100644 100644 30c013d 6865684 M	assets/images/6ce42d60bfc896f7720589b5e44b3cea.jpeg
+:100644 100644 a8cc900 41209ae M	assets/images/72283869c0cbf51c397e2b113d8563fc.jpeg
+:100644 100644 55d4de2 47960b0 M	assets/images/747f7f3aef8e9b0a50803598cf62bfeb.jpeg
+:100644 100644 b461c81 1f248f5 M	assets/images/752e2881d359abdbbe0aabdedd075375.jpeg
+:100644 100644 b32b782 237aa41 M	assets/images/76a27478d7b90a372dc324c54fb75067.jpeg
+:100644 100644 aa9ce19 3a39910 M	assets/images/7fd263dfd3f5e86d8b7088ae4498ab88.jpeg
+:100644 100644 a823f47 c7ad67c M	assets/images/818875ea685e70553829416bd56254c0.jpeg
+:100644 100644 c314a50 42a911b M	assets/images/8202d52e862d7c502b5f2a1610fa4468.jpeg
+:100644 100644 ed25605 075d924 M	assets/images/83a77c2a3679ef576238fae5a1b8fc77.jpeg
+:100644 100644 3ccd3ca 38862f8 M	assets/images/88b230b52b18517fab947c61c60643f4.jpeg
+:100644 100644 d2f7674 3368ad1 M	assets/images/8c669d1631431622611f8a346d4424f1.jpeg
+:100644 100644 737c9f2 e661bc5 M	assets/images/91585918869935065ff0923c10f8511c.jpeg
+:100644 100644 015efa7 72e6054 M	assets/images/969efa2f52a5073e3f1740ecf950cda8.jpeg
+:100644 100644 d08213d 884dc3e M	assets/images/98699b4f537cfeeab6892f9d9464f135.jpeg
+:100644 100644 8b7579f 15848e6 M	assets/images/9ae7d201bb2597ee50813d931c7f73d8.jpeg
+:100644 100644 9ab5a8b 3e20605 M	assets/images/9eb776c2e1aa04e6f232963f0856e8a9.jpeg
+:100644 100644 2d7bcaa 1222d9c M	assets/images/9efa8e57f87e9f1046c85d40e49998e7.jpeg
+:100644 100644 76f8db9 2c93f11 M	assets/images/a111d2a84a37c483f34b564466aff554.jpeg
+:100644 100644 63af7af 4151d47 M	assets/images/a2cd21570dfa7f9b6860e38b3c9fc8d3.jpeg
+:100644 100644 a040baa e05d8d2 M	assets/images/a38f35b7c33ead52672563cd69b4a33e.jpeg
+:100644 100644 867ed9a 0b0d747 M	assets/images/a3a89a0b5ee079c7456bdc0df2313eec.jpeg
+:100644 100644 85d78c8 7d578fb M	assets/images/a3ba9b5b75f0305b58dcd9a5a1a1ea67.jpeg
+:100644 100644 843551d 939ed7f M	assets/images/a51a5c7ac15de774417574337a986f3c.jpeg
+:100644 100644 33b07b6 160f4b3 M	assets/images/a738b6fe7373feb5c4803d5b29859123.jpeg
+:100644 100644 74b8120 270c8aa M	assets/images/a85fb98720bc72dead261051b754042e.jpeg
+:100644 100644 8b2b897 1f74cbb M	assets/images/a9a5165a92faf4fd8327dadf46057e2c.jpeg
+:100644 100644 8c28174 b6a9d49 M	assets/images/aa4bec3feb385c931ef8919984fe4180.jpeg
+:100644 100644 c8c2a4f dc0fb53 M	assets/images/ab25ae75a5008de3ea12b8dfff3f3657.jpeg
+:100644 100644 822cfaa 82fb44d M	assets/images/b1e98dff0a2e1b1289dff05d8b39de4c.jpeg
+:100644 100644 785d0e7 d5fc1bd M	assets/images/b3340c4c80e3e85f0cda8b1867518978.jpeg
+:100644 100644 200686c 9dad611 M	assets/images/b8a6b79f2d52d44aae1437cdea6c803c.jpeg
+:100644 100644 0cd3c7b 983f690 M	assets/images/bcc9ab6734eda80eb14cb1c7a59b09df.jpeg
+:100644 100644 2abf173 99f3953 M	assets/images/bfc005420880835e0984f7f70106a69f.jpeg
+:100644 100644 8b8ac2e 38f2ea9 M	assets/images/c290a2eb412d932e394a8e64176118bf.jpeg
+:100644 100644 bc505a3 daa360e M	assets/images/c2a2ffbc2669432f55ebc9420d66ccc3.jpeg
+:100644 100644 8f616ce 223af91 M	assets/images/c9ef09c261e8a9c5a8ae5df29e405143.jpeg
+:100644 100644 133eaf2 95c1336 M	assets/images/cbfff24e346a28702c24442df3566c9d.jpeg
+:100644 100644 fcb882b bdba449 M	assets/images/cccc84632104497cb971766bc7bf56b3.jpeg
+:100644 100644 9d5912b 21aa034 M	assets/images/cd74a7783d56263857c2eecdf750bfb2.jpeg
+:100644 100644 25bdc38 8e5d1c4 M	assets/images/cf9a31313144607395c0e68c37ed24d7.jpeg
+:100644 100644 e9e4ea2 6e24cac M	assets/images/d2e04c902e2a8203022e2a61afc497e6.jpeg
+:100644 100644 9af45a5 3aaafa7 M	assets/images/d376a00cf6767f605d314cb8b8f17f9e.jpeg
+:100644 100644 c8cfa07 c7213f1 M	assets/images/deae4315c2a4695e623731aa1c9a9e8a.jpeg
+:100644 100644 1580e02 e014e77 M	assets/images/decfdb1f76a83e7c3bba7d6040e5b2dd.jpeg
+:100644 100644 b0bd394 fd11b2b M	assets/images/e25597d2255d74a8d947d1916c0a8dc7.jpeg
+:100644 100644 aca237e b1a89aa M	assets/images/e321822085592bab6df847b5bfb0ab87.jpeg
+:100644 100644 33cb511 b819b23 M	assets/images/e33fddb7b02cd420316a02ff9ab59169.jpeg
+:100644 100644 a3d3877 a6f9274 M	assets/images/e76ec65cbfd5fbfe80b29751562bf00d.jpeg
+:100644 100644 1ff26bb caa78fc M	assets/images/ef12f667a36156fdf054d504c1a45931.jpeg
+:100644 100644 0fea159 6f1ca61 M	assets/images/ef8ff48a67ec4ed6a432f4d916af13a0.jpeg
+:100644 100644 5cf5a9a 5257aff M	assets/images/f1ff886f7df5408753215421007d66bd.jpeg
+:100644 100644 c279cb3 113fd1b M	assets/images/f642d499b58cf6e4dfe92772201b352e.jpeg
+:100644 100644 12af1e4 53b2ff7 M	assets/images/f9d66171742d557e6a0134ad134f0b8a.jpeg
+:100644 100644 f58d604 984905c M	assets/images/fb7b49dbe072d1c3aa285cbafae45b68.jpeg
+:100644 100644 194d4c6 83ca893 M	assets/images/fbf59b9df2bfa17497c242a574a0a443.jpeg
+:100644 100644 7fb78c5 8728384 M	assets/images/fc43181e0e91e3134105465d81f75144.jpeg
+:100644 100644 54e9143 6a4d47d M	assets/images/icon-basketball.png
+:100644 100644 4b6feb4 6ef34b0 M	assets/images/icon-calendar-bg-white.png
+:100644 100644 1da2af9 a0b4e38 M	assets/images/icon-calendar.png
+:100644 100644 c3fcab7 8609075 M	assets/images/icon-careers-bg-white.png
+:100644 100644 c281ac4 61a2929 M	assets/images/icon-careers.png
+:100644 100644 5da3b3f 0a6d163 M	assets/images/icon-flag.png
+:100644 100644 f4925fc 01a1e48 M	assets/images/icon-fundraising.png
+:100644 100644 32a5e17 7dab95a M	assets/images/icon-general-fitness-bg-white.png
+:100644 100644 5fd53e3 fbd4404 M	assets/images/icon-generalcamp.png
+:100644 100644 ec3da81 fe060b9 M	assets/images/icon-grape.png
+:100644 100644 c8ad8b3 f39f09e M	assets/images/icon-handshake.png
+:100644 100644 16108bb b83202b M	assets/images/icon-heartbeat.png
+:100644 100644 5e7ef51 41df6c0 M	assets/images/icon-kids.png
+:100644 100644 e498f6f 42d113b M	assets/images/icon-mail.png
+:100644 100644 6bbcb4a 31a25b0 M	assets/images/icon-membership-bg-white.png
+:100644 100644 0a6424c 5e694a6 M	assets/images/icon-membership.png
+:100644 100644 2b3a608 64a6351 M	assets/images/icon-partnership-bg-white.png
+:100644 100644 081b65d 267862a M	assets/images/icon-phone.png
+:100644 100644 353c1c1 fea72e2 M	assets/images/icon-responsibility.png
+:100644 100644 45753b9 963b659 M	assets/images/icon-soccer-bg-white.png
+:100644 100644 725f60b 99fecaa M	assets/images/icon-soccer.png
+:100644 100644 fc678a6 2eaea86 M	assets/images/icon-sports-aerobics.png
+:100644 100644 7233f7d 7ed68f9 M	assets/images/icon-sports-climbing.png
+:100644 100644 3ca3a6c fd1cc8e M	assets/images/icon-sports-yoga.png
+:100644 100644 480243f 2735c01 M	assets/images/icon-swimming.png
+:100644 100644 30d850a 6c38d11 M	assets/images/icon-volunteerism-bg-white.png
+:100644 100644 8f06fd9 13f581b M	assets/images/icon-volunteerism.png
+:100644 100644 fd24ac4 9b3a310 M	assets/images/icon-wire.png
+:100644 100644 a761462 60418b2 M	assets/images/icon-youthdevelopment-bg-white.png
+:100644 100644 b1b50dc 5b82e8b M	assets/images/icon-youthdevelopment.png
+:100644 100644 308941f 008c2f4 M	assets/images/logo-ab5cc8314658dcbce4226affc4772f78.jpg
+:100644 100644 4c24ff0 dc9ae1c M	assets/images/logo-dc5cc8314658dcbce4536affc4772f78.png
+:100644 100644 a225fc8 9298f0c M	assets/images/logo-dc5cc9314658dcbad4536affc4772f78.jpg
+:100644 100644 5c24c13 02a0777 M	assets/images/logo-dc8cc8314658dcbce4536afac4772f78.jpg
+ .../images/01043122af208d09f0006d0b56f8ccac.jpeg   | Bin 7421624 -> 676447 bytes
+ .../images/0c2e643554a85c0d985cc7c2800c9c15.jpeg   | Bin 5714847 -> 470427 bytes
+ .../images/1008a5283f4fc8b0374fbbab78d034f4.jpeg   | Bin 8600828 -> 948595 bytes
+ .../images/10ad1686d46fdda3cd66173fb2771b4c.jpeg   | Bin 11591893 -> 1049659 bytes
+ .../images/120fc9507c3b13faa809f14c1796c04e.jpeg   | Bin 979590 -> 505939 bytes
+ .../images/14f0a0ca67a74e24583ac88bdeb05a77.jpeg   | Bin 12406736 -> 1387097 bytes
+ .../images/15afb3e70e4b1e2ae4b2ec51a6db876d.jpeg   | Bin 11154906 -> 811023 bytes
+ .../images/16f6a90318a46adb0b11ed6730e24300.jpeg   | Bin 12080044 -> 1056483 bytes
+ .../images/1e3567e9ecd1db19c9e23461fc090926.jpeg   | Bin 3406679 -> 1185158 bytes
+ .../images/1ee1c49e5aae525799456af0c67ac5a8.jpeg   | Bin 11152040 -> 867703 bytes
+ .../images/217ea1ced3b93ff7412464a8abbfbb98.jpeg   | Bin 8476867 -> 1979525 bytes
+ .../images/218381245a187a7275dbeb9ee963c502.jpeg   | Bin 10957013 -> 1234733 bytes
+ .../images/27bbd895877ff2653733e9f1d6e7419e.jpeg   | Bin 10827437 -> 1104359 bytes
+ .../images/2e4a44bbb7ae69a87fac3e48d64757b1.jpeg   | Bin 10388204 -> 689928 bytes
+ .../images/2ed97746554fdff700bb12717485a642.jpeg   | Bin 5578509 -> 823132 bytes
+ .../images/2fc092e291b6f3df144b46ac833a900c.jpeg   | Bin 198070 -> 103584 bytes
+ .../images/308bb99f95a24c97827db582c1766a14.jpeg   | Bin 8524673 -> 951862 bytes
+ .../images/31d583df14b9bc0678ff13b62440c1f3.jpeg   | Bin 9818529 -> 986479 bytes
+ .../images/325d1e492f917f3a5bd46156e3a3c08a.jpeg   | Bin 1930804 -> 914111 bytes
+ .../images/3a15b4653bc75bc2576c777b3c7dcb96.jpeg   | Bin 13735690 -> 1000421 bytes
+ .../images/3c5682cd54969eedb39de59cf781762d.jpeg   | Bin 7426859 -> 618068 bytes
+ .../images/41cd8f1917f5bb5dd2fba73d0444a85c.jpeg   | Bin 10248129 -> 804271 bytes
+ .../images/492f1ac9211f0c81b4de47bc41c95bf7.jpeg   | Bin 8405869 -> 597240 bytes
+ .../images/4e6f6ba946dd75008073b141a5bac658.jpeg   | Bin 8167242 -> 988931 bytes
+ .../images/508b1c23b17edcfea74b878c316187c2.jpeg   | Bin 11638515 -> 1022739 bytes
+ .../images/51e7c03492ed63181c36c057a0cac20f.jpeg   | Bin 2241946 -> 1156187 bytes
+ .../images/52defea6e4bf4f6f9d6b9fc3b5fa0ed9.jpeg   | Bin 10617512 -> 703042 bytes
+ .../images/5a44e47c5c09f207f11a164e91a73ffd.jpeg   | Bin 12696895 -> 1658356 bytes
+ .../images/5c040a9dead068de85843e6738a7f2d3.jpeg   | Bin 1286123 -> 585737 bytes
+ .../images/628efddc21d234c06e66240325c44426.jpeg   | Bin 7508157 -> 931619 bytes
+ .../images/6c3bb9ebf6c96083a2c4a32f94b04578.jpeg   | Bin 7408694 -> 455344 bytes
+ .../images/6ce42d60bfc896f7720589b5e44b3cea.jpeg   | Bin 1441303 -> 550803 bytes
+ .../images/72283869c0cbf51c397e2b113d8563fc.jpeg   | Bin 1711624 -> 748381 bytes
+ .../images/747f7f3aef8e9b0a50803598cf62bfeb.jpeg   | Bin 9506569 -> 700421 bytes
+ .../images/752e2881d359abdbbe0aabdedd075375.jpeg   | Bin 8016918 -> 579938 bytes
+ .../images/76a27478d7b90a372dc324c54fb75067.jpeg   | Bin 5114485 -> 593643 bytes
+ .../images/7fd263dfd3f5e86d8b7088ae4498ab88.jpeg   | Bin 1866860 -> 670344 bytes
+ .../images/818875ea685e70553829416bd56254c0.jpeg   | Bin 1316510 -> 629281 bytes
+ .../images/8202d52e862d7c502b5f2a1610fa4468.jpeg   | Bin 9585752 -> 548358 bytes
+ .../images/83a77c2a3679ef576238fae5a1b8fc77.jpeg   | Bin 8601004 -> 727705 bytes
+ .../images/88b230b52b18517fab947c61c60643f4.jpeg   | Bin 59071 -> 34304 bytes
+ .../images/8c669d1631431622611f8a346d4424f1.jpeg   | Bin 6240713 -> 3130532 bytes
+ .../images/91585918869935065ff0923c10f8511c.jpeg   | Bin 938565 -> 380328 bytes
+ .../images/969efa2f52a5073e3f1740ecf950cda8.jpeg   | Bin 9165403 -> 924652 bytes
+ .../images/98699b4f537cfeeab6892f9d9464f135.jpeg   | Bin 6658095 -> 435180 bytes
+ .../images/9ae7d201bb2597ee50813d931c7f73d8.jpeg   | Bin 321203 -> 41962 bytes
+ .../images/9eb776c2e1aa04e6f232963f0856e8a9.jpeg   | Bin 9367572 -> 1044369 bytes
+ .../images/9efa8e57f87e9f1046c85d40e49998e7.jpeg   | Bin 6630472 -> 500543 bytes
+ .../images/a111d2a84a37c483f34b564466aff554.jpeg   | Bin 5071862 -> 1839541 bytes
+ .../images/a2cd21570dfa7f9b6860e38b3c9fc8d3.jpeg   | Bin 1747911 -> 836468 bytes
+ .../images/a38f35b7c33ead52672563cd69b4a33e.jpeg   | Bin 13327708 -> 925428 bytes
+ .../images/a3a89a0b5ee079c7456bdc0df2313eec.jpeg   | Bin 12382615 -> 1032268 bytes
+ .../images/a3ba9b5b75f0305b58dcd9a5a1a1ea67.jpeg   | Bin 7574254 -> 628115 bytes
+ .../images/a51a5c7ac15de774417574337a986f3c.jpeg   | Bin 7446454 -> 547692 bytes
+ .../images/a738b6fe7373feb5c4803d5b29859123.jpeg   | Bin 10213823 -> 680626 bytes
+ .../images/a85fb98720bc72dead261051b754042e.jpeg   | Bin 12919421 -> 677709 bytes
+ .../images/a9a5165a92faf4fd8327dadf46057e2c.jpeg   | Bin 13674031 -> 1499392 bytes
+ .../images/aa4bec3feb385c931ef8919984fe4180.jpeg   | Bin 1304429 -> 497676 bytes
+ .../images/ab25ae75a5008de3ea12b8dfff3f3657.jpeg   | Bin 9215011 -> 727895 bytes
+ .../images/b1e98dff0a2e1b1289dff05d8b39de4c.jpeg   | Bin 9516184 -> 743186 bytes
+ .../images/b3340c4c80e3e85f0cda8b1867518978.jpeg   | Bin 11752903 -> 765439 bytes
+ .../images/b8a6b79f2d52d44aae1437cdea6c803c.jpeg   | Bin 8662949 -> 622536 bytes
+ .../images/bcc9ab6734eda80eb14cb1c7a59b09df.jpeg   | Bin 1634478 -> 746820 bytes
+ .../images/bfc005420880835e0984f7f70106a69f.jpeg   | Bin 10358218 -> 644798 bytes
+ .../images/c290a2eb412d932e394a8e64176118bf.jpeg   | Bin 12182140 -> 1778620 bytes
+ .../images/c2a2ffbc2669432f55ebc9420d66ccc3.jpeg   | Bin 6861100 -> 499683 bytes
+ .../images/c9ef09c261e8a9c5a8ae5df29e405143.jpeg   | Bin 11703677 -> 754792 bytes
+ .../images/cbfff24e346a28702c24442df3566c9d.jpeg   | Bin 15668765 -> 1278182 bytes
+ .../images/cccc84632104497cb971766bc7bf56b3.jpeg   | Bin 6134011 -> 945872 bytes
+ .../images/cd74a7783d56263857c2eecdf750bfb2.jpeg   | Bin 9481831 -> 717450 bytes
+ .../images/cf9a31313144607395c0e68c37ed24d7.jpeg   | Bin 8033225 -> 533122 bytes
+ .../images/d2e04c902e2a8203022e2a61afc497e6.jpeg   | Bin 9319051 -> 1335372 bytes
+ .../images/d376a00cf6767f605d314cb8b8f17f9e.jpeg   | Bin 10209452 -> 718963 bytes
+ .../images/deae4315c2a4695e623731aa1c9a9e8a.jpeg   | Bin 11697187 -> 1006611 bytes
+ .../images/decfdb1f76a83e7c3bba7d6040e5b2dd.jpeg   | Bin 1691367 -> 772153 bytes
+ .../images/e25597d2255d74a8d947d1916c0a8dc7.jpeg   | Bin 10168693 -> 1274978 bytes
+ .../images/e321822085592bab6df847b5bfb0ab87.jpeg   | Bin 1732784 -> 826739 bytes
+ .../images/e33fddb7b02cd420316a02ff9ab59169.jpeg   | Bin 10029421 -> 1279817 bytes
+ .../images/e76ec65cbfd5fbfe80b29751562bf00d.jpeg   | Bin 12327446 -> 1206797 bytes
+ .../images/ef12f667a36156fdf054d504c1a45931.jpeg   | Bin 7923428 -> 650531 bytes
+ .../images/ef8ff48a67ec4ed6a432f4d916af13a0.jpeg   | Bin 10914225 -> 832963 bytes
+ .../images/f1ff886f7df5408753215421007d66bd.jpeg   | Bin 14154227 -> 1085358 bytes
+ .../images/f642d499b58cf6e4dfe92772201b352e.jpeg   | Bin 10268976 -> 729687 bytes
+ .../images/f9d66171742d557e6a0134ad134f0b8a.jpeg   | Bin 1294450 -> 567590 bytes
+ .../images/fb7b49dbe072d1c3aa285cbafae45b68.jpeg   | Bin 7306010 -> 796485 bytes
+ .../images/fbf59b9df2bfa17497c242a574a0a443.jpeg   | Bin 1508561 -> 750618 bytes
+ .../images/fc43181e0e91e3134105465d81f75144.jpeg   | Bin 49700 -> 47882 bytes
+ assets/images/icon-basketball.png                  | Bin 9387 -> 4442 bytes
+ assets/images/icon-calendar-bg-white.png           | Bin 5982 -> 3103 bytes
+ assets/images/icon-calendar.png                    | Bin 4512 -> 2474 bytes
+ assets/images/icon-careers-bg-white.png            | Bin 5908 -> 2952 bytes
+ assets/images/icon-careers.png                     | Bin 6346 -> 2992 bytes
+ assets/images/icon-flag.png                        | Bin 7975 -> 3753 bytes
+ assets/images/icon-fundraising.png                 | Bin 9600 -> 4311 bytes
+ assets/images/icon-general-fitness-bg-white.png    | Bin 9301 -> 4200 bytes
+ assets/images/icon-generalcamp.png                 | Bin 7814 -> 3735 bytes
+ assets/images/icon-grape.png                       | Bin 8002 -> 3032 bytes
+ assets/images/icon-handshake.png                   | Bin 9773 -> 4487 bytes
+ assets/images/icon-heartbeat.png                   | Bin 9699 -> 4304 bytes
+ assets/images/icon-kids.png                        | Bin 10959 -> 4789 bytes
+ assets/images/icon-mail.png                        | Bin 8095 -> 3255 bytes
+ assets/images/icon-membership-bg-white.png         | Bin 7915 -> 3693 bytes
+ assets/images/icon-membership.png                  | Bin 8356 -> 3856 bytes
+ assets/images/icon-partnership-bg-white.png        | Bin 9463 -> 4435 bytes
+ assets/images/icon-phone.png                       | Bin 7197 -> 3076 bytes
+ assets/images/icon-responsibility.png              | Bin 11943 -> 5614 bytes
+ assets/images/icon-soccer-bg-white.png             | Bin 8262 -> 3883 bytes
+ assets/images/icon-soccer.png                      | Bin 8731 -> 3959 bytes
+ assets/images/icon-sports-aerobics.png             | Bin 10691 -> 4473 bytes
+ assets/images/icon-sports-climbing.png             | Bin 9840 -> 4165 bytes
+ assets/images/icon-sports-yoga.png                 | Bin 9741 -> 4146 bytes
+ assets/images/icon-swimming.png                    | Bin 9389 -> 4104 bytes
+ assets/images/icon-volunteerism-bg-white.png       | Bin 7501 -> 3617 bytes
+ assets/images/icon-volunteerism.png                | Bin 7954 -> 3645 bytes
+ assets/images/icon-wire.png                        | Bin 10620 -> 4369 bytes
+ assets/images/icon-youthdevelopment-bg-white.png   | Bin 8788 -> 4313 bytes
+ assets/images/icon-youthdevelopment.png            | Bin 9465 -> 4717 bytes
+ .../logo-ab5cc8314658dcbce4226affc4772f78.jpg      | Bin 2471 -> 879 bytes
+ .../logo-dc5cc8314658dcbce4536affc4772f78.png      | Bin 4579 -> 1875 bytes
+ .../logo-dc5cc9314658dcbad4536affc4772f78.jpg      | Bin 4221 -> 1755 bytes
+ .../logo-dc8cc8314658dcbce4536afac4772f78.jpg      | Bin 2317 -> 862 bytes
+ 121 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 24911e36855b37e14d2fd5eb81f09af854bc0e07
+Merge: a45c50e 41b8677
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Tue Nov 14 17:54:24 2023 +0200
+
+    Merge pull request #27 from froboy/DS-1181-sponsors-full-width
+    
+    DS-181 sponsors full width
+
+commit 41b8677b2b135c32b4df218340faa65d47ef5f50
+Author: Avi Schwab <froboy@gmail.com>
+Date:   Tue Nov 14 09:46:27 2023 -0600
+
+    DS-1181 DS-1181 Change sponsor/partner sections to full width
+
+:100644 100644 fda7afd 8f68306 M	config/install/migrate_plus.migration.y_lb_demo_page_location_child_page.yml
+:100644 100644 a888f4d ae9e227 M	config/install/migrate_plus.migration.y_lb_demo_page_programs_category.yml
+:100644 100644 1ada6db 5ab47b6 M	config/install/migrate_plus.migration.y_lb_demo_page_programs_individual.yml
+:100644 100644 f0238be 09c8040 M	config/install/migrate_plus.migration.y_lb_demo_page_who_we_are.yml
+ .../migrate_plus.migration.y_lb_demo_page_location_child_page.yml     | 2 +-
+ .../migrate_plus.migration.y_lb_demo_page_programs_category.yml       | 2 +-
+ .../migrate_plus.migration.y_lb_demo_page_programs_individual.yml     | 4 ++--
+ config/install/migrate_plus.migration.y_lb_demo_page_who_we_are.yml   | 2 +-
+ 4 files changed, 5 insertions(+), 5 deletions(-)
+
+commit a45c50eaaffea6c83cf6aa7a17fddeeae63407a0
+Merge: 749ff50 a953281
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Tue Nov 14 09:35:29 2023 +0200
+
+    Merge pull request #26 from froboy/white-grey-icons
+    
+    ашчЖ DS-1181 Add white background icons
+    
+    Reverts change to all-white backgrounds
+    adds white background icons
+    fixes a few file names
+    adds descriptions to icons
+
+commit a953281239df49dd2b064c752f3ee95103fdc916
+Author: Avi Schwab <froboy@gmail.com>
+Date:   Mon Nov 13 16:22:28 2023 -0600
+
+    DS-1181 Add white background images and improve icon descriptions
+
+:100644 100644 54e9143 54e9143 R100	assets/images/icon-baseball.png	assets/images/icon-basketball.png
+:000000 100644 0000000 4b6feb4 A	assets/images/icon-calendar-bg-white.png
+:000000 100644 0000000 c3fcab7 A	assets/images/icon-careers-bg-white.png
+:000000 100644 0000000 32a5e17 A	assets/images/icon-general-fitness-bg-white.png
+:000000 100644 0000000 6bbcb4a A	assets/images/icon-membership-bg-white.png
+:000000 100644 0000000 2b3a608 A	assets/images/icon-partnership-bg-white.png
+:000000 100644 0000000 45753b9 A	assets/images/icon-soccer-bg-white.png
+:100644 100644 725f60b 725f60b R100	assets/images/icon-ball.png	assets/images/icon-soccer.png
+:000000 100644 0000000 30d850a A	assets/images/icon-volunteerism-bg-white.png
+:000000 100644 0000000 a761462 A	assets/images/icon-youthdevelopment-bg-white.png
+:100644 100644 2e67ff7 97e296d M	config/install/migrate_plus.migration.y_lb_demo_block_simple_menu.yml
+:100644 100644 9e494c5 523f804 M	config/install/migrate_plus.migration.y_lb_demo_file.yml
+:100644 100644 cc17ecf 1997cfc M	config/install/migrate_plus.migration.y_lb_demo_media_image.yml
+ .../{icon-baseball.png => icon-basketball.png}     | Bin
+ assets/images/icon-calendar-bg-white.png           | Bin 0 -> 5982 bytes
+ assets/images/icon-careers-bg-white.png            | Bin 0 -> 5908 bytes
+ assets/images/icon-general-fitness-bg-white.png    | Bin 0 -> 9301 bytes
+ assets/images/icon-membership-bg-white.png         | Bin 0 -> 7915 bytes
+ assets/images/icon-partnership-bg-white.png        | Bin 0 -> 9463 bytes
+ assets/images/icon-soccer-bg-white.png             | Bin 0 -> 8262 bytes
+ assets/images/{icon-ball.png => icon-soccer.png}   | Bin
+ assets/images/icon-volunteerism-bg-white.png       | Bin 0 -> 7501 bytes
+ assets/images/icon-youthdevelopment-bg-white.png   | Bin 0 -> 8788 bytes
+ ..._plus.migration.y_lb_demo_block_simple_menu.yml |  20 +++---
+ .../migrate_plus.migration.y_lb_demo_file.yml      |  20 +++++-
+ ...igrate_plus.migration.y_lb_demo_media_image.yml |  68 ++++++++++++++-------
+ 13 files changed, 74 insertions(+), 34 deletions(-)
+
+commit bd45b559f77937b5906b217f5ffe3eea3cf280a7
+Author: Avi Schwab <froboy@gmail.com>
+Date:   Mon Nov 13 09:53:02 2023 -0600
+
+    Revert "[DS-1181] Update icon files (changed background from '#F2F2F2' to '#FFFFFF')"
+    
+    This reverts commit cc1ebd589825d6b90f394e61f425f7a5fd653fcd.
+
+:100644 100644 45753b9 725f60b M	assets/images/icon-ball.png
+:100644 100644 1fb79b2 54e9143 M	assets/images/icon-baseball.png
+:100644 100644 c3fcab7 c281ac4 M	assets/images/icon-careers.png
+:100644 000000 6282b33 0000000 D	assets/images/icon-computer.png
+:100644 100644 891242f 5da3b3f M	assets/images/icon-flag.png
+:100644 100644 47bea80 f4925fc M	assets/images/icon-fundraising.png
+:100644 100644 9be0748 5fd53e3 M	assets/images/icon-generalcamp.png
+:100644 100644 36d14a4 ec3da81 M	assets/images/icon-grape.png
+:100644 100644 2b3a608 c8ad8b3 M	assets/images/icon-handshake.png
+:100644 100644 32a5e17 16108bb M	assets/images/icon-heartbeat.png
+:100644 100644 f86a699 5e7ef51 M	assets/images/icon-kids.png
+:100644 100644 6bbcb4a 0a6424c M	assets/images/icon-membership.png
+:100644 100644 aefc4c5 353c1c1 M	assets/images/icon-responsibility.png
+:100644 100644 190d52f fc678a6 M	assets/images/icon-sports-aerobics.png
+:100644 100644 c451441 7233f7d M	assets/images/icon-sports-climbing.png
+:100644 100644 ff9bdf6 3ca3a6c M	assets/images/icon-sports-yoga.png
+:100644 100644 3aa1cbe 480243f M	assets/images/icon-swimming.png
+:100644 100644 30d850a 8f06fd9 M	assets/images/icon-volunteerism.png
+:100644 100644 a761462 b1b50dc M	assets/images/icon-youthdevelopment.png
+:100644 100644 9d1b881 9e494c5 M	config/install/migrate_plus.migration.y_lb_demo_file.yml
+ assets/images/icon-ball.png                         | Bin 8262 -> 8731 bytes
+ assets/images/icon-baseball.png                     | Bin 9004 -> 9387 bytes
+ assets/images/icon-careers.png                      | Bin 5908 -> 6346 bytes
+ assets/images/icon-computer.png                     | Bin 6636 -> 0 bytes
+ assets/images/icon-flag.png                         | Bin 6775 -> 7975 bytes
+ assets/images/icon-fundraising.png                  | Bin 8893 -> 9600 bytes
+ assets/images/icon-generalcamp.png                  | Bin 7396 -> 7814 bytes
+ assets/images/icon-grape.png                        | Bin 7645 -> 8002 bytes
+ assets/images/icon-handshake.png                    | Bin 9463 -> 9773 bytes
+ assets/images/icon-heartbeat.png                    | Bin 9301 -> 9699 bytes
+ assets/images/icon-kids.png                         | Bin 10276 -> 10959 bytes
+ assets/images/icon-membership.png                   | Bin 7915 -> 8356 bytes
+ assets/images/icon-responsibility.png               | Bin 9455 -> 11943 bytes
+ assets/images/icon-sports-aerobics.png              | Bin 10230 -> 10691 bytes
+ assets/images/icon-sports-climbing.png              | Bin 9161 -> 9840 bytes
+ assets/images/icon-sports-yoga.png                  | Bin 9304 -> 9741 bytes
+ assets/images/icon-swimming.png                     | Bin 8510 -> 9389 bytes
+ assets/images/icon-volunteerism.png                 | Bin 7501 -> 7954 bytes
+ assets/images/icon-youthdevelopment.png             | Bin 8788 -> 9465 bytes
+ .../migrate_plus.migration.y_lb_demo_file.yml       |   2 +-
+ 20 files changed, 1 insertion(+), 1 deletion(-)
+
+commit 749ff50c6da73ba3ae96d368b4987533039d9e6d
+Merge: 4a86b7f cc1ebd5
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Mon Nov 13 17:09:39 2023 +0200
+
+    Merge pull request #24 from aleevas/DS-1181
+    
+    feat: [DS-1181] Fix issues after QA phase; Use LB Table block instead Code  block
+
+commit 6ccc3faf20c2a4c6eb16a5342b10557368e06f84
+Merge: be444d2 4b544c0
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Mon Nov 13 14:52:49 2023 +0200
+
+    Merge pull request #25 from YCloudYUSA/main
+    
+    update upstream
+
+commit cc1ebd589825d6b90f394e61f425f7a5fd653fcd
+Author: Alexey <alexey.drupal@gmail.com>
+Date:   Sun Nov 12 19:49:39 2023 +0100
+
+    [DS-1181] Update icon files (changed background from '#F2F2F2' to '#FFFFFF')
+
+:100644 100644 725f60b 45753b9 M	assets/images/icon-ball.png
+:100644 100644 54e9143 1fb79b2 M	assets/images/icon-baseball.png
+:100644 100644 c281ac4 c3fcab7 M	assets/images/icon-careers.png
+:000000 100644 0000000 6282b33 A	assets/images/icon-computer.png
+:100644 100644 5da3b3f 891242f M	assets/images/icon-flag.png
+:100644 100644 f4925fc 47bea80 M	assets/images/icon-fundraising.png
+:100644 100644 5fd53e3 9be0748 M	assets/images/icon-generalcamp.png
+:100644 100644 ec3da81 36d14a4 M	assets/images/icon-grape.png
+:100644 100644 c8ad8b3 2b3a608 M	assets/images/icon-handshake.png
+:100644 100644 16108bb 32a5e17 M	assets/images/icon-heartbeat.png
+:100644 100644 5e7ef51 f86a699 M	assets/images/icon-kids.png
+:100644 100644 0a6424c 6bbcb4a M	assets/images/icon-membership.png
+:100644 100644 353c1c1 aefc4c5 M	assets/images/icon-responsibility.png
+:100644 100644 fc678a6 190d52f M	assets/images/icon-sports-aerobics.png
+:100644 100644 7233f7d c451441 M	assets/images/icon-sports-climbing.png
+:100644 100644 3ca3a6c ff9bdf6 M	assets/images/icon-sports-yoga.png
+:100644 100644 480243f 3aa1cbe M	assets/images/icon-swimming.png
+:100644 100644 8f06fd9 30d850a M	assets/images/icon-volunteerism.png
+:100644 100644 b1b50dc a761462 M	assets/images/icon-youthdevelopment.png
+:100644 100644 9e494c5 9d1b881 M	config/install/migrate_plus.migration.y_lb_demo_file.yml
+ assets/images/icon-ball.png                         | Bin 8731 -> 8262 bytes
+ assets/images/icon-baseball.png                     | Bin 9387 -> 9004 bytes
+ assets/images/icon-careers.png                      | Bin 6346 -> 5908 bytes
+ assets/images/icon-computer.png                     | Bin 0 -> 6636 bytes
+ assets/images/icon-flag.png                         | Bin 7975 -> 6775 bytes
+ assets/images/icon-fundraising.png                  | Bin 9600 -> 8893 bytes
+ assets/images/icon-generalcamp.png                  | Bin 7814 -> 7396 bytes
+ assets/images/icon-grape.png                        | Bin 8002 -> 7645 bytes
+ assets/images/icon-handshake.png                    | Bin 9773 -> 9463 bytes
+ assets/images/icon-heartbeat.png                    | Bin 9699 -> 9301 bytes
+ assets/images/icon-kids.png                         | Bin 10959 -> 10276 bytes
+ assets/images/icon-membership.png                   | Bin 8356 -> 7915 bytes
+ assets/images/icon-responsibility.png               | Bin 11943 -> 9455 bytes
+ assets/images/icon-sports-aerobics.png              | Bin 10691 -> 10230 bytes
+ assets/images/icon-sports-climbing.png              | Bin 9840 -> 9161 bytes
+ assets/images/icon-sports-yoga.png                  | Bin 9741 -> 9304 bytes
+ assets/images/icon-swimming.png                     | Bin 9389 -> 8510 bytes
+ assets/images/icon-volunteerism.png                 | Bin 7954 -> 7501 bytes
+ assets/images/icon-youthdevelopment.png             | Bin 9465 -> 8788 bytes
+ .../migrate_plus.migration.y_lb_demo_file.yml       |   2 +-
+ 20 files changed, 1 insertion(+), 1 deletion(-)
+
+commit b2c2266f1bf04c67e18f4c3ea22744093508448b
+Author: Alexey <alexey.drupal@gmail.com>
+Date:   Fri Nov 10 18:47:39 2023 +0100
+
+    [DS-1181] Fix issues after QA phase; Use LB Table block instead Code block
+
+:100644 100644 40ed71b 4a460a8 M	config/install/migrate_plus.migration.y_lb_demo_block_cards_item.yml
+:100644 000000 dd8df13 0000000 D	config/install/migrate_plus.migration.y_lb_demo_block_code_block.yml
+:100644 100644 29b855d 9eb0480 M	config/install/migrate_plus.migration.y_lb_demo_block_icon_grid.yml
+:000000 100644 0000000 22e0027 A	config/install/migrate_plus.migration.y_lb_demo_block_table_block.yml
+:100644 100644 21b7dd1 30b2aa9 M	config/install/migrate_plus.migration.y_lb_demo_menu_link_main.yml
+:100644 100644 20ef19a a40a2bc M	config/install/migrate_plus.migration.y_lb_demo_page_af.yml
+:100644 100644 c519c88 a19d0a3 M	config/install/migrate_plus.migration.y_lb_demo_page_contact_us.yml
+:100644 100644 02d9005 c2d4cfe M	config/install/migrate_plus.migration.y_lb_demo_page_dummy.yml
+:100644 100644 034fe1e 54d0ce1 M	config/install/migrate_plus.migration.y_lb_demo_page_events_listing.yml
+:100644 100644 436af0e 15209f1 M	config/install/migrate_plus.migration.y_lb_demo_page_jobs.yml
+:100644 100644 62d9e0b ae9a11f M	config/install/migrate_plus.migration.y_lb_demo_page_join_the_y.yml
+:100644 100644 1438b68 93f09ef M	config/install/migrate_plus.migration.y_lb_demo_page_location.yml
+:100644 100644 ed463cb fda7afd M	config/install/migrate_plus.migration.y_lb_demo_page_location_child_page.yml
+:100644 100644 5de0504 b8425d4 M	config/install/migrate_plus.migration.y_lb_demo_page_membership.yml
+:100644 100644 ad65c2b a888f4d M	config/install/migrate_plus.migration.y_lb_demo_page_programs_category.yml
+:100644 100644 2451819 1ada6db M	config/install/migrate_plus.migration.y_lb_demo_page_programs_individual.yml
+:100644 100644 9ef3f79 f865424 M	config/install/migrate_plus.migration.y_lb_demo_page_programs_overview.yml
+:100644 100644 0462352 c7b4e49 M	config/install/migrate_plus.migration.y_lb_demo_page_schedules.yml
+:100644 100644 461840a b6fd323 M	config/install/migrate_plus.migration.y_lb_demo_page_volunteer_ops.yml
+:100644 100644 e9361c4 f0238be M	config/install/migrate_plus.migration.y_lb_demo_page_who_we_are.yml
+ ...e_plus.migration.y_lb_demo_block_cards_item.yml |   2 +-
+ ...e_plus.migration.y_lb_demo_block_code_block.yml | 133 ------------------
+ ...te_plus.migration.y_lb_demo_block_icon_grid.yml |   7 -
+ ..._plus.migration.y_lb_demo_block_table_block.yml | 154 +++++++++++++++++++++
+ ...ate_plus.migration.y_lb_demo_menu_link_main.yml |   2 +-
+ .../migrate_plus.migration.y_lb_demo_page_af.yml   |   2 +-
+ ...te_plus.migration.y_lb_demo_page_contact_us.yml |   4 +-
+ ...migrate_plus.migration.y_lb_demo_page_dummy.yml |   4 +-
+ ...lus.migration.y_lb_demo_page_events_listing.yml |   4 +-
+ .../migrate_plus.migration.y_lb_demo_page_jobs.yml |   4 +-
+ ...te_plus.migration.y_lb_demo_page_join_the_y.yml |   6 +-
+ ...rate_plus.migration.y_lb_demo_page_location.yml |   4 +-
+ ...igration.y_lb_demo_page_location_child_page.yml |   4 +-
+ ...te_plus.migration.y_lb_demo_page_membership.yml |   2 +-
+ ....migration.y_lb_demo_page_programs_category.yml |   6 +-
+ ...igration.y_lb_demo_page_programs_individual.yml |   4 +-
+ ....migration.y_lb_demo_page_programs_overview.yml |   4 +-
+ ...ate_plus.migration.y_lb_demo_page_schedules.yml |   6 +-
+ ...plus.migration.y_lb_demo_page_volunteer_ops.yml |   4 +-
+ ...te_plus.migration.y_lb_demo_page_who_we_are.yml |  13 +-
+ 20 files changed, 188 insertions(+), 181 deletions(-)
+
+commit 4b544c038fc435b64b40fe42da41a2c472b1a856
+Merge: 5499d70 04e3193
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Tue Nov 7 18:42:36 2023 +0200
+
+    Merge pull request #23 from froboy/patch-1
+    
+    feat: Add installation instructions
+
+commit 04e3193c26cdd4dac54227a80ef53e72ac9d097f
+Author: Avi Schwab <froboy@gmail.com>
+Date:   Thu Nov 2 15:27:18 2023 -0500
+
+    Add installation instructions
+
+:100644 100644 cdb9132 3bd9c50 M	README.md
+ README.md | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+
+commit 4a86b7fa0b700afe6ea97af30cd833d4b303f507
+Merge: be444d2 cd4edb9
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Thu Nov 2 12:23:42 2023 +0200
+
+    Merge pull request #22 from aleevas/v3
+    
+    v3
+
+commit cd4edb9c90adbc90dfdf4045641413d07e747ad8
+Author: Alexey Aleev <alexey.drupal@gmail.com>
+Date:   Tue Oct 31 18:32:28 2023 +0100
+
+    Update migrations to use versions of block without paragraphs in blocks
+
+:100644 100644 56e4a0c c8c6822 M	composer.json
+:100644 100644 de69a79 9693404 M	config/install/migrate_plus.migration.y_lb_demo_block_accordion.yml
+:100644 100644 13f9c0f 6d7921f R070	config/install/migrate_plus.migration.y_lb_demo_paragraph_accordion.yml	config/install/migrate_plus.migration.y_lb_demo_block_accordion_item.yml
+:100644 100644 b8c2f28 b7d0155 M	config/install/migrate_plus.migration.y_lb_demo_block_cards.yml
+:100644 100644 c18d778 40ed71b R087	config/install/migrate_plus.migration.y_lb_demo_paragraph_cards.yml	config/install/migrate_plus.migration.y_lb_demo_block_cards_item.yml
+:100644 100644 2519a6c 8ae56c8 M	config/install/migrate_plus.migration.y_lb_demo_block_carousel.yml
+:100644 100644 d8ce350 a98e434 R067	config/install/migrate_plus.migration.y_lb_demo_paragraph_carousel.yml	config/install/migrate_plus.migration.y_lb_demo_block_carousel_item.yml
+:100644 100644 cb21b15 d92ac49 M	config/install/migrate_plus.migration.y_lb_demo_block_donate.yml
+:100644 100644 63a483b e7aca98 R065	config/install/migrate_plus.migration.y_lb_demo_paragraph_donate_giving_amount.yml	config/install/migrate_plus.migration.y_lb_demo_block_donate_item.yml
+:100644 100644 a07e338 29b855d M	config/install/migrate_plus.migration.y_lb_demo_block_icon_grid.yml
+:100644 100644 188af1a a1f925d R083	config/install/migrate_plus.migration.y_lb_demo_paragraph_icon_grid.yml	config/install/migrate_plus.migration.y_lb_demo_block_icon_grid_item.yml
+:100644 100644 3574e9b 659157d M	config/install/migrate_plus.migration.y_lb_demo_block_statistics.yml
+:100644 100644 15f7926 07ca5d4 R063	config/install/migrate_plus.migration.y_lb_demo_paragraph_statistics.yml	config/install/migrate_plus.migration.y_lb_demo_block_statistics_item.yml
+ composer.json                                      |  2 +-
+ ...te_plus.migration.y_lb_demo_block_accordion.yml | 14 ++---
+ ...s.migration.y_lb_demo_block_accordion_item.yml} | 63 +++++++---------------
+ ...igrate_plus.migration.y_lb_demo_block_cards.yml | 12 ++---
+ ..._plus.migration.y_lb_demo_block_cards_item.yml} | 57 +++++---------------
+ ...ate_plus.migration.y_lb_demo_block_carousel.yml | 12 ++---
+ ...us.migration.y_lb_demo_block_carousel_item.yml} | 42 ++++++---------
+ ...grate_plus.migration.y_lb_demo_block_donate.yml | 16 +++---
+ ...plus.migration.y_lb_demo_block_donate_item.yml} | 39 ++++----------
+ ...te_plus.migration.y_lb_demo_block_icon_grid.yml | 11 ++--
+ ...s.migration.y_lb_demo_block_icon_grid_item.yml} | 55 +++++--------------
+ ...e_plus.migration.y_lb_demo_block_statistics.yml | 12 ++---
+ ....migration.y_lb_demo_block_statistics_item.yml} | 34 ++++--------
+ 13 files changed, 104 insertions(+), 265 deletions(-)
+
+commit be444d269e2db8a476738caa71f6f35a40480d32
+Merge: bfca778 8f741f9
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Fri Oct 27 18:44:37 2023 +0300
+
+    Merge pull request #21 from aleevas/FixDemoContent
+    
+    fix: [DS-1157] Add [site:url] token for the links inside texts
+
+commit 8f741f9c8c8a6b89ebb29c1dbf79773ca6552a47
+Author: Alexey Aleev <alexey.drupal@gmail.com>
+Date:   Fri Oct 27 13:28:00 2023 +0200
+
+    [DS-1157] Add [site:url] token for the links inside texts
+
+:100644 100644 e7b2691 d5d72b1 M	config/install/migrate_plus.migration.y_lb_demo_block_banner_standard.yml
+:100644 100644 fbf3241 af6a55d M	config/install/migrate_plus.migration.y_lb_demo_block_ping_pong.yml
+:100644 100644 39588a9 30a84a3 M	config/install/migrate_plus.migration.y_lb_demo_events.yml
+:100644 100644 65c28fa 13f9c0f M	config/install/migrate_plus.migration.y_lb_demo_paragraph_accordion.yml
+ .../install/migrate_plus.migration.y_lb_demo_block_banner_standard.yml  | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_block_ping_pong.yml     | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_events.yml              | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_paragraph_accordion.yml | 2 +-
+ 4 files changed, 4 insertions(+), 4 deletions(-)
+
+commit bfca7786e1b4cec71e4b943ce7706ae6cd7d7e9a
+Merge: c3c56fc c040002
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Wed Oct 25 16:56:05 2023 +0300
+
+    Merge pull request #20 from aleevas/FixDemoContent
+    
+    fix: [DS-1161] Fix home branch functionality on the Demo Content pages
+
+commit c040002d066ad5c66d6927329dde1a3e06731a2d
+Author: Alexey Aleev <alexey.drupal@gmail.com>
+Date:   Wed Oct 25 14:49:41 2023 +0200
+
+    [DS-1161] Fix home branch functionality on the Demo Content pages
+
+:100644 100644 a6945d6 ea1ca7c M	config/install/migrate_plus.migration.y_lb_demo_menu_link_account.yml
+:100644 100644 a538f29 20ef19a M	config/install/migrate_plus.migration.y_lb_demo_page_af.yml
+:100644 100644 f792ce6 c519c88 M	config/install/migrate_plus.migration.y_lb_demo_page_contact_us.yml
+:100644 100644 bc85382 1dbcc44 M	config/install/migrate_plus.migration.y_lb_demo_page_donate.yml
+:100644 100644 e196f83 02d9005 M	config/install/migrate_plus.migration.y_lb_demo_page_dummy.yml
+:100644 100644 3646f4e 034fe1e M	config/install/migrate_plus.migration.y_lb_demo_page_events_listing.yml
+:100644 100644 968b8ac 637030c M	config/install/migrate_plus.migration.y_lb_demo_page_homepage.yml
+:100644 100644 0156971 436af0e M	config/install/migrate_plus.migration.y_lb_demo_page_jobs.yml
+:100644 100644 abe1f64 62d9e0b M	config/install/migrate_plus.migration.y_lb_demo_page_join_the_y.yml
+:100644 100644 b8dec13 1438b68 M	config/install/migrate_plus.migration.y_lb_demo_page_location.yml
+:100644 100644 5a47a0f ed463cb M	config/install/migrate_plus.migration.y_lb_demo_page_location_child_page.yml
+:100644 100644 c5b4677 a563d46 M	config/install/migrate_plus.migration.y_lb_demo_page_location_finder.yml
+:100644 100644 dcc58d9 5de0504 M	config/install/migrate_plus.migration.y_lb_demo_page_membership.yml
+:100644 100644 d2fec03 ad65c2b M	config/install/migrate_plus.migration.y_lb_demo_page_programs_category.yml
+:100644 100644 7d37c57 2451819 M	config/install/migrate_plus.migration.y_lb_demo_page_programs_individual.yml
+:100644 100644 bcbd4bc 9ef3f79 M	config/install/migrate_plus.migration.y_lb_demo_page_programs_overview.yml
+:100644 100644 a67c723 0462352 M	config/install/migrate_plus.migration.y_lb_demo_page_schedules.yml
+:100644 100644 9895f2f 461840a M	config/install/migrate_plus.migration.y_lb_demo_page_volunteer_ops.yml
+:100644 100644 2f1b47c e9361c4 M	config/install/migrate_plus.migration.y_lb_demo_page_who_we_are.yml
+:100644 000000 13ee427 0000000 D	config/install/system.menu.demo-account.yml
+ .../install/migrate_plus.migration.y_lb_demo_menu_link_account.yml  | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_af.yml         | 4 ++--
+ config/install/migrate_plus.migration.y_lb_demo_page_contact_us.yml | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_donate.yml     | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_dummy.yml      | 2 +-
+ .../migrate_plus.migration.y_lb_demo_page_events_listing.yml        | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_homepage.yml   | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_jobs.yml       | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_join_the_y.yml | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_location.yml   | 2 +-
+ .../migrate_plus.migration.y_lb_demo_page_location_child_page.yml   | 2 +-
+ .../migrate_plus.migration.y_lb_demo_page_location_finder.yml       | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_membership.yml | 2 +-
+ .../migrate_plus.migration.y_lb_demo_page_programs_category.yml     | 2 +-
+ .../migrate_plus.migration.y_lb_demo_page_programs_individual.yml   | 2 +-
+ .../migrate_plus.migration.y_lb_demo_page_programs_overview.yml     | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_schedules.yml  | 2 +-
+ .../install/migrate_plus.migration.y_lb_demo_page_volunteer_ops.yml | 2 +-
+ config/install/migrate_plus.migration.y_lb_demo_page_who_we_are.yml | 2 +-
+ config/install/system.menu.demo-account.yml                         | 6 ------
+ 20 files changed, 20 insertions(+), 26 deletions(-)
+
+commit c3c56fc49634261ee04ac5c69a11867597d56aca
+Merge: 4651b9b dbe2f65
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Wed Oct 25 14:40:06 2023 +0300
+
+    Merge pull request #19 from aleevas/FixDemoContent
+    
+    fix: Add fixes for the Demo Content components after QA phase
+
+commit dbe2f650fbbe05cf9615775dbc05f6942a4cd9f3
+Author: Alexey Aleev <alexey.drupal@gmail.com>
+Date:   Wed Oct 25 10:43:45 2023 +0200
+
+    Add fixes for the Dem Content components after QA phase
+
+:100644 100644 24e9eab dd8df13 M	config/install/migrate_plus.migration.y_lb_demo_block_code_block.yml
+:100644 100644 c61b941 2e67ff7 M	config/install/migrate_plus.migration.y_lb_demo_block_simple_menu.yml
+:100644 100644 0992b3a b8dec13 M	config/install/migrate_plus.migration.y_lb_demo_page_location.yml
+:100644 100644 e019d14 65c28fa M	config/install/migrate_plus.migration.y_lb_demo_paragraph_accordion.yml
+:100644 100644 0e03cd0 d8ce350 M	config/install/migrate_plus.migration.y_lb_demo_paragraph_carousel.yml
+:100644 100644 783fe8c c7f933b M	y_lb_demo_content.install
+ ...migrate_plus.migration.y_lb_demo_block_code_block.yml |  6 +++---
+ ...igrate_plus.migration.y_lb_demo_block_simple_menu.yml |  6 +++---
+ .../migrate_plus.migration.y_lb_demo_page_location.yml   |  2 +-
+ ...rate_plus.migration.y_lb_demo_paragraph_accordion.yml | 16 ++++++++--------
+ ...grate_plus.migration.y_lb_demo_paragraph_carousel.yml |  4 ----
+ y_lb_demo_content.install                                |  4 ++++
+ 6 files changed, 19 insertions(+), 19 deletions(-)
+
+commit 4651b9bd5dacfdf29f44af09e4581ef4eacc66f3
+Merge: 6d0d799 129aad2
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Tue Oct 24 18:10:35 2023 +0300
+
+    Merge pull request #18 from aleevas/FixDemoContent
+    
+    fix: [DS-1091] Add fix for the description field of the Demo Event page
+
+commit 129aad2d29a10ae86613598a0784103c90f33b2f
+Author: Alexey Aleev <alexey.drupal@gmail.com>
+Date:   Tue Oct 24 16:55:05 2023 +0200
+
+    [DS-1091] Add fix for the description field of the Demo Event page
+
+:100644 100644 e52941f 39588a9 M	config/install/migrate_plus.migration.y_lb_demo_events.yml
+ config/install/migrate_plus.migration.y_lb_demo_events.yml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 6d0d7992717d9fa59ef16ded490fa15ed270e3b3
+Merge: 7fffe8f 812c8e4
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Tue Oct 24 12:57:54 2023 +0300
+
+    Merge pull request #17 from aleevas/FixDemoContent
+    
+    feat: Added closed amenities to the Demo Location page
+
+commit 812c8e44ae53faf7a8f99abeed53ae79afa50003
+Author: Alexey Aleev <alexey.drupal@gmail.com>
+Date:   Tue Oct 24 11:52:17 2023 +0200
+
+    [DS-1048] Add closed amenities to the Demo Location page
+
+:100644 100644 21f14b2 0992b3a M	config/install/migrate_plus.migration.y_lb_demo_page_location.yml
+ config/install/migrate_plus.migration.y_lb_demo_page_location.yml | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit 7fffe8f3fe7d4db1fd7800d24b88b68cf32cba25
+Merge: a852720 a2c001d
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Tue Oct 24 09:25:52 2023 +0300
+
+    Merge pull request #16 from aleevas/FixDemoContent
+    
+    fix: demo content
+
+commit a2c001d7407570fb477b6227bf6214596c7aecb4
+Author: Alexey Aleev <alexey.drupal@gmail.com>
+Date:   Mon Oct 23 18:43:55 2023 +0200
+
+    Remove useless piece of migration
+
+:100644 100644 0ee5161 e52941f M	config/install/migrate_plus.migration.y_lb_demo_events.yml
+ .../migrate_plus.migration.y_lb_demo_events.yml    | 260 ---------------------
+ 1 file changed, 260 deletions(-)
+
+commit 98851baa3db97b97583f71aec29a24a43c5be666
+Author: Alexey Aleev <alexey.drupal@gmail.com>
+Date:   Mon Oct 23 18:42:58 2023 +0200
+
+    Update icon files for the Donate page
+
+:100644 100644 91f1fab e498f6f M	assets/images/icon-mail.png
+:100644 100644 6f567a6 081b65d M	assets/images/icon-phone.png
+:100644 100644 6ebb008 fd24ac4 M	assets/images/icon-wire.png
+ assets/images/icon-mail.png  | Bin 1911 -> 8095 bytes
+ assets/images/icon-phone.png | Bin 1453 -> 7197 bytes
+ assets/images/icon-wire.png  | Bin 3285 -> 10620 bytes
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit a8527206e9d0c96918c9bd3aad8a527103da8aff
+Merge: d9b2e08 4efd8b4
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Mon Oct 23 18:07:51 2023 +0300
+
+    Merge pull request #15 from aleevas/FixDemoContent
+    
+    feat: Add a menu CTA block to the Programs demo menu item
+
+commit 4efd8b4c57bbe62f8140989434d6bb1f0eb3bcad
+Author: Alexey Aleev <alexey.drupal@gmail.com>
+Date:   Mon Oct 23 16:31:14 2023 +0200
+
+    Replace all emails address from '{something}@ymcaspringfield.org' to '{something}@example.org'
+
+:100644 100644 25de76d e7b2691 M	config/install/migrate_plus.migration.y_lb_demo_block_banner_standard.yml
+:100644 100644 b1ff8dc e024362 M	config/install/migrate_plus.migration.y_lb_demo_block_partners.yml
+:100644 100644 720ec65 0ee5161 M	config/install/migrate_plus.migration.y_lb_demo_events.yml
+:100644 100644 e5941be 188af1a M	config/install/migrate_plus.migration.y_lb_demo_paragraph_icon_grid.yml
+ ...s.migration.y_lb_demo_block_banner_standard.yml |   6 +-
+ ...ate_plus.migration.y_lb_demo_block_partners.yml |   2 +-
+ .../migrate_plus.migration.y_lb_demo_events.yml    | 268 ++++++++++++++++++++-
+ ...lus.migration.y_lb_demo_paragraph_icon_grid.yml |   4 +-
+ 4 files changed, 270 insertions(+), 10 deletions(-)
+
+commit 7cb06395f382c5f6b606ebf6d648960afbe51cae
+Author: Alexey Aleev <alexey.drupal@gmail.com>
+Date:   Fri Oct 20 23:14:13 2023 +0200
+
+    Add a bunch of fixes to the demo components after QA phase
+
+:100644 100644 2a6dec9 1580e02 M	assets/images/decfdb1f76a83e7c3bba7d6040e5b2dd.jpeg
+:100644 100644 7365452 aca237e M	assets/images/e321822085592bab6df847b5bfb0ab87.jpeg
+:100644 100644 b3a36c3 725f60b M	assets/images/icon-ball.png
+:100644 100644 7046ae8 54e9143 M	assets/images/icon-baseball.png
+:000000 100644 0000000 c281ac4 A	assets/images/icon-careers.png
+:100644 000000 e0b4c1c 0000000 D	assets/images/icon-corners.png
+:100644 100644 d27fe11 5da3b3f M	assets/images/icon-flag.png
+:000000 100644 0000000 f4925fc A	assets/images/icon-fundraising.png
+:000000 100644 0000000 5fd53e3 A	assets/images/icon-generalcamp.png
+:100644 100644 71ae14a ec3da81 M	assets/images/icon-grape.png
+:100644 100644 665a61e c8ad8b3 M	assets/images/icon-handshake.png
+:100644 100644 56bd802 16108bb M	assets/images/icon-heartbeat.png
+:100644 100644 987b75e 5e7ef51 M	assets/images/icon-kids.png
+:100644 000000 f4f17a9 0000000 D	assets/images/icon-library.png
+:100644 000000 573cfd9 0000000 D	assets/images/icon-look-at-me.png
+:000000 100644 0000000 0a6424c A	assets/images/icon-membership.png
+:100644 000000 e1d9514 0000000 D	assets/images/icon-raise_hand.png
+:000000 100644 0000000 353c1c1 A	assets/images/icon-responsibility.png
+:100644 100644 f288930 fc678a6 M	assets/images/icon-sports-aerobics.png
+:100644 100644 2729a3f 7233f7d M	assets/images/icon-sports-climbing.png
+:100644 100644 ae3521f 3ca3a6c M	assets/images/icon-sports-yoga.png
+:100644 000000 ee7ae29 0000000 D	assets/images/icon-summer.png
+:100644 000000 85111f9 0000000 D	assets/images/icon-swim.png
+:000000 100644 0000000 480243f A	assets/images/icon-swimming.png
+:100644 000000 d5fb4a4 0000000 D	assets/images/icon-theY.png
+:100644 000000 75ae7b7 0000000 D	assets/images/icon-thing.png
+:100644 000000 325cfa3 0000000 D	assets/images/icon-vector.png
+:000000 100644 0000000 8f06fd9 A	assets/images/icon-volunteerism.png
+:000000 100644 0000000 b1b50dc A	assets/images/icon-youthdevelopment.png
+:100644 100644 30cfb63 308941f M	assets/images/logo-ab5cc8314658dcbce4226affc4772f78.jpg
+:100644 100644 492ff1c 4c24ff0 M	assets/images/logo-dc5cc8314658dcbce4536affc4772f78.png
+:100644 100644 06351a2 a225fc8 M	assets/images/logo-dc5cc9314658dcbad4536affc4772f78.jpg
+:100644 100644 ead7b61 5c24c13 M	assets/images/logo-dc8cc8314658dcbce4536afac4772f78.jpg
+:100644 100644 bce7cf5 7406da3 M	config/install/migrate_plus.migration.y_lb_demo_block_banner_frame.yml
+:100644 100644 7fad9e0 24e9eab M	config/install/migrate_plus.migration.y_lb_demo_block_code_block.yml
+:100644 100644 cc5bcab e302af6 M	config/install/migrate_plus.migration.y_lb_demo_block_partners_item.yml
+:100644 100644 e1b36c2 fbf3241 M	config/install/migrate_plus.migration.y_lb_demo_block_ping_pong.yml
+:100644 100644 31f779a c61b941 M	config/install/migrate_plus.migration.y_lb_demo_block_simple_menu.yml
+:100644 100644 3a04e0f ba4f3c3 M	config/install/migrate_plus.migration.y_lb_demo_block_webform.yml
+:100644 100644 a85f72a 720ec65 M	config/install/migrate_plus.migration.y_lb_demo_events.yml
+:100644 100644 7ead051 9e494c5 M	config/install/migrate_plus.migration.y_lb_demo_file.yml
+:100644 100644 6db2b62 cc17ecf M	config/install/migrate_plus.migration.y_lb_demo_media_image.yml
+:100644 100644 c0210bc a6945d6 M	config/install/migrate_plus.migration.y_lb_demo_menu_link_account.yml
+:100644 100644 05087c8 a538f29 M	config/install/migrate_plus.migration.y_lb_demo_page_af.yml
+:100644 100644 c519c88 f792ce6 M	config/install/migrate_plus.migration.y_lb_demo_page_contact_us.yml
+:100644 100644 0bf4c23 bc85382 M	config/install/migrate_plus.migration.y_lb_demo_page_donate.yml
+:100644 100644 02d9005 e196f83 M	config/install/migrate_plus.migration.y_lb_demo_page_dummy.yml
+:100644 100644 034fe1e 3646f4e M	config/install/migrate_plus.migration.y_lb_demo_page_events_listing.yml
+:100644 100644 637030c 968b8ac M	config/install/migrate_plus.migration.y_lb_demo_page_homepage.yml
+:100644 100644 1f7791e 0156971 M	config/install/migrate_plus.migration.y_lb_demo_page_jobs.yml
+:100644 100644 62d9e0b abe1f64 M	config/install/migrate_plus.migration.y_lb_demo_page_join_the_y.yml
+:100644 100644 864170f 21f14b2 M	config/install/migrate_plus.migration.y_lb_demo_page_location.yml
+:100644 100644 5206224 5a47a0f M	config/install/migrate_plus.migration.y_lb_demo_page_location_child_page.yml
+:100644 100644 a563d46 c5b4677 M	config/install/migrate_plus.migration.y_lb_demo_page_location_finder.yml
+:100644 100644 5de0504 dcc58d9 M	config/install/migrate_plus.migration.y_lb_demo_page_membership.yml
+:100644 100644 7eee87d d2fec03 M	config/install/migrate_plus.migration.y_lb_demo_page_programs_category.yml
+:100644 100644 2451819 7d37c57 M	config/install/migrate_plus.migration.y_lb_demo_page_programs_individual.yml
+:100644 100644 9a303e5 bcbd4bc M	config/install/migrate_plus.migration.y_lb_demo_page_programs_overview.yml
+:100644 100644 7d5de3e a67c723 M	config/install/migrate_plus.migration.y_lb_demo_page_schedules.yml
+:100644 100644 461840a 9895f2f M	config/install/migrate_plus.migration.y_lb_demo_page_volunteer_ops.yml
+:100644 100644 e9361c4 2f1b47c M	config/install/migrate_plus.migration.y_lb_demo_page_who_we_are.yml
+:100644 100644 7429dbe e5941be M	config/install/migrate_plus.migration.y_lb_demo_paragraph_icon_grid.yml
+:000000 100644 0000000 13ee427 A	config/install/system.menu.demo-account.yml
+:000000 100644 0000000 6d98cdb A	config/install/webform.webform.contact_us.yml
+:100644 100644 a4fab43 c14f8e8 M	config/install/webform.webform.try_the_y.yml
+ .../images/decfdb1f76a83e7c3bba7d6040e5b2dd.jpeg   | Bin 10940293 -> 1691367 bytes
+ .../images/e321822085592bab6df847b5bfb0ab87.jpeg   | Bin 1867327 -> 1732784 bytes
+ assets/images/icon-ball.png                        | Bin 2199 -> 8731 bytes
+ assets/images/icon-baseball.png                    | Bin 6071 -> 9387 bytes
+ assets/images/icon-careers.png                     | Bin 0 -> 6346 bytes
+ assets/images/icon-corners.png                     | Bin 1385 -> 0 bytes
+ assets/images/icon-flag.png                        | Bin 5221 -> 7975 bytes
+ assets/images/icon-fundraising.png                 | Bin 0 -> 9600 bytes
+ assets/images/icon-generalcamp.png                 | Bin 0 -> 7814 bytes
+ assets/images/icon-grape.png                       | Bin 6515 -> 8002 bytes
+ assets/images/icon-handshake.png                   | Bin 2910 -> 9773 bytes
+ assets/images/icon-heartbeat.png                   | Bin 2718 -> 9699 bytes
+ assets/images/icon-kids.png                        | Bin 7085 -> 10959 bytes
+ assets/images/icon-library.png                     | Bin 5100 -> 0 bytes
+ assets/images/icon-look-at-me.png                  | Bin 4985 -> 0 bytes
+ assets/images/icon-membership.png                  | Bin 0 -> 8356 bytes
+ assets/images/icon-raise_hand.png                  | Bin 2191 -> 0 bytes
+ assets/images/icon-responsibility.png              | Bin 0 -> 11943 bytes
+ assets/images/icon-sports-aerobics.png             | Bin 6953 -> 10691 bytes
+ assets/images/icon-sports-climbing.png             | Bin 6151 -> 9840 bytes
+ assets/images/icon-sports-yoga.png                 | Bin 6437 -> 9741 bytes
+ assets/images/icon-summer.png                      | Bin 8814 -> 0 bytes
+ assets/images/icon-swim.png                        | Bin 5975 -> 0 bytes
+ assets/images/icon-swimming.png                    | Bin 0 -> 9389 bytes
+ assets/images/icon-theY.png                        | Bin 2206 -> 0 bytes
+ assets/images/icon-thing.png                       | Bin 1776 -> 0 bytes
+ assets/images/icon-vector.png                      | Bin 2122 -> 0 bytes
+ assets/images/icon-volunteerism.png                | Bin 0 -> 7954 bytes
+ assets/images/icon-youthdevelopment.png            | Bin 0 -> 9465 bytes
+ .../logo-ab5cc8314658dcbce4226affc4772f78.jpg      | Bin 2971 -> 2471 bytes
+ .../logo-dc5cc8314658dcbce4536affc4772f78.png      | Bin 3982 -> 4579 bytes
+ .../logo-dc5cc9314658dcbad4536affc4772f78.jpg      | Bin 3319 -> 4221 bytes
+ .../logo-dc8cc8314658dcbce4536afac4772f78.jpg      | Bin 2877 -> 2317 bytes
+ ...plus.migration.y_lb_demo_block_banner_frame.yml |   7 +-
+ ...e_plus.migration.y_lb_demo_block_code_block.yml |  38 ++--
+ ...lus.migration.y_lb_demo_block_partners_item.yml |   4 +-
+ ...te_plus.migration.y_lb_demo_block_ping_pong.yml |   6 +-
+ ..._plus.migration.y_lb_demo_block_simple_menu.yml |   2 +-
+ ...rate_plus.migration.y_lb_demo_block_webform.yml |   2 +-
+ .../migrate_plus.migration.y_lb_demo_events.yml    |  30 +--
+ .../migrate_plus.migration.y_lb_demo_file.yml      |  18 +-
+ ...igrate_plus.migration.y_lb_demo_media_image.yml |   3 -
+ ..._plus.migration.y_lb_demo_menu_link_account.yml |   4 +-
+ .../migrate_plus.migration.y_lb_demo_page_af.yml   |   2 +-
+ ...te_plus.migration.y_lb_demo_page_contact_us.yml |   2 +-
+ ...igrate_plus.migration.y_lb_demo_page_donate.yml |   7 +-
+ ...migrate_plus.migration.y_lb_demo_page_dummy.yml |   2 +-
+ ...lus.migration.y_lb_demo_page_events_listing.yml |   2 +-
+ ...rate_plus.migration.y_lb_demo_page_homepage.yml |   2 +-
+ .../migrate_plus.migration.y_lb_demo_page_jobs.yml |   8 +-
+ ...te_plus.migration.y_lb_demo_page_join_the_y.yml |   2 +-
+ ...rate_plus.migration.y_lb_demo_page_location.yml |  30 +--
+ ...igration.y_lb_demo_page_location_child_page.yml |   3 +-
+ ...us.migration.y_lb_demo_page_location_finder.yml |   2 +-
+ ...te_plus.migration.y_lb_demo_page_membership.yml |   2 +-
+ ....migration.y_lb_demo_page_programs_category.yml |   6 +-
+ ...igration.y_lb_demo_page_programs_individual.yml |   2 +-
+ ....migration.y_lb_demo_page_programs_overview.yml |   3 +-
+ ...ate_plus.migration.y_lb_demo_page_schedules.yml |   4 +-
+ ...plus.migration.y_lb_demo_page_volunteer_ops.yml |   2 +-
+ ...te_plus.migration.y_lb_demo_page_who_we_are.yml |   2 +-
+ ...lus.migration.y_lb_demo_paragraph_icon_grid.yml |   4 +-
+ config/install/system.menu.demo-account.yml        |   6 +
+ config/install/webform.webform.contact_us.yml      | 227 +++++++++++++++++++++
+ config/install/webform.webform.try_the_y.yml       |  15 +-
+ 65 files changed, 338 insertions(+), 111 deletions(-)
+
+commit 9c5b28ed5780bb8905e4a37dd861fd55c84b0662
+Author: Alexey Aleev <alexey.aleev@fivejars.com>
+Date:   Thu Oct 19 17:19:53 2023 +0200
+
+    Add a menu CTA block to the Programs demo menu item
+
+:100644 100644 cac8ec8 21b7dd1 M	config/install/migrate_plus.migration.y_lb_demo_menu_link_main.yml
+:100644 100644 067eba5 20c7970 M	config/install/system.menu.helpful-links.yml
+:100644 100644 66a9a80 3420dc6 M	src/EventSubscriber/YLbDemoContentMigrationSubscriber.php
+:100644 000000 8eed596 0000000 D	src/Plugin/migrate/process/YLbMenuCtaBlock.php
+ ...ate_plus.migration.y_lb_demo_menu_link_main.yml |  6 +--
+ config/install/system.menu.helpful-links.yml       |  6 +--
+ .../YLbDemoContentMigrationSubscriber.php          | 35 ++++++++++++++++--
+ src/Plugin/migrate/process/YLbMenuCtaBlock.php     | 43 ----------------------
+ 4 files changed, 34 insertions(+), 56 deletions(-)
+
+commit d9b2e085a5c111dc600573ea3656a347926be226
+Merge: 0f37268 87f2d9f
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Thu Oct 19 14:44:15 2023 +0300
+
+    Merge pull request #14 from aleevas/FixDemoContent
+    
+    Add missing plugin
+
+commit 87f2d9f2c61298f9d6118677b96d727d3ef76abd
+Author: Alexey Aleev <alexey.aleev@fivejars.com>
+Date:   Thu Oct 19 13:37:25 2023 +0200
+
+    Add missing plugin
+
+:000000 100644 0000000 8eed596 A	src/Plugin/migrate/process/YLbMenuCtaBlock.php
+ src/Plugin/migrate/process/YLbMenuCtaBlock.php | 43 ++++++++++++++++++++++++++
+ 1 file changed, 43 insertions(+)
+
+commit 0f37268c1049b7e3a8a5998281518f0ea132df8e
+Merge: b9355b7 1dfd39b
+Author: Andrii Podanenko <podarokua@gmail.com>
+Date:   Thu Oct 19 14:16:30 2023 +0300
+
+    Merge pull request #13 from aleevas/FixDemoContent
+    
+    Fix demo content
+
+commit 1dfd39b5475e95f84ada11d151b8d4a80f05f41c
+Author: Alexey Aleev <alexey.aleev@fivejars.com>
+Date:   Thu Oct 19 12:44:20 2023 +0200
+
+    Create a Menu CTA block in migration
+
+:000000 100644 0000000 8b7579f A	assets/images/9ae7d201bb2597ee50813d931c7f73d8.jpeg
+:000000 100644 0000000 1312b24 A	config/install/migrate_plus.migration.y_lb_demo_block_menu_cta.yml
+:100644 100644 02393c3 cac8ec8 M	config/install/migrate_plus.migration.y_lb_demo_menu_link_main.yml
+:100644 100644 48efdf6 66a9a80 M	src/EventSubscriber/YLbDemoContentMigrationSubscriber.php
+:100644 100644 bb74526 077e1c1 M	y_lb_demo_content.info.yml
+ .../images/9ae7d201bb2597ee50813d931c7f73d8.jpeg   | Bin 0 -> 321203 bytes
+ ...ate_plus.migration.y_lb_demo_block_menu_cta.yml |  61 +++++++++++++++++++++
+ ...ate_plus.migration.y_lb_demo_menu_link_main.yml |   7 ++-
+ .../YLbDemoContentMigrationSubscriber.php          |  30 ++++++++++
+ y_lb_demo_content.info.yml                         |   2 +-
+ 5 files changed, 98 insertions(+), 2 deletions(-)
