@@ -278,6 +278,128 @@ source:
       name: 15f11332dec53c97403199978883e040.jpeg
     - id: promo_image_3
       name: 217ea1ced3b93ff7412464a8abbfbb98.jpeg
+    - id: icon_image_1
+      name: YMCA_Icons_Turkey@2x.png
+    - id: icon_image_2
+      name: YMCA_Icons_Tennis@2x.png
+    - id: icon_image_3
+      name: YMCA_Icons_STEM@2x.png
+    - id: icon_image_4
+      name: YMCA_Icons_Star@2x.png
+    - id: icon_image_5
+      name: YMCA_Icons_Skateboard@2x.png
+    - id: icon_image_6
+      name: YMCA_Icons_Rollerskating@2x.png
+    - id: icon_image_7
+      name: YMCA_Icons_Rollerblading@2x.png
+    - id: icon_image_8
+      name: YMCA_Icons_Racquetball@2x.png
+    - id: icon_image_9
+      name: YMCA_Icons_Pumpkin-Seasonal@2x.png
+    - id: icon_image_10
+      name: YMCA_Icons_Pumpkin-Holiday@2x.png
+    - id: icon_image_11
+      name: YMCA_Icons_Pickleball@2x.png
+    - id: icon_image_12
+      name: YMCA_Icons_MilitaryOutreach@2x.png
+    - id: icon_image_13
+      name: YMCA_Icons_Marketing&Comms-A@2x.png
+    - id: icon_image_14
+      name: YMCA_Icons_LegalCounsel@2x.png
+    - id: icon_image_15
+      name: YMCA_Icons_InformationTechnology@2x.png
+    - id: icon_image_16
+      name: YMCA_Icons_Iceskating@2x.png
+    - id: icon_image_17
+      name: YMCA_Icons_Handball@2x.png
+    - id: icon_image_18
+      name: YMCA_Icons_Gymnastics-Rings@2x.png
+    - id: icon_image_19
+      name: YMCA_Icons_Gymnastics-Beam@2x.png
+    - id: icon_image_20
+      name: YMCA_Icons_GeneralFitness@2x.png
+    - id: icon_image_21
+      name: YMCA_Icons_Football@2x.png
+    - id: icon_image_22
+      name: YMCA_Icons_Figureskating@2x.png
+    - id: icon_image_23
+      name: YMCA_Icons_ExecutiveLeadership@2x.png
+    - id: icon_image_24
+      name: YMCA_Icons_Diving@2x.png
+    - id: icon_image_25
+      name: YMCA_Icons_Diversity&Inclusion@2x.png
+    - id: icon_image_26
+      name: YMCA_Icons_DayCamp-Flag@2x.png
+    - id: icon_image_27
+      name: YMCA_Icons_ComputerTechnology@2x.png
+    - id: icon_image_28
+      name: YMCA_Icons_Climbing@2x.png
+    - id: icon_image_29
+      name: YMCA_Icons_Chapel&Spiritual@2x.png
+    - id: icon_image_30
+      name: YMCA_Icons_Caring@2x.png
+    - id: icon_image_31
+      name: YMCA_Icons_Careers@2x.png
+    - id: icon_image_32
+      name: YMCA_Icons_AquaticSafety&Lessons@2x.png
+    - id: icon_image_33
+      name: YMCA_Icons_AchieversProgram@2x.png
+    - id: icon_image_34
+      name: YMCA_Icons_Weightlifting@2x.png
+    - id: icon_image_35
+      name: YMCA_Icons_Sun-Seasonal@2x.png
+    - id: icon_image_36
+      name: YMCA_Icons_Stopwatch@2x.png
+    - id: icon_image_37
+      name: YMCA_Icons_SocialServices@2x.png
+    - id: icon_image_38
+      name: YMCA_Icons_SocialResponsibility@2x.png
+    - id: icon_image_39
+      name: YMCA_Icons_Snowflake-Seasonal@2x.png
+    - id: icon_image_40
+      name: YMCA_Icons_Running@2x.png
+    - id: icon_image_41
+      name: YMCA_Icons_RopesChallenge@2x.png
+    - id: icon_image_42
+      name: YMCA_Icons_Responsibility@2x.png
+    - id: icon_image_43
+      name: YMCA_Icons_Respect@2x.png
+    - id: icon_image_44
+      name: YMCA_Icons_QuestionMark@2x.png
+    - id: icon_image_45
+      name: YMCA_Icons_Partnership@2x.png
+    - id: icon_image_46
+      name: YMCA_Icons_Membership@2x.png
+    - id: icon_image_47
+      name: YMCA_Icons_Marketing&Comms-B@2x.png
+    - id: icon_image_48
+      name: YMCA_Icons_Honesty@2x.png
+    - id: icon_image_49
+      name: YMCA_Icons_Hearts@2x.png
+    - id: icon_image_50
+      name: YMCA_Icons_Heart@2x.png
+    - id: icon_image_51
+      name: YMCA_Icons_HealthyLiving@2x.png
+    - id: icon_image_52
+      name: YMCA_Icons_Fundraising&Donations@2x.png
+    - id: icon_image_53
+      name: YMCA_Icons_FoodDonation@2x.png
+    - id: icon_image_54
+      name: YMCA_Icons_Education&Leadership@2x.png
+    - id: icon_image_55
+      name: YMCA_Icons_DayCamp-Shirt@2x.png
+    - id: icon_image_56
+      name: YMCA_Icons_CompletedTask@2x.png
+    - id: icon_image_57
+      name: YMCA_Icons_Clock@2x.png
+    - id: icon_image_58
+      name: YMCA_Icons_ChildCare@2x.png
+    - id: icon_image_59
+      name: YMCA_Icons_Calendar@2x.png
+    - id: icon_image_60
+      name: YMCA_Icons_Alert@2x.png
+    - id: icon_image_61
+      name: YMCA_Icons_Aerobics@2x.png
   ids:
     id:
       type: string

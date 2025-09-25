@@ -410,6 +410,189 @@ source:
     - id: promo_image_3
       name: 'Promotion image 3'
       file: promo_image_3
+    - id: icon_image_1
+      name: 'Icon - Turkey'
+      file: icon_image_1
+    - id: icon_image_2
+      name: 'Icon - Tennis'
+      file: icon_image_2
+    - id: icon_image_3
+      name: 'Icon - STEM'
+      file: icon_image_3
+    - id: icon_image_4
+      name: 'Icon - Star'
+      file: icon_image_4
+    - id: icon_image_5
+      name: 'Icon - Skateboard'
+      file: icon_image_5
+    - id: icon_image_6
+      name: 'Icon - Rollerskating'
+      file: icon_image_6
+    - id: icon_image_7
+      name: 'Icon - Rollerblading'
+      file: icon_image_7
+    - id: icon_image_8
+      name: 'Icon - Racquetball'
+      file: icon_image_8
+    - id: icon_image_9
+      name: 'Icon - Pumpkin Seasonal'
+      file: icon_image_9
+    - id: icon_image_10
+      name: 'Icon - Pumpkin Holiday'
+      file: icon_image_10
+    - id: icon_image_11
+      name: 'Icon - Pickleball'
+      file: icon_image_11
+    - id: icon_image_12
+      name: 'Icon - Military Outreach'
+      file: icon_image_12
+    - id: icon_image_13
+      name: 'Icon - Marketing Comms A'
+      file: icon_image_13
+    - id: icon_image_14
+      name: 'Icon - Legal Counsel'
+      file: icon_image_14
+    - id: icon_image_15
+      name: 'Icon - Information Technology'
+      file: icon_image_15
+    - id: icon_image_16
+      name: 'Icon - Ice Skating'
+      file: icon_image_16
+    - id: icon_image_17
+      name: 'Icon - Handball'
+      file: icon_image_17
+    - id: icon_image_18
+      name: 'Icon - Gymnastics Ring'
+      file: icon_image_18
+    - id: icon_image_19
+      name: 'Icon - Gymnastics Beam'
+      file: icon_image_19
+    - id: icon_image_20
+      name: 'Icon - General Fitness'
+      file: icon_image_20
+    - id: icon_image_21
+      name: 'Icon - Football'
+      file: icon_image_21
+    - id: icon_image_22
+      name: 'Icon - Figure Skating'
+      file: icon_image_22
+    - id: icon_image_23
+      name: 'Icon - Executive Leadership'
+      file: icon_image_23
+    - id: icon_image_24
+      name: 'Icon - Diving'
+      file: icon_image_24
+    - id: icon_image_25
+      name: 'Icon - Diversity and Inclusion'
+      file: icon_image_25
+    - id: icon_image_26
+      name: 'Icon - Day Camp - Flag'
+      file: icon_image_26
+    - id: icon_image_27
+      name: 'Icon - Computer Technology'
+      file: icon_image_27
+    - id: icon_image_28
+      name: 'Icon - Climbing'
+      file: icon_image_28
+    - id: icon_image_29
+      name: 'Icon - Chapel and Spiritual'
+      file: icon_image_29
+    - id: icon_image_30
+      name: 'Icon - Caring'
+      file: icon_image_30
+    - id: icon_image_31
+      name: 'Icon - Careers'
+      file: icon_image_31
+    - id: icon_image_32
+      name: 'Icon - Aquatics Safety and Lessons'
+      file: icon_image_32
+    - id: icon_image_33
+      name: 'Icon - Achievers Program'
+      file: icon_image_33
+    - id: icon_image_34
+      name: 'Icon - Weightlifting'
+      file: icon_image_34
+    - id: icon_image_35
+      name: 'Icon - Sun Seasonal'
+      file: icon_image_35
+    - id: icon_image_36
+      name: 'Icon - Stopwatch'
+      file: icon_image_36
+    - id: icon_image_37
+      name: 'Icon - Social Services'
+      file: icon_image_37
+    - id: icon_image_38
+      name: 'Icon - Social Responsibility'
+      file: icon_image_38
+    - id: icon_image_39
+      name: 'Icon - Snowflake Seasonal'
+      file: icon_image_39
+    - id: icon_image_40
+      name: 'Icon - Running'
+      file: icon_image_40
+    - id: icon_image_41
+      name: 'Icon - Ropes Challenge'
+      file: icon_image_41
+    - id: icon_image_42
+      name: 'Icon - Responsibility'
+      file: icon_image_42
+    - id: icon_image_43
+      name: 'Icon - Respect'
+      file: icon_image_43
+    - id: icon_image_44
+      name: 'Icon - Question Mark'
+      file: icon_image_44
+    - id: icon_image_45
+      name: 'Icon - Partnership'
+      file: icon_image_45
+    - id: icon_image_46
+      name: 'Icon - Membership'
+      file: icon_image_46
+    - id: icon_image_47
+      name: 'Icon - Marketing Comms B'
+      file: icon_image_47
+    - id: icon_image_48
+      name: 'Icon - Honesty'
+      file: icon_image_48
+    - id: icon_image_49
+      name: 'Icon - Hearts'
+      file: icon_image_49
+    - id: icon_image_50
+      name: 'Icon - Heart'
+      file: icon_image_50
+    - id: icon_image_51
+      name: 'Icon - Healthy Living'
+      file: icon_image_51
+    - id: icon_image_52
+      name: 'Icon - Fundraising and Donations'
+      file: icon_image_52
+    - id: icon_image_53
+      name: 'Icon - Food Donation'
+      file: icon_image_53
+    - id: icon_image_54
+      name: 'Icon - Education Leadership'
+      file: icon_image_54
+    - id: icon_image_55
+      name: 'Icon - Day Camp - Shirt'
+      file: icon_image_55
+    - id: icon_image_56
+      name: 'Icon - Completed Task'
+      file: icon_image_56
+    - id: icon_image_57
+      name: 'Icon - Clock'
+      file: icon_image_57
+    - id: icon_image_58
+      name: 'Icon - Childcare'
+      file: icon_image_58
+    - id: icon_image_59
+      name: 'Icon - Calendar'
+      file: icon_image_59
+    - id: icon_image_60
+      name: 'Icon - Alert'
+      file: icon_image_60
+    - id: icon_image_61
+      name: 'Icon - Aerobics'
+      file: icon_image_61
   ids:
     id:
       type: string
