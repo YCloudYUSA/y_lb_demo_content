@@ -1,0 +1,987 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - openy_media_image
+  enforced:
+    module:
+      - y_lb_demo_content_icons
+id: y_lb_demo_icons_media
+migration_tags:
+  - y_lb_demo_content_icons
+migration_group: y_lb_demo_content_icons
+label: 'Import Demo YMCA Icon media images'
+source:
+  plugin: embedded_data
+  data_rows:
+    - id: ymca_icon_achieversprogram_blu
+      name: 'YMCA Icon - Achievers Program (Blue)'
+      file: ymca_icon_achieversprogram_blu
+      alt: 'YMCA icon: Achievers Program (Blue)'
+    - id: ymca_icon_aerobics_blu
+      name: 'YMCA Icon - Aerobics (Blue)'
+      file: ymca_icon_aerobics_blu
+      alt: 'YMCA icon: Aerobics (Blue)'
+    - id: ymca_icon_alert_blu
+      name: 'YMCA Icon - Alert (Blue)'
+      file: ymca_icon_alert_blu
+      alt: 'YMCA icon: Alert (Blue)'
+    - id: ymca_icon_aquaticsafety_and_lessons_blu
+      name: 'YMCA Icon - Aquatic Safety & Lessons (Blue)'
+      file: ymca_icon_aquaticsafety_and_lessons_blu
+      alt: 'YMCA icon: Aquatic Safety & Lessons (Blue)'
+    - id: ymca_icon_art_blu
+      name: 'YMCA Icon - Art (Blue)'
+      file: ymca_icon_art_blu
+      alt: 'YMCA icon: Art (Blue)'
+    - id: ymca_icon_baseball_blu
+      name: 'YMCA Icon - Baseball (Blue)'
+      file: ymca_icon_baseball_blu
+      alt: 'YMCA icon: Baseball (Blue)'
+    - id: ymca_icon_basketball_blu
+      name: 'YMCA Icon - Basketball (Blue)'
+      file: ymca_icon_basketball_blu
+      alt: 'YMCA icon: Basketball (Blue)'
+    - id: ymca_icon_calendar_blu
+      name: 'YMCA Icon - Calendar (Blue)'
+      file: ymca_icon_calendar_blu
+      alt: 'YMCA icon: Calendar (Blue)'
+    - id: ymca_icon_campfire_blu
+      name: 'YMCA Icon - Camp Fire (Blue)'
+      file: ymca_icon_campfire_blu
+      alt: 'YMCA icon: Camp Fire (Blue)'
+    - id: ymca_icon_camping_blu
+      name: 'YMCA Icon - Camping (Blue)'
+      file: ymca_icon_camping_blu
+      alt: 'YMCA icon: Camping (Blue)'
+    - id: ymca_icon_careers_blu
+      name: 'YMCA Icon - Careers (Blue)'
+      file: ymca_icon_careers_blu
+      alt: 'YMCA icon: Careers (Blue)'
+    - id: ymca_icon_caring_a_blu
+      name: 'YMCA Icon - Caring - A (Blue)'
+      file: ymca_icon_caring_a_blu
+      alt: 'YMCA icon: Caring - A (Blue)'
+    - id: ymca_icon_caring_b_blu
+      name: 'YMCA Icon - Caring - B (Blue)'
+      file: ymca_icon_caring_b_blu
+      alt: 'YMCA icon: Caring - B (Blue)'
+    - id: ymca_icon_chapel_and_spiritual_blu
+      name: 'YMCA Icon - Chapel & Spiritual (Blue)'
+      file: ymca_icon_chapel_and_spiritual_blu
+      alt: 'YMCA icon: Chapel & Spiritual (Blue)'
+    - id: ymca_icon_childcare_blu
+      name: 'YMCA Icon - Child Care (Blue)'
+      file: ymca_icon_childcare_blu
+      alt: 'YMCA icon: Child Care (Blue)'
+    - id: ymca_icon_climbing_blu
+      name: 'YMCA Icon - Climbing (Blue)'
+      file: ymca_icon_climbing_blu
+      alt: 'YMCA icon: Climbing (Blue)'
+    - id: ymca_icon_clock_blu
+      name: 'YMCA Icon - Clock (Blue)'
+      file: ymca_icon_clock_blu
+      alt: 'YMCA icon: Clock (Blue)'
+    - id: ymca_icon_completedtask_blu
+      name: 'YMCA Icon - Completed Task (Blue)'
+      file: ymca_icon_completedtask_blu
+      alt: 'YMCA icon: Completed Task (Blue)'
+    - id: ymca_icon_computertechnology_blu
+      name: 'YMCA Icon - Computer Technology (Blue)'
+      file: ymca_icon_computertechnology_blu
+      alt: 'YMCA icon: Computer Technology (Blue)'
+    - id: ymca_icon_dancing_blu
+      name: 'YMCA Icon - Dancing (Blue)'
+      file: ymca_icon_dancing_blu
+      alt: 'YMCA icon: Dancing (Blue)'
+    - id: ymca_icon_daycamp_flag_blu
+      name: 'YMCA Icon - Day Camp - Flag (Blue)'
+      file: ymca_icon_daycamp_flag_blu
+      alt: 'YMCA icon: Day Camp - Flag (Blue)'
+    - id: ymca_icon_daycamp_shirt_blu
+      name: 'YMCA Icon - Day Camp - Shirt (Blue)'
+      file: ymca_icon_daycamp_shirt_blu
+      alt: 'YMCA icon: Day Camp - Shirt (Blue)'
+    - id: ymca_icon_diversity_and_inclusion_blu
+      name: 'YMCA Icon - Diversity & Inclusion (Blue)'
+      file: ymca_icon_diversity_and_inclusion_blu
+      alt: 'YMCA icon: Diversity & Inclusion (Blue)'
+    - id: ymca_icon_diving_blu
+      name: 'YMCA Icon - Diving (Blue)'
+      file: ymca_icon_diving_blu
+      alt: 'YMCA icon: Diving (Blue)'
+    - id: ymca_icon_education_and_leadership_blu
+      name: 'YMCA Icon - Education & Leadership (Blue)'
+      file: ymca_icon_education_and_leadership_blu
+      alt: 'YMCA icon: Education & Leadership (Blue)'
+    - id: ymca_icon_executiveleadership_blu
+      name: 'YMCA Icon - Executive Leadership (Blue)'
+      file: ymca_icon_executiveleadership_blu
+      alt: 'YMCA icon: Executive Leadership (Blue)'
+    - id: ymca_icon_figureskating_blu
+      name: 'YMCA Icon - Figureskating (Blue)'
+      file: ymca_icon_figureskating_blu
+      alt: 'YMCA icon: Figureskating (Blue)'
+    - id: ymca_icon_fooddonation_blu
+      name: 'YMCA Icon - Food Donation (Blue)'
+      file: ymca_icon_fooddonation_blu
+      alt: 'YMCA icon: Food Donation (Blue)'
+    - id: ymca_icon_football_blu
+      name: 'YMCA Icon - Football (Blue)'
+      file: ymca_icon_football_blu
+      alt: 'YMCA icon: Football (Blue)'
+    - id: ymca_icon_fundraising_and_donations_blu
+      name: 'YMCA Icon - Fundraising & Donations (Blue)'
+      file: ymca_icon_fundraising_and_donations_blu
+      alt: 'YMCA icon: Fundraising & Donations (Blue)'
+    - id: ymca_icon_generalfitness_blu
+      name: 'YMCA Icon - General Fitness (Blue)'
+      file: ymca_icon_generalfitness_blu
+      alt: 'YMCA icon: General Fitness (Blue)'
+    - id: ymca_icon_global_blu
+      name: 'YMCA Icon - Global (Blue)'
+      file: ymca_icon_global_blu
+      alt: 'YMCA icon: Global (Blue)'
+    - id: ymca_icon_gymnastics_beam_blu
+      name: 'YMCA Icon - Gymnastics - Beam (Blue)'
+      file: ymca_icon_gymnastics_beam_blu
+      alt: 'YMCA icon: Gymnastics - Beam (Blue)'
+    - id: ymca_icon_gymnastics_rings_blu
+      name: 'YMCA Icon - Gymnastics - Rings (Blue)'
+      file: ymca_icon_gymnastics_rings_blu
+      alt: 'YMCA icon: Gymnastics - Rings (Blue)'
+    - id: ymca_icon_handball_blu
+      name: 'YMCA Icon - Handball (Blue)'
+      file: ymca_icon_handball_blu
+      alt: 'YMCA icon: Handball (Blue)'
+    - id: ymca_icon_healthyliving_blu
+      name: 'YMCA Icon - Healthy Living (Blue)'
+      file: ymca_icon_healthyliving_blu
+      alt: 'YMCA icon: Healthy Living (Blue)'
+    - id: ymca_icon_heart_blu
+      name: 'YMCA Icon - Heart (Blue)'
+      file: ymca_icon_heart_blu
+      alt: 'YMCA icon: Heart (Blue)'
+    - id: ymca_icon_hearts_blu
+      name: 'YMCA Icon - Hearts (Blue)'
+      file: ymca_icon_hearts_blu
+      alt: 'YMCA icon: Hearts (Blue)'
+    - id: ymca_icon_hockey_blu
+      name: 'YMCA Icon - Hockey (Blue)'
+      file: ymca_icon_hockey_blu
+      alt: 'YMCA icon: Hockey (Blue)'
+    - id: ymca_icon_honesty_blu
+      name: 'YMCA Icon - Honesty (Blue)'
+      file: ymca_icon_honesty_blu
+      alt: 'YMCA icon: Honesty (Blue)'
+    - id: ymca_icon_iceskating_blu
+      name: 'YMCA Icon - Iceskating (Blue)'
+      file: ymca_icon_iceskating_blu
+      alt: 'YMCA icon: Iceskating (Blue)'
+    - id: ymca_icon_informationtechnology_blu
+      name: 'YMCA Icon - Information Technology (Blue)'
+      file: ymca_icon_informationtechnology_blu
+      alt: 'YMCA icon: Information Technology (Blue)'
+    - id: ymca_icon_karate_blu
+      name: 'YMCA Icon - Karate (Blue)'
+      file: ymca_icon_karate_blu
+      alt: 'YMCA icon: Karate (Blue)'
+    - id: ymca_icon_legalcounsel_blu
+      name: 'YMCA Icon - Legal Counsel (Blue)'
+      file: ymca_icon_legalcounsel_blu
+      alt: 'YMCA icon: Legal Counsel (Blue)'
+    - id: ymca_icon_marketing_and_comms_a_blu
+      name: 'YMCA Icon - Marketing & Comms - A (Blue)'
+      file: ymca_icon_marketing_and_comms_a_blu
+      alt: 'YMCA icon: Marketing & Comms - A (Blue)'
+    - id: ymca_icon_marketing_and_comms_b_blu
+      name: 'YMCA Icon - Marketing & Comms - B (Blue)'
+      file: ymca_icon_marketing_and_comms_b_blu
+      alt: 'YMCA icon: Marketing & Comms - B (Blue)'
+    - id: ymca_icon_membership_blu
+      name: 'YMCA Icon - Membership (Blue)'
+      file: ymca_icon_membership_blu
+      alt: 'YMCA icon: Membership (Blue)'
+    - id: ymca_icon_militaryoutreach_blu
+      name: 'YMCA Icon - Military Outreach (Blue)'
+      file: ymca_icon_militaryoutreach_blu
+      alt: 'YMCA icon: Military Outreach (Blue)'
+    - id: ymca_icon_partnership_blu
+      name: 'YMCA Icon - Partnership (Blue)'
+      file: ymca_icon_partnership_blu
+      alt: 'YMCA icon: Partnership (Blue)'
+    - id: ymca_icon_pickleball_blu
+      name: 'YMCA Icon - Pickleball (Blue)'
+      file: ymca_icon_pickleball_blu
+      alt: 'YMCA icon: Pickleball (Blue)'
+    - id: ymca_icon_pumpkin_holiday_blu
+      name: 'YMCA Icon - Pumpkin - Holiday (Blue)'
+      file: ymca_icon_pumpkin_holiday_blu
+      alt: 'YMCA icon: Pumpkin - Holiday (Blue)'
+    - id: ymca_icon_pumpkin_seasonal_blu
+      name: 'YMCA Icon - Pumpkin - Seasonal (Blue)'
+      file: ymca_icon_pumpkin_seasonal_blu
+      alt: 'YMCA icon: Pumpkin - Seasonal (Blue)'
+    - id: ymca_icon_questionmark_blu
+      name: 'YMCA Icon - Question Mark (Blue)'
+      file: ymca_icon_questionmark_blu
+      alt: 'YMCA icon: Question Mark (Blue)'
+    - id: ymca_icon_racquetball_blu
+      name: 'YMCA Icon - Racquetball (Blue)'
+      file: ymca_icon_racquetball_blu
+      alt: 'YMCA icon: Racquetball (Blue)'
+    - id: ymca_icon_reading_blu
+      name: 'YMCA Icon - Reading (Blue)'
+      file: ymca_icon_reading_blu
+      alt: 'YMCA icon: Reading (Blue)'
+    - id: ymca_icon_respect_blu
+      name: 'YMCA Icon - Respect (Blue)'
+      file: ymca_icon_respect_blu
+      alt: 'YMCA icon: Respect (Blue)'
+    - id: ymca_icon_responsibility_blu
+      name: 'YMCA Icon - Responsibility (Blue)'
+      file: ymca_icon_responsibility_blu
+      alt: 'YMCA icon: Responsibility (Blue)'
+    - id: ymca_icon_rollerblading_blu
+      name: 'YMCA Icon - Rollerblading (Blue)'
+      file: ymca_icon_rollerblading_blu
+      alt: 'YMCA icon: Rollerblading (Blue)'
+    - id: ymca_icon_rollerskating_blu
+      name: 'YMCA Icon - Rollerskating (Blue)'
+      file: ymca_icon_rollerskating_blu
+      alt: 'YMCA icon: Rollerskating (Blue)'
+    - id: ymca_icon_ropeschallenge_blu
+      name: 'YMCA Icon - Ropes Challenge (Blue)'
+      file: ymca_icon_ropeschallenge_blu
+      alt: 'YMCA icon: Ropes Challenge (Blue)'
+    - id: ymca_icon_running_blu
+      name: 'YMCA Icon - Running (Blue)'
+      file: ymca_icon_running_blu
+      alt: 'YMCA icon: Running (Blue)'
+    - id: ymca_icon_stem_blu
+      name: 'YMCA Icon - STEM (Blue)'
+      file: ymca_icon_stem_blu
+      alt: 'YMCA icon: STEM (Blue)'
+    - id: ymca_icon_skateboard_blu
+      name: 'YMCA Icon - Skateboard (Blue)'
+      file: ymca_icon_skateboard_blu
+      alt: 'YMCA icon: Skateboard (Blue)'
+    - id: ymca_icon_snowflake_seasonal_blu
+      name: 'YMCA Icon - Snowflake - Seasonal (Blue)'
+      file: ymca_icon_snowflake_seasonal_blu
+      alt: 'YMCA icon: Snowflake - Seasonal (Blue)'
+    - id: ymca_icon_soccer_blu
+      name: 'YMCA Icon - Soccer (Blue)'
+      file: ymca_icon_soccer_blu
+      alt: 'YMCA icon: Soccer (Blue)'
+    - id: ymca_icon_socialresponsibility_blu
+      name: 'YMCA Icon - Social Responsibility (Blue)'
+      file: ymca_icon_socialresponsibility_blu
+      alt: 'YMCA icon: Social Responsibility (Blue)'
+    - id: ymca_icon_socialservices_blu
+      name: 'YMCA Icon - Social Services (Blue)'
+      file: ymca_icon_socialservices_blu
+      alt: 'YMCA icon: Social Services (Blue)'
+    - id: ymca_icon_star_blu
+      name: 'YMCA Icon - Star (Blue)'
+      file: ymca_icon_star_blu
+      alt: 'YMCA icon: Star (Blue)'
+    - id: ymca_icon_stopwatch_blu
+      name: 'YMCA Icon - Stopwatch (Blue)'
+      file: ymca_icon_stopwatch_blu
+      alt: 'YMCA icon: Stopwatch (Blue)'
+    - id: ymca_icon_sun_seasonal_blu
+      name: 'YMCA Icon - Sun - Seasonal (Blue)'
+      file: ymca_icon_sun_seasonal_blu
+      alt: 'YMCA icon: Sun - Seasonal (Blue)'
+    - id: ymca_icon_swim_blu
+      name: 'YMCA Icon - Swim (Blue)'
+      file: ymca_icon_swim_blu
+      alt: 'YMCA icon: Swim (Blue)'
+    - id: ymca_icon_tennis_blu
+      name: 'YMCA Icon - Tennis (Blue)'
+      file: ymca_icon_tennis_blu
+      alt: 'YMCA icon: Tennis (Blue)'
+    - id: ymca_icon_tree_blu
+      name: 'YMCA Icon - Tree (Blue)'
+      file: ymca_icon_tree_blu
+      alt: 'YMCA icon: Tree (Blue)'
+    - id: ymca_icon_turkey_blu
+      name: 'YMCA Icon - Turkey (Blue)'
+      file: ymca_icon_turkey_blu
+      alt: 'YMCA icon: Turkey (Blue)'
+    - id: ymca_icon_volleyball_blu
+      name: 'YMCA Icon - Volleyball (Blue)'
+      file: ymca_icon_volleyball_blu
+      alt: 'YMCA icon: Volleyball (Blue)'
+    - id: ymca_icon_weightlifting_blu
+      name: 'YMCA Icon - Weightlifting (Blue)'
+      file: ymca_icon_weightlifting_blu
+      alt: 'YMCA icon: Weightlifting (Blue)'
+    - id: ymca_icon_wellness_blu
+      name: 'YMCA Icon - Wellness (Blue)'
+      file: ymca_icon_wellness_blu
+      alt: 'YMCA icon: Wellness (Blue)'
+    - id: ymca_icon_workout_blu
+      name: 'YMCA Icon - Workout (Blue)'
+      file: ymca_icon_workout_blu
+      alt: 'YMCA icon: Workout (Blue)'
+    - id: ymca_icon_achieversprogram_grn
+      name: 'YMCA Icon - Achievers Program (Green)'
+      file: ymca_icon_achieversprogram_grn
+      alt: 'YMCA icon: Achievers Program (Green)'
+    - id: ymca_icon_aerobics_grn
+      name: 'YMCA Icon - Aerobics (Green)'
+      file: ymca_icon_aerobics_grn
+      alt: 'YMCA icon: Aerobics (Green)'
+    - id: ymca_icon_alert_grn
+      name: 'YMCA Icon - Alert (Green)'
+      file: ymca_icon_alert_grn
+      alt: 'YMCA icon: Alert (Green)'
+    - id: ymca_icon_aquaticsafety_and_lessons_grn
+      name: 'YMCA Icon - Aquatic Safety & Lessons (Green)'
+      file: ymca_icon_aquaticsafety_and_lessons_grn
+      alt: 'YMCA icon: Aquatic Safety & Lessons (Green)'
+    - id: ymca_icon_art_grn
+      name: 'YMCA Icon - Art (Green)'
+      file: ymca_icon_art_grn
+      alt: 'YMCA icon: Art (Green)'
+    - id: ymca_icon_baseball_grn
+      name: 'YMCA Icon - Baseball (Green)'
+      file: ymca_icon_baseball_grn
+      alt: 'YMCA icon: Baseball (Green)'
+    - id: ymca_icon_basketball_grn
+      name: 'YMCA Icon - Basketball (Green)'
+      file: ymca_icon_basketball_grn
+      alt: 'YMCA icon: Basketball (Green)'
+    - id: ymca_icon_calendar_grn
+      name: 'YMCA Icon - Calendar (Green)'
+      file: ymca_icon_calendar_grn
+      alt: 'YMCA icon: Calendar (Green)'
+    - id: ymca_icon_campfire_grn
+      name: 'YMCA Icon - Camp Fire (Green)'
+      file: ymca_icon_campfire_grn
+      alt: 'YMCA icon: Camp Fire (Green)'
+    - id: ymca_icon_camping_grn
+      name: 'YMCA Icon - Camping (Green)'
+      file: ymca_icon_camping_grn
+      alt: 'YMCA icon: Camping (Green)'
+    - id: ymca_icon_careers_grn
+      name: 'YMCA Icon - Careers (Green)'
+      file: ymca_icon_careers_grn
+      alt: 'YMCA icon: Careers (Green)'
+    - id: ymca_icon_caring_a_grn
+      name: 'YMCA Icon - Caring - A (Green)'
+      file: ymca_icon_caring_a_grn
+      alt: 'YMCA icon: Caring - A (Green)'
+    - id: ymca_icon_caring_b_grn
+      name: 'YMCA Icon - Caring - B (Green)'
+      file: ymca_icon_caring_b_grn
+      alt: 'YMCA icon: Caring - B (Green)'
+    - id: ymca_icon_chapel_and_spiritual_grn
+      name: 'YMCA Icon - Chapel & Spiritual (Green)'
+      file: ymca_icon_chapel_and_spiritual_grn
+      alt: 'YMCA icon: Chapel & Spiritual (Green)'
+    - id: ymca_icon_childcare_grn
+      name: 'YMCA Icon - Child Care (Green)'
+      file: ymca_icon_childcare_grn
+      alt: 'YMCA icon: Child Care (Green)'
+    - id: ymca_icon_climbing_grn
+      name: 'YMCA Icon - Climbing (Green)'
+      file: ymca_icon_climbing_grn
+      alt: 'YMCA icon: Climbing (Green)'
+    - id: ymca_icon_clock_grn
+      name: 'YMCA Icon - Clock (Green)'
+      file: ymca_icon_clock_grn
+      alt: 'YMCA icon: Clock (Green)'
+    - id: ymca_icon_completedtask_grn
+      name: 'YMCA Icon - Completed Task (Green)'
+      file: ymca_icon_completedtask_grn
+      alt: 'YMCA icon: Completed Task (Green)'
+    - id: ymca_icon_computertechnology_grn
+      name: 'YMCA Icon - Computer Technology (Green)'
+      file: ymca_icon_computertechnology_grn
+      alt: 'YMCA icon: Computer Technology (Green)'
+    - id: ymca_icon_dancing_grn
+      name: 'YMCA Icon - Dancing (Green)'
+      file: ymca_icon_dancing_grn
+      alt: 'YMCA icon: Dancing (Green)'
+    - id: ymca_icon_daycamp_flag_grn
+      name: 'YMCA Icon - Day Camp - Flag (Green)'
+      file: ymca_icon_daycamp_flag_grn
+      alt: 'YMCA icon: Day Camp - Flag (Green)'
+    - id: ymca_icon_daycamp_shirt_grn
+      name: 'YMCA Icon - Day Camp - Shirt (Green)'
+      file: ymca_icon_daycamp_shirt_grn
+      alt: 'YMCA icon: Day Camp - Shirt (Green)'
+    - id: ymca_icon_diversity_and_inclusion_grn
+      name: 'YMCA Icon - Diversity & Inclusion (Green)'
+      file: ymca_icon_diversity_and_inclusion_grn
+      alt: 'YMCA icon: Diversity & Inclusion (Green)'
+    - id: ymca_icon_diving_grn
+      name: 'YMCA Icon - Diving (Green)'
+      file: ymca_icon_diving_grn
+      alt: 'YMCA icon: Diving (Green)'
+    - id: ymca_icon_education_and_leadership_grn
+      name: 'YMCA Icon - Education & Leadership (Green)'
+      file: ymca_icon_education_and_leadership_grn
+      alt: 'YMCA icon: Education & Leadership (Green)'
+    - id: ymca_icon_executiveleadership_grn
+      name: 'YMCA Icon - Executive Leadership (Green)'
+      file: ymca_icon_executiveleadership_grn
+      alt: 'YMCA icon: Executive Leadership (Green)'
+    - id: ymca_icon_figureskating_grn
+      name: 'YMCA Icon - Figureskating (Green)'
+      file: ymca_icon_figureskating_grn
+      alt: 'YMCA icon: Figureskating (Green)'
+    - id: ymca_icon_fooddonation_grn
+      name: 'YMCA Icon - Food Donation (Green)'
+      file: ymca_icon_fooddonation_grn
+      alt: 'YMCA icon: Food Donation (Green)'
+    - id: ymca_icon_football_grn
+      name: 'YMCA Icon - Football (Green)'
+      file: ymca_icon_football_grn
+      alt: 'YMCA icon: Football (Green)'
+    - id: ymca_icon_fundraising_and_donations_grn
+      name: 'YMCA Icon - Fundraising & Donations (Green)'
+      file: ymca_icon_fundraising_and_donations_grn
+      alt: 'YMCA icon: Fundraising & Donations (Green)'
+    - id: ymca_icon_generalfitness_grn
+      name: 'YMCA Icon - General Fitness (Green)'
+      file: ymca_icon_generalfitness_grn
+      alt: 'YMCA icon: General Fitness (Green)'
+    - id: ymca_icon_global_grn
+      name: 'YMCA Icon - Global (Green)'
+      file: ymca_icon_global_grn
+      alt: 'YMCA icon: Global (Green)'
+    - id: ymca_icon_gymnastics_beam_grn
+      name: 'YMCA Icon - Gymnastics - Beam (Green)'
+      file: ymca_icon_gymnastics_beam_grn
+      alt: 'YMCA icon: Gymnastics - Beam (Green)'
+    - id: ymca_icon_gymnastics_rings_grn
+      name: 'YMCA Icon - Gymnastics - Rings (Green)'
+      file: ymca_icon_gymnastics_rings_grn
+      alt: 'YMCA icon: Gymnastics - Rings (Green)'
+    - id: ymca_icon_handball_grn
+      name: 'YMCA Icon - Handball (Green)'
+      file: ymca_icon_handball_grn
+      alt: 'YMCA icon: Handball (Green)'
+    - id: ymca_icon_healthyliving_grn
+      name: 'YMCA Icon - Healthy Living (Green)'
+      file: ymca_icon_healthyliving_grn
+      alt: 'YMCA icon: Healthy Living (Green)'
+    - id: ymca_icon_heart_grn
+      name: 'YMCA Icon - Heart (Green)'
+      file: ymca_icon_heart_grn
+      alt: 'YMCA icon: Heart (Green)'
+    - id: ymca_icon_hearts_grn
+      name: 'YMCA Icon - Hearts (Green)'
+      file: ymca_icon_hearts_grn
+      alt: 'YMCA icon: Hearts (Green)'
+    - id: ymca_icon_hockey_grn
+      name: 'YMCA Icon - Hockey (Green)'
+      file: ymca_icon_hockey_grn
+      alt: 'YMCA icon: Hockey (Green)'
+    - id: ymca_icon_honesty_grn
+      name: 'YMCA Icon - Honesty (Green)'
+      file: ymca_icon_honesty_grn
+      alt: 'YMCA icon: Honesty (Green)'
+    - id: ymca_icon_iceskating_grn
+      name: 'YMCA Icon - Iceskating (Green)'
+      file: ymca_icon_iceskating_grn
+      alt: 'YMCA icon: Iceskating (Green)'
+    - id: ymca_icon_informationtechnology_grn
+      name: 'YMCA Icon - Information Technology (Green)'
+      file: ymca_icon_informationtechnology_grn
+      alt: 'YMCA icon: Information Technology (Green)'
+    - id: ymca_icon_karate_grn
+      name: 'YMCA Icon - Karate (Green)'
+      file: ymca_icon_karate_grn
+      alt: 'YMCA icon: Karate (Green)'
+    - id: ymca_icon_legalcounsel_grn
+      name: 'YMCA Icon - Legal Counsel (Green)'
+      file: ymca_icon_legalcounsel_grn
+      alt: 'YMCA icon: Legal Counsel (Green)'
+    - id: ymca_icon_marketing_and_comms_a_grn
+      name: 'YMCA Icon - Marketing & Comms - A (Green)'
+      file: ymca_icon_marketing_and_comms_a_grn
+      alt: 'YMCA icon: Marketing & Comms - A (Green)'
+    - id: ymca_icon_marketing_and_comms_b_grn
+      name: 'YMCA Icon - Marketing & Comms - B (Green)'
+      file: ymca_icon_marketing_and_comms_b_grn
+      alt: 'YMCA icon: Marketing & Comms - B (Green)'
+    - id: ymca_icon_membership_grn
+      name: 'YMCA Icon - Membership (Green)'
+      file: ymca_icon_membership_grn
+      alt: 'YMCA icon: Membership (Green)'
+    - id: ymca_icon_militaryoutreach_grn
+      name: 'YMCA Icon - Military Outreach (Green)'
+      file: ymca_icon_militaryoutreach_grn
+      alt: 'YMCA icon: Military Outreach (Green)'
+    - id: ymca_icon_partnership_grn
+      name: 'YMCA Icon - Partnership (Green)'
+      file: ymca_icon_partnership_grn
+      alt: 'YMCA icon: Partnership (Green)'
+    - id: ymca_icon_pickleball_grn
+      name: 'YMCA Icon - Pickleball (Green)'
+      file: ymca_icon_pickleball_grn
+      alt: 'YMCA icon: Pickleball (Green)'
+    - id: ymca_icon_pumpkin_holiday_grn
+      name: 'YMCA Icon - Pumpkin - Holiday (Green)'
+      file: ymca_icon_pumpkin_holiday_grn
+      alt: 'YMCA icon: Pumpkin - Holiday (Green)'
+    - id: ymca_icon_pumpkin_seasonal_grn
+      name: 'YMCA Icon - Pumpkin - Seasonal (Green)'
+      file: ymca_icon_pumpkin_seasonal_grn
+      alt: 'YMCA icon: Pumpkin - Seasonal (Green)'
+    - id: ymca_icon_questionmark_grn
+      name: 'YMCA Icon - Question Mark (Green)'
+      file: ymca_icon_questionmark_grn
+      alt: 'YMCA icon: Question Mark (Green)'
+    - id: ymca_icon_racquetball_grn
+      name: 'YMCA Icon - Racquetball (Green)'
+      file: ymca_icon_racquetball_grn
+      alt: 'YMCA icon: Racquetball (Green)'
+    - id: ymca_icon_reading_grn
+      name: 'YMCA Icon - Reading (Green)'
+      file: ymca_icon_reading_grn
+      alt: 'YMCA icon: Reading (Green)'
+    - id: ymca_icon_respect_grn
+      name: 'YMCA Icon - Respect (Green)'
+      file: ymca_icon_respect_grn
+      alt: 'YMCA icon: Respect (Green)'
+    - id: ymca_icon_responsibility_grn
+      name: 'YMCA Icon - Responsibility (Green)'
+      file: ymca_icon_responsibility_grn
+      alt: 'YMCA icon: Responsibility (Green)'
+    - id: ymca_icon_rollerblading_grn
+      name: 'YMCA Icon - Rollerblading (Green)'
+      file: ymca_icon_rollerblading_grn
+      alt: 'YMCA icon: Rollerblading (Green)'
+    - id: ymca_icon_rollerskating_grn
+      name: 'YMCA Icon - Rollerskating (Green)'
+      file: ymca_icon_rollerskating_grn
+      alt: 'YMCA icon: Rollerskating (Green)'
+    - id: ymca_icon_ropeschallenge_grn
+      name: 'YMCA Icon - Ropes Challenge (Green)'
+      file: ymca_icon_ropeschallenge_grn
+      alt: 'YMCA icon: Ropes Challenge (Green)'
+    - id: ymca_icon_running_grn
+      name: 'YMCA Icon - Running (Green)'
+      file: ymca_icon_running_grn
+      alt: 'YMCA icon: Running (Green)'
+    - id: ymca_icon_stem_grn
+      name: 'YMCA Icon - STEM (Green)'
+      file: ymca_icon_stem_grn
+      alt: 'YMCA icon: STEM (Green)'
+    - id: ymca_icon_skateboard_grn
+      name: 'YMCA Icon - Skateboard (Green)'
+      file: ymca_icon_skateboard_grn
+      alt: 'YMCA icon: Skateboard (Green)'
+    - id: ymca_icon_snowflake_seasonal_grn
+      name: 'YMCA Icon - Snowflake - Seasonal (Green)'
+      file: ymca_icon_snowflake_seasonal_grn
+      alt: 'YMCA icon: Snowflake - Seasonal (Green)'
+    - id: ymca_icon_soccer_grn
+      name: 'YMCA Icon - Soccer (Green)'
+      file: ymca_icon_soccer_grn
+      alt: 'YMCA icon: Soccer (Green)'
+    - id: ymca_icon_socialresponsibility_grn
+      name: 'YMCA Icon - Social Responsibility (Green)'
+      file: ymca_icon_socialresponsibility_grn
+      alt: 'YMCA icon: Social Responsibility (Green)'
+    - id: ymca_icon_socialservices_grn
+      name: 'YMCA Icon - Social Services (Green)'
+      file: ymca_icon_socialservices_grn
+      alt: 'YMCA icon: Social Services (Green)'
+    - id: ymca_icon_star_grn
+      name: 'YMCA Icon - Star (Green)'
+      file: ymca_icon_star_grn
+      alt: 'YMCA icon: Star (Green)'
+    - id: ymca_icon_stopwatch_grn
+      name: 'YMCA Icon - Stopwatch (Green)'
+      file: ymca_icon_stopwatch_grn
+      alt: 'YMCA icon: Stopwatch (Green)'
+    - id: ymca_icon_sun_seasonal_grn
+      name: 'YMCA Icon - Sun - Seasonal (Green)'
+      file: ymca_icon_sun_seasonal_grn
+      alt: 'YMCA icon: Sun - Seasonal (Green)'
+    - id: ymca_icon_swim_grn
+      name: 'YMCA Icon - Swim (Green)'
+      file: ymca_icon_swim_grn
+      alt: 'YMCA icon: Swim (Green)'
+    - id: ymca_icon_tennis_grn
+      name: 'YMCA Icon - Tennis (Green)'
+      file: ymca_icon_tennis_grn
+      alt: 'YMCA icon: Tennis (Green)'
+    - id: ymca_icon_tree_grn
+      name: 'YMCA Icon - Tree (Green)'
+      file: ymca_icon_tree_grn
+      alt: 'YMCA icon: Tree (Green)'
+    - id: ymca_icon_turkey_grn
+      name: 'YMCA Icon - Turkey (Green)'
+      file: ymca_icon_turkey_grn
+      alt: 'YMCA icon: Turkey (Green)'
+    - id: ymca_icon_volleyball_grn
+      name: 'YMCA Icon - Volleyball (Green)'
+      file: ymca_icon_volleyball_grn
+      alt: 'YMCA icon: Volleyball (Green)'
+    - id: ymca_icon_weightlifting_grn
+      name: 'YMCA Icon - Weightlifting (Green)'
+      file: ymca_icon_weightlifting_grn
+      alt: 'YMCA icon: Weightlifting (Green)'
+    - id: ymca_icon_wellness_grn
+      name: 'YMCA Icon - Wellness (Green)'
+      file: ymca_icon_wellness_grn
+      alt: 'YMCA icon: Wellness (Green)'
+    - id: ymca_icon_workout_grn
+      name: 'YMCA Icon - Workout (Green)'
+      file: ymca_icon_workout_grn
+      alt: 'YMCA icon: Workout (Green)'
+    - id: ymca_icon_achieversprogram_orng
+      name: 'YMCA Icon - Achievers Program (Orange)'
+      file: ymca_icon_achieversprogram_orng
+      alt: 'YMCA icon: Achievers Program (Orange)'
+    - id: ymca_icon_aerobics_orng
+      name: 'YMCA Icon - Aerobics (Orange)'
+      file: ymca_icon_aerobics_orng
+      alt: 'YMCA icon: Aerobics (Orange)'
+    - id: ymca_icon_alert_orng
+      name: 'YMCA Icon - Alert (Orange)'
+      file: ymca_icon_alert_orng
+      alt: 'YMCA icon: Alert (Orange)'
+    - id: ymca_icon_aquaticsafety_and_lessons_orng
+      name: 'YMCA Icon - Aquatic Safety & Lessons (Orange)'
+      file: ymca_icon_aquaticsafety_and_lessons_orng
+      alt: 'YMCA icon: Aquatic Safety & Lessons (Orange)'
+    - id: ymca_icon_art_orng
+      name: 'YMCA Icon - Art (Orange)'
+      file: ymca_icon_art_orng
+      alt: 'YMCA icon: Art (Orange)'
+    - id: ymca_icon_baseball_orng
+      name: 'YMCA Icon - Baseball (Orange)'
+      file: ymca_icon_baseball_orng
+      alt: 'YMCA icon: Baseball (Orange)'
+    - id: ymca_icon_basketball_orng
+      name: 'YMCA Icon - Basketball (Orange)'
+      file: ymca_icon_basketball_orng
+      alt: 'YMCA icon: Basketball (Orange)'
+    - id: ymca_icon_calendar_orng
+      name: 'YMCA Icon - Calendar (Orange)'
+      file: ymca_icon_calendar_orng
+      alt: 'YMCA icon: Calendar (Orange)'
+    - id: ymca_icon_campfire_orng
+      name: 'YMCA Icon - Camp Fire (Orange)'
+      file: ymca_icon_campfire_orng
+      alt: 'YMCA icon: Camp Fire (Orange)'
+    - id: ymca_icon_camping_orng
+      name: 'YMCA Icon - Camping (Orange)'
+      file: ymca_icon_camping_orng
+      alt: 'YMCA icon: Camping (Orange)'
+    - id: ymca_icon_careers_orng
+      name: 'YMCA Icon - Careers (Orange)'
+      file: ymca_icon_careers_orng
+      alt: 'YMCA icon: Careers (Orange)'
+    - id: ymca_icon_caring_a_orng
+      name: 'YMCA Icon - Caring - A (Orange)'
+      file: ymca_icon_caring_a_orng
+      alt: 'YMCA icon: Caring - A (Orange)'
+    - id: ymca_icon_caring_b_orng
+      name: 'YMCA Icon - Caring - B (Orange)'
+      file: ymca_icon_caring_b_orng
+      alt: 'YMCA icon: Caring - B (Orange)'
+    - id: ymca_icon_chapel_and_spiritual_orng
+      name: 'YMCA Icon - Chapel & Spiritual (Orange)'
+      file: ymca_icon_chapel_and_spiritual_orng
+      alt: 'YMCA icon: Chapel & Spiritual (Orange)'
+    - id: ymca_icon_childcare_orng
+      name: 'YMCA Icon - Child Care (Orange)'
+      file: ymca_icon_childcare_orng
+      alt: 'YMCA icon: Child Care (Orange)'
+    - id: ymca_icon_climbing_orng
+      name: 'YMCA Icon - Climbing (Orange)'
+      file: ymca_icon_climbing_orng
+      alt: 'YMCA icon: Climbing (Orange)'
+    - id: ymca_icon_clock_orng
+      name: 'YMCA Icon - Clock (Orange)'
+      file: ymca_icon_clock_orng
+      alt: 'YMCA icon: Clock (Orange)'
+    - id: ymca_icon_completedtask_orng
+      name: 'YMCA Icon - Completed Task (Orange)'
+      file: ymca_icon_completedtask_orng
+      alt: 'YMCA icon: Completed Task (Orange)'
+    - id: ymca_icon_computertechnology_orng
+      name: 'YMCA Icon - Computer Technology (Orange)'
+      file: ymca_icon_computertechnology_orng
+      alt: 'YMCA icon: Computer Technology (Orange)'
+    - id: ymca_icon_dancing_orng
+      name: 'YMCA Icon - Dancing (Orange)'
+      file: ymca_icon_dancing_orng
+      alt: 'YMCA icon: Dancing (Orange)'
+    - id: ymca_icon_daycamp_flag_orng
+      name: 'YMCA Icon - Day Camp - Flag (Orange)'
+      file: ymca_icon_daycamp_flag_orng
+      alt: 'YMCA icon: Day Camp - Flag (Orange)'
+    - id: ymca_icon_daycamp_shirt_orng
+      name: 'YMCA Icon - Day Camp - Shirt (Orange)'
+      file: ymca_icon_daycamp_shirt_orng
+      alt: 'YMCA icon: Day Camp - Shirt (Orange)'
+    - id: ymca_icon_diversity_and_inclusion_orng
+      name: 'YMCA Icon - Diversity & Inclusion (Orange)'
+      file: ymca_icon_diversity_and_inclusion_orng
+      alt: 'YMCA icon: Diversity & Inclusion (Orange)'
+    - id: ymca_icon_diving_orng
+      name: 'YMCA Icon - Diving (Orange)'
+      file: ymca_icon_diving_orng
+      alt: 'YMCA icon: Diving (Orange)'
+    - id: ymca_icon_education_and_leadership_orng
+      name: 'YMCA Icon - Education & Leadership (Orange)'
+      file: ymca_icon_education_and_leadership_orng
+      alt: 'YMCA icon: Education & Leadership (Orange)'
+    - id: ymca_icon_executiveleadership_orng
+      name: 'YMCA Icon - Executive Leadership (Orange)'
+      file: ymca_icon_executiveleadership_orng
+      alt: 'YMCA icon: Executive Leadership (Orange)'
+    - id: ymca_icon_figureskating_orng
+      name: 'YMCA Icon - Figureskating (Orange)'
+      file: ymca_icon_figureskating_orng
+      alt: 'YMCA icon: Figureskating (Orange)'
+    - id: ymca_icon_fooddonation_orng
+      name: 'YMCA Icon - Food Donation (Orange)'
+      file: ymca_icon_fooddonation_orng
+      alt: 'YMCA icon: Food Donation (Orange)'
+    - id: ymca_icon_football_orng
+      name: 'YMCA Icon - Football (Orange)'
+      file: ymca_icon_football_orng
+      alt: 'YMCA icon: Football (Orange)'
+    - id: ymca_icon_fundraising_and_donations_orng
+      name: 'YMCA Icon - Fundraising & Donations (Orange)'
+      file: ymca_icon_fundraising_and_donations_orng
+      alt: 'YMCA icon: Fundraising & Donations (Orange)'
+    - id: ymca_icon_generalfitness_orng
+      name: 'YMCA Icon - General Fitness (Orange)'
+      file: ymca_icon_generalfitness_orng
+      alt: 'YMCA icon: General Fitness (Orange)'
+    - id: ymca_icon_global_orng
+      name: 'YMCA Icon - Global (Orange)'
+      file: ymca_icon_global_orng
+      alt: 'YMCA icon: Global (Orange)'
+    - id: ymca_icon_gymnastics_beam_orng
+      name: 'YMCA Icon - Gymnastics - Beam (Orange)'
+      file: ymca_icon_gymnastics_beam_orng
+      alt: 'YMCA icon: Gymnastics - Beam (Orange)'
+    - id: ymca_icon_gymnastics_rings_orng
+      name: 'YMCA Icon - Gymnastics - Rings (Orange)'
+      file: ymca_icon_gymnastics_rings_orng
+      alt: 'YMCA icon: Gymnastics - Rings (Orange)'
+    - id: ymca_icon_handball_orng
+      name: 'YMCA Icon - Handball (Orange)'
+      file: ymca_icon_handball_orng
+      alt: 'YMCA icon: Handball (Orange)'
+    - id: ymca_icon_healthyliving_orng
+      name: 'YMCA Icon - Healthy Living (Orange)'
+      file: ymca_icon_healthyliving_orng
+      alt: 'YMCA icon: Healthy Living (Orange)'
+    - id: ymca_icon_heart_orng
+      name: 'YMCA Icon - Heart (Orange)'
+      file: ymca_icon_heart_orng
+      alt: 'YMCA icon: Heart (Orange)'
+    - id: ymca_icon_hearts_orng
+      name: 'YMCA Icon - Hearts (Orange)'
+      file: ymca_icon_hearts_orng
+      alt: 'YMCA icon: Hearts (Orange)'
+    - id: ymca_icon_hockey_orng
+      name: 'YMCA Icon - Hockey (Orange)'
+      file: ymca_icon_hockey_orng
+      alt: 'YMCA icon: Hockey (Orange)'
+    - id: ymca_icon_honesty_orng
+      name: 'YMCA Icon - Honesty (Orange)'
+      file: ymca_icon_honesty_orng
+      alt: 'YMCA icon: Honesty (Orange)'
+    - id: ymca_icon_iceskating_orng
+      name: 'YMCA Icon - Iceskating (Orange)'
+      file: ymca_icon_iceskating_orng
+      alt: 'YMCA icon: Iceskating (Orange)'
+    - id: ymca_icon_informationtechnology_orng
+      name: 'YMCA Icon - Information Technology (Orange)'
+      file: ymca_icon_informationtechnology_orng
+      alt: 'YMCA icon: Information Technology (Orange)'
+    - id: ymca_icon_karate_orng
+      name: 'YMCA Icon - Karate (Orange)'
+      file: ymca_icon_karate_orng
+      alt: 'YMCA icon: Karate (Orange)'
+    - id: ymca_icon_legalcounsel_orng
+      name: 'YMCA Icon - Legal Counsel (Orange)'
+      file: ymca_icon_legalcounsel_orng
+      alt: 'YMCA icon: Legal Counsel (Orange)'
+    - id: ymca_icon_marketing_and_comms_a_orng
+      name: 'YMCA Icon - Marketing & Comms - A (Orange)'
+      file: ymca_icon_marketing_and_comms_a_orng
+      alt: 'YMCA icon: Marketing & Comms - A (Orange)'
+    - id: ymca_icon_marketing_and_comms_b_orng
+      name: 'YMCA Icon - Marketing & Comms - B (Orange)'
+      file: ymca_icon_marketing_and_comms_b_orng
+      alt: 'YMCA icon: Marketing & Comms - B (Orange)'
+    - id: ymca_icon_membership_orng
+      name: 'YMCA Icon - Membership (Orange)'
+      file: ymca_icon_membership_orng
+      alt: 'YMCA icon: Membership (Orange)'
+    - id: ymca_icon_militaryoutreach_orng
+      name: 'YMCA Icon - Military Outreach (Orange)'
+      file: ymca_icon_militaryoutreach_orng
+      alt: 'YMCA icon: Military Outreach (Orange)'
+    - id: ymca_icon_partnership_orng
+      name: 'YMCA Icon - Partnership (Orange)'
+      file: ymca_icon_partnership_orng
+      alt: 'YMCA icon: Partnership (Orange)'
+    - id: ymca_icon_pickleball_orng
+      name: 'YMCA Icon - Pickleball (Orange)'
+      file: ymca_icon_pickleball_orng
+      alt: 'YMCA icon: Pickleball (Orange)'
+    - id: ymca_icon_pumpkin_holiday_orng
+      name: 'YMCA Icon - Pumpkin - Holiday (Orange)'
+      file: ymca_icon_pumpkin_holiday_orng
+      alt: 'YMCA icon: Pumpkin - Holiday (Orange)'
+    - id: ymca_icon_pumpkin_seasonal_orng
+      name: 'YMCA Icon - Pumpkin - Seasonal (Orange)'
+      file: ymca_icon_pumpkin_seasonal_orng
+      alt: 'YMCA icon: Pumpkin - Seasonal (Orange)'
+    - id: ymca_icon_questionmark_orng
+      name: 'YMCA Icon - Question Mark (Orange)'
+      file: ymca_icon_questionmark_orng
+      alt: 'YMCA icon: Question Mark (Orange)'
+    - id: ymca_icon_racquetball_orng
+      name: 'YMCA Icon - Racquetball (Orange)'
+      file: ymca_icon_racquetball_orng
+      alt: 'YMCA icon: Racquetball (Orange)'
+    - id: ymca_icon_reading_orng
+      name: 'YMCA Icon - Reading (Orange)'
+      file: ymca_icon_reading_orng
+      alt: 'YMCA icon: Reading (Orange)'
+    - id: ymca_icon_respect_orng
+      name: 'YMCA Icon - Respect (Orange)'
+      file: ymca_icon_respect_orng
+      alt: 'YMCA icon: Respect (Orange)'
+    - id: ymca_icon_responsibility_orng
+      name: 'YMCA Icon - Responsibility (Orange)'
+      file: ymca_icon_responsibility_orng
+      alt: 'YMCA icon: Responsibility (Orange)'
+    - id: ymca_icon_rollerblading_orng
+      name: 'YMCA Icon - Rollerblading (Orange)'
+      file: ymca_icon_rollerblading_orng
+      alt: 'YMCA icon: Rollerblading (Orange)'
+    - id: ymca_icon_rollerskating_orng
+      name: 'YMCA Icon - Rollerskating (Orange)'
+      file: ymca_icon_rollerskating_orng
+      alt: 'YMCA icon: Rollerskating (Orange)'
+    - id: ymca_icon_ropeschallenge_orng
+      name: 'YMCA Icon - Ropes Challenge (Orange)'
+      file: ymca_icon_ropeschallenge_orng
+      alt: 'YMCA icon: Ropes Challenge (Orange)'
+    - id: ymca_icon_running_orng
+      name: 'YMCA Icon - Running (Orange)'
+      file: ymca_icon_running_orng
+      alt: 'YMCA icon: Running (Orange)'
+    - id: ymca_icon_stem_orng
+      name: 'YMCA Icon - STEM (Orange)'
+      file: ymca_icon_stem_orng
+      alt: 'YMCA icon: STEM (Orange)'
+    - id: ymca_icon_skateboard_orng
+      name: 'YMCA Icon - Skateboard (Orange)'
+      file: ymca_icon_skateboard_orng
+      alt: 'YMCA icon: Skateboard (Orange)'
+    - id: ymca_icon_snowflake_seasonal_orng
+      name: 'YMCA Icon - Snowflake - Seasonal (Orange)'
+      file: ymca_icon_snowflake_seasonal_orng
+      alt: 'YMCA icon: Snowflake - Seasonal (Orange)'
+    - id: ymca_icon_soccer_orng
+      name: 'YMCA Icon - Soccer (Orange)'
+      file: ymca_icon_soccer_orng
+      alt: 'YMCA icon: Soccer (Orange)'
+    - id: ymca_icon_socialresponsibility_orng
+      name: 'YMCA Icon - Social Responsibility (Orange)'
+      file: ymca_icon_socialresponsibility_orng
+      alt: 'YMCA icon: Social Responsibility (Orange)'
+    - id: ymca_icon_socialservices_orng
+      name: 'YMCA Icon - Social Services (Orange)'
+      file: ymca_icon_socialservices_orng
+      alt: 'YMCA icon: Social Services (Orange)'
+    - id: ymca_icon_star_orng
+      name: 'YMCA Icon - Star (Orange)'
+      file: ymca_icon_star_orng
+      alt: 'YMCA icon: Star (Orange)'
+    - id: ymca_icon_stopwatch_orng
+      name: 'YMCA Icon - Stopwatch (Orange)'
+      file: ymca_icon_stopwatch_orng
+      alt: 'YMCA icon: Stopwatch (Orange)'
+    - id: ymca_icon_sun_seasonal_orng
+      name: 'YMCA Icon - Sun - Seasonal (Orange)'
+      file: ymca_icon_sun_seasonal_orng
+      alt: 'YMCA icon: Sun - Seasonal (Orange)'
+    - id: ymca_icon_swim_orng
+      name: 'YMCA Icon - Swim (Orange)'
+      file: ymca_icon_swim_orng
+      alt: 'YMCA icon: Swim (Orange)'
+    - id: ymca_icon_tennis_orng
+      name: 'YMCA Icon - Tennis (Orange)'
+      file: ymca_icon_tennis_orng
+      alt: 'YMCA icon: Tennis (Orange)'
+    - id: ymca_icon_tree_orng
+      name: 'YMCA Icon - Tree (Orange)'
+      file: ymca_icon_tree_orng
+      alt: 'YMCA icon: Tree (Orange)'
+    - id: ymca_icon_turkey_orng
+      name: 'YMCA Icon - Turkey (Orange)'
+      file: ymca_icon_turkey_orng
+      alt: 'YMCA icon: Turkey (Orange)'
+    - id: ymca_icon_volleyball_orng
+      name: 'YMCA Icon - Volleyball (Orange)'
+      file: ymca_icon_volleyball_orng
+      alt: 'YMCA icon: Volleyball (Orange)'
+    - id: ymca_icon_weightlifting_orng
+      name: 'YMCA Icon - Weightlifting (Orange)'
+      file: ymca_icon_weightlifting_orng
+      alt: 'YMCA icon: Weightlifting (Orange)'
+    - id: ymca_icon_wellness_orng
+      name: 'YMCA Icon - Wellness (Orange)'
+      file: ymca_icon_wellness_orng
+      alt: 'YMCA icon: Wellness (Orange)'
+    - id: ymca_icon_workout_orng
+      name: 'YMCA Icon - Workout (Orange)'
+      file: ymca_icon_workout_orng
+      alt: 'YMCA icon: Workout (Orange)'
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  name:
+    -
+      plugin: get
+      source: name
+  bundle:
+    -
+      plugin: default_value
+      default_value: image
+  uid:
+    -
+      plugin: default_value
+      default_value: 1
+  field_media_image/target_id:
+    -
+      plugin: migration_lookup
+      migration: y_lb_demo_icons_file
+      source: file
+  field_media_image/alt:
+    -
+      plugin: get
+      source: alt
+destination:
+  plugin: 'entity:media'
+migration_dependencies:
+  required:
+    - y_lb_demo_icons_file
+  optional: {}

@@ -1,0 +1,537 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+  enforced:
+    module:
+      - y_lb_demo_content_icons
+id: y_lb_demo_icons_file
+migration_tags:
+  - y_lb_demo_content_icons
+migration_group: y_lb_demo_content_icons
+label: 'Import Demo YMCA Icon files'
+source:
+  plugin: embedded_data
+  data_rows:
+    - id: ymca_icon_achieversprogram_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_AchieversProgram_blu_rgb.png'
+    - id: ymca_icon_aerobics_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Aerobics_blu_rgb.png'
+    - id: ymca_icon_alert_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Alert_blu_rgb.png'
+    - id: ymca_icon_aquaticsafety_and_lessons_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_AquaticSafety&Lessons_blu_rgb.png'
+    - id: ymca_icon_art_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Art_blu_rgb.png'
+    - id: ymca_icon_baseball_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Baseball_blu_rgb.png'
+    - id: ymca_icon_basketball_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Basketball_blu_rgb.png'
+    - id: ymca_icon_calendar_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Calendar_blu_rgb.png'
+    - id: ymca_icon_campfire_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_CampFire_blu_rgb.png'
+    - id: ymca_icon_camping_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Camping_blu_rgb.png'
+    - id: ymca_icon_careers_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Careers_blu_rgb.png'
+    - id: ymca_icon_caring_a_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Caring-A_blu_rgb.png'
+    - id: ymca_icon_caring_b_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Caring-B_blu_rgb.png'
+    - id: ymca_icon_chapel_and_spiritual_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Chapel&Spiritual_blu_rgb.png'
+    - id: ymca_icon_childcare_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_ChildCare_blu_rgb.png'
+    - id: ymca_icon_climbing_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Climbing_blu_rgb.png'
+    - id: ymca_icon_clock_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Clock_blu_rgb.png'
+    - id: ymca_icon_completedtask_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_CompletedTask_blu_rgb.png'
+    - id: ymca_icon_computertechnology_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_ComputerTechnology_blu_rgb.png'
+    - id: ymca_icon_dancing_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Dancing_blu_rgb.png'
+    - id: ymca_icon_daycamp_flag_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_DayCamp-Flag_blu_rgb.png'
+    - id: ymca_icon_daycamp_shirt_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_DayCamp-Shirt_blu_rgb.png'
+    - id: ymca_icon_diversity_and_inclusion_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Diversity&Inclusion_blu_rgb.png'
+    - id: ymca_icon_diving_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Diving_blu_rgb.png'
+    - id: ymca_icon_education_and_leadership_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Education&Leadership_blu_rgb.png'
+    - id: ymca_icon_executiveleadership_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_ExecutiveLeadership_blu_rgb.png'
+    - id: ymca_icon_figureskating_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Figureskating_blu_rgb.png'
+    - id: ymca_icon_fooddonation_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_FoodDonation_blu_rgb.png'
+    - id: ymca_icon_football_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Football_blu_rgb.png'
+    - id: ymca_icon_fundraising_and_donations_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Fundraising&Donations_blu_rgb.png'
+    - id: ymca_icon_generalfitness_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_GeneralFitness_blu_rgb.png'
+    - id: ymca_icon_global_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Global_blu_rgb.png'
+    - id: ymca_icon_gymnastics_beam_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Gymnastics-Beam_blu_rgb.png'
+    - id: ymca_icon_gymnastics_rings_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Gymnastics-Rings_blu_rgb.png'
+    - id: ymca_icon_handball_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Handball_blu_rgb.png'
+    - id: ymca_icon_healthyliving_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_HealthyLiving_blu_rgb.png'
+    - id: ymca_icon_heart_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Heart_blu_rgb.png'
+    - id: ymca_icon_hearts_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Hearts_blu_rgb.png'
+    - id: ymca_icon_hockey_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Hockey_blu_rgb.png'
+    - id: ymca_icon_honesty_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Honesty_blu_rgb.png'
+    - id: ymca_icon_iceskating_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Iceskating_blu_rgb.png'
+    - id: ymca_icon_informationtechnology_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_InformationTechnology_blu_rgb.png'
+    - id: ymca_icon_karate_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Karate_blu_rgb.png'
+    - id: ymca_icon_legalcounsel_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_LegalCounsel_blu_rgb.png'
+    - id: ymca_icon_marketing_and_comms_a_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Marketing&Comms-A_blu_rgb.png'
+    - id: ymca_icon_marketing_and_comms_b_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Marketing&Comms-B_blu_rgb.png'
+    - id: ymca_icon_membership_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Membership_blu_rgb.png'
+    - id: ymca_icon_militaryoutreach_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_MilitaryOutreach_blu_rgb.png'
+    - id: ymca_icon_partnership_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Partnership_blu_rgb.png'
+    - id: ymca_icon_pickleball_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Pickleball_blu_rgb.png'
+    - id: ymca_icon_pumpkin_holiday_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Pumpkin-Holiday_blu_rgb.png'
+    - id: ymca_icon_pumpkin_seasonal_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Pumpkin-Seasonal_blu_rgb.png'
+    - id: ymca_icon_questionmark_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_QuestionMark_blu_rgb.png'
+    - id: ymca_icon_racquetball_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Racquetball_blu_rgb.png'
+    - id: ymca_icon_reading_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Reading_blu_rgb.png'
+    - id: ymca_icon_respect_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Respect_blu_rgb.png'
+    - id: ymca_icon_responsibility_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Responsibility_blu_rgb.png'
+    - id: ymca_icon_rollerblading_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Rollerblading_blu_rgb.png'
+    - id: ymca_icon_rollerskating_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Rollerskating_blu_rgb.png'
+    - id: ymca_icon_ropeschallenge_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_RopesChallenge_blu_rgb.png'
+    - id: ymca_icon_running_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Running_blu_rgb.png'
+    - id: ymca_icon_stem_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_STEM_blu_rgb.png'
+    - id: ymca_icon_skateboard_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Skateboard_blu_rgb.png'
+    - id: ymca_icon_snowflake_seasonal_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Snowflake-Seasonal_blu_rgb.png'
+    - id: ymca_icon_soccer_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Soccer_blu_rgb.png'
+    - id: ymca_icon_socialresponsibility_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_SocialResponsibility_blu_rgb.png'
+    - id: ymca_icon_socialservices_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_SocialServices_blu_rgb.png'
+    - id: ymca_icon_star_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Star_blu_rgb.png'
+    - id: ymca_icon_stopwatch_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Stopwatch_blu_rgb.png'
+    - id: ymca_icon_sun_seasonal_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Sun-Seasonal_blu_rgb.png'
+    - id: ymca_icon_swim_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Swim_blu_rgb.png'
+    - id: ymca_icon_tennis_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Tennis_blu_rgb.png'
+    - id: ymca_icon_tree_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Tree_blu_rgb.png'
+    - id: ymca_icon_turkey_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Turkey_blu_rgb.png'
+    - id: ymca_icon_volleyball_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Volleyball_blu_rgb.png'
+    - id: ymca_icon_weightlifting_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Weightlifting_blu_rgb.png'
+    - id: ymca_icon_wellness_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Wellness_blu_rgb.png'
+    - id: ymca_icon_workout_blu
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Workout_blu_rgb.png'
+    - id: ymca_icon_achieversprogram_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_AchieversProgram_grn_rgb.png'
+    - id: ymca_icon_aerobics_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Aerobics_grn_rgb.png'
+    - id: ymca_icon_alert_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Alert_grn_rgb.png'
+    - id: ymca_icon_aquaticsafety_and_lessons_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_AquaticSafety&Lessons_grn_rgb.png'
+    - id: ymca_icon_art_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Art_grn_rgb.png'
+    - id: ymca_icon_baseball_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Baseball_grn_rgb.png'
+    - id: ymca_icon_basketball_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Basketball_grn_rgb.png'
+    - id: ymca_icon_calendar_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Calendar_grn_rgb.png'
+    - id: ymca_icon_campfire_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_CampFire_grn_rgb.png'
+    - id: ymca_icon_camping_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Camping_grn_rgb.png'
+    - id: ymca_icon_careers_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Careers_grn_rgb.png'
+    - id: ymca_icon_caring_a_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Caring-A_grn_rgb.png'
+    - id: ymca_icon_caring_b_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Caring-B_grn_rgb.png'
+    - id: ymca_icon_chapel_and_spiritual_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Chapel&Spiritual_grn_rgb.png'
+    - id: ymca_icon_childcare_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_ChildCare_grn_rgb.png'
+    - id: ymca_icon_climbing_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Climbing_grn_rgb.png'
+    - id: ymca_icon_clock_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Clock_grn_rgb.png'
+    - id: ymca_icon_completedtask_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_CompletedTask_grn_rgb.png'
+    - id: ymca_icon_computertechnology_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_ComputerTechnology_grn_rgb.png'
+    - id: ymca_icon_dancing_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Dancing_grn_rgb.png'
+    - id: ymca_icon_daycamp_flag_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_DayCamp-Flag_grn_rgb.png'
+    - id: ymca_icon_daycamp_shirt_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_DayCamp-Shirt_grn_rgb.png'
+    - id: ymca_icon_diversity_and_inclusion_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Diversity&Inclusion_grn_rgb.png'
+    - id: ymca_icon_diving_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Diving_grn_rgb.png'
+    - id: ymca_icon_education_and_leadership_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Education&Leadership_grn_rgb.png'
+    - id: ymca_icon_executiveleadership_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_ExecutiveLeadership_grn_rgb.png'
+    - id: ymca_icon_figureskating_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Figureskating_grn_rgb.png'
+    - id: ymca_icon_fooddonation_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_FoodDonation_grn_rgb.png'
+    - id: ymca_icon_football_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Football_grn_rgb.png'
+    - id: ymca_icon_fundraising_and_donations_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Fundraising&Donations_grn_rgb.png'
+    - id: ymca_icon_generalfitness_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_GeneralFitness_grn_rgb.png'
+    - id: ymca_icon_global_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Global_grn_rgb.png'
+    - id: ymca_icon_gymnastics_beam_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Gymnastics-Beam_grn_rgb.png'
+    - id: ymca_icon_gymnastics_rings_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Gymnastics-Rings_grn_rgb.png'
+    - id: ymca_icon_handball_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Handball_grn_rgb.png'
+    - id: ymca_icon_healthyliving_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_HealthyLiving_grn_rgb.png'
+    - id: ymca_icon_heart_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Heart_grn_rgb.png'
+    - id: ymca_icon_hearts_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Hearts_grn_rgb.png'
+    - id: ymca_icon_hockey_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Hockey_grn_rgb.png'
+    - id: ymca_icon_honesty_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Honesty_grn_rgb.png'
+    - id: ymca_icon_iceskating_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Iceskating_grn_rgb.png'
+    - id: ymca_icon_informationtechnology_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_InformationTechnology_grn_rgb.png'
+    - id: ymca_icon_karate_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Karate_grn_rgb.png'
+    - id: ymca_icon_legalcounsel_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_LegalCounsel_grn_rgb.png'
+    - id: ymca_icon_marketing_and_comms_a_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Marketing&Comms-A_grn_rgb.png'
+    - id: ymca_icon_marketing_and_comms_b_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Marketing&Comms-B_grn_rgb.png'
+    - id: ymca_icon_membership_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Membership_grn_rgb.png'
+    - id: ymca_icon_militaryoutreach_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_MilitaryOutreach_grn_rgb.png'
+    - id: ymca_icon_partnership_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Partnership_grn_rgb.png'
+    - id: ymca_icon_pickleball_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Pickleball_grn_rgb.png'
+    - id: ymca_icon_pumpkin_holiday_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Pumpkin-Holiday_grn_rgb.png'
+    - id: ymca_icon_pumpkin_seasonal_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Pumpkin-Seasonal_grn_rgb.png'
+    - id: ymca_icon_questionmark_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_QuestionMark_grn_rgb.png'
+    - id: ymca_icon_racquetball_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Racquetball_grn_rgb.png'
+    - id: ymca_icon_reading_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Reading_grn_rgb.png'
+    - id: ymca_icon_respect_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Respect_grn_rgb.png'
+    - id: ymca_icon_responsibility_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Responsibility_grn_rgb.png'
+    - id: ymca_icon_rollerblading_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Rollerblading_grn_rgb.png'
+    - id: ymca_icon_rollerskating_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Rollerskating_grn_rgb.png'
+    - id: ymca_icon_ropeschallenge_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_RopesChallenge_grn_rgb.png'
+    - id: ymca_icon_running_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Running_grn_rgb.png'
+    - id: ymca_icon_stem_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_STEM_grn_rgb.png'
+    - id: ymca_icon_skateboard_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Skateboard_grn_rgb.png'
+    - id: ymca_icon_snowflake_seasonal_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Snowflake-Seasonal_grn_rgb.png'
+    - id: ymca_icon_soccer_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Soccer_grn_rgb.png'
+    - id: ymca_icon_socialresponsibility_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_SocialResponsibility_grn_rgb.png'
+    - id: ymca_icon_socialservices_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_SocialServices_grn_rgb.png'
+    - id: ymca_icon_star_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Star_grn_rgb.png'
+    - id: ymca_icon_stopwatch_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Stopwatch_grn_rgb.png'
+    - id: ymca_icon_sun_seasonal_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Sun-Seasonal_grn_rgb.png'
+    - id: ymca_icon_swim_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Swim_grn_rgb.png'
+    - id: ymca_icon_tennis_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Tennis_grn_rgb.png'
+    - id: ymca_icon_tree_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Tree_grn_rgb.png'
+    - id: ymca_icon_turkey_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Turkey_grn_rgb.png'
+    - id: ymca_icon_volleyball_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Volleyball_grn_rgb.png'
+    - id: ymca_icon_weightlifting_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Weightlifting_grn_rgb.png'
+    - id: ymca_icon_wellness_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Wellness_grn_rgb.png'
+    - id: ymca_icon_workout_grn
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Workout_grn_rgb.png'
+    - id: ymca_icon_achieversprogram_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_AchieversProgram_orng_rgb.png'
+    - id: ymca_icon_aerobics_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Aerobics_orng_rgb.png'
+    - id: ymca_icon_alert_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Alert_orng_rgb.png'
+    - id: ymca_icon_aquaticsafety_and_lessons_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_AquaticSafety&Lessons_orng_rgb.png'
+    - id: ymca_icon_art_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Art_orng_rgb.png'
+    - id: ymca_icon_baseball_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Baseball_orng_rgb.png'
+    - id: ymca_icon_basketball_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Basketball_orng_rgb.png'
+    - id: ymca_icon_calendar_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Calendar_orng_rgb.png'
+    - id: ymca_icon_campfire_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_CampFire_orng_rgb.png'
+    - id: ymca_icon_camping_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Camping_orng_rgb.png'
+    - id: ymca_icon_careers_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Careers_orng_rgb.png'
+    - id: ymca_icon_caring_a_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Caring-A_orng_rgb.png'
+    - id: ymca_icon_caring_b_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Caring-B_orng_rgb.png'
+    - id: ymca_icon_chapel_and_spiritual_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Chapel&Spiritual_orng_rgb.png'
+    - id: ymca_icon_childcare_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_ChildCare_orng_rgb.png'
+    - id: ymca_icon_climbing_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Climbing_orng_rgb.png'
+    - id: ymca_icon_clock_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Clock_orng_rgb.png'
+    - id: ymca_icon_completedtask_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_CompletedTask_orng_rgb.png'
+    - id: ymca_icon_computertechnology_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_ComputerTechnology_orng_rgb.png'
+    - id: ymca_icon_dancing_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Dancing_orng_rgb.png'
+    - id: ymca_icon_daycamp_flag_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_DayCamp-Flag_orng_rgb.png'
+    - id: ymca_icon_daycamp_shirt_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_DayCamp-Shirt_orng_rgb.png'
+    - id: ymca_icon_diversity_and_inclusion_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Diversity&Inclusion_orng_rgb.png'
+    - id: ymca_icon_diving_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Diving_orng_rgb.png'
+    - id: ymca_icon_education_and_leadership_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Education&Leadership_orng_rgb.png'
+    - id: ymca_icon_executiveleadership_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_ExecutiveLeadership_orng_rgb.png'
+    - id: ymca_icon_figureskating_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Figureskating_orng_rgb.png'
+    - id: ymca_icon_fooddonation_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_FoodDonation_orng_rgb.png'
+    - id: ymca_icon_football_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Football_orng_rgb.png'
+    - id: ymca_icon_fundraising_and_donations_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Fundraising&Donations_orng_rgb.png'
+    - id: ymca_icon_generalfitness_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_GeneralFitness_orng_rgb.png'
+    - id: ymca_icon_global_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Global_orng_rgb.png'
+    - id: ymca_icon_gymnastics_beam_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Gymnastics-Beam_orng_rgb.png'
+    - id: ymca_icon_gymnastics_rings_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Gymnastics-Rings_orng_rgb.png'
+    - id: ymca_icon_handball_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Handball_orng_rgb.png'
+    - id: ymca_icon_healthyliving_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_HealthyLiving_orng_rgb.png'
+    - id: ymca_icon_heart_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Heart_orng_rgb.png'
+    - id: ymca_icon_hearts_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Hearts_orng_rgb.png'
+    - id: ymca_icon_hockey_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Hockey_orng_rgb.png'
+    - id: ymca_icon_honesty_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Honesty_orng_rgb.png'
+    - id: ymca_icon_iceskating_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Iceskating_orng_rgb.png'
+    - id: ymca_icon_informationtechnology_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_InformationTechnology_orng_rgb.png'
+    - id: ymca_icon_karate_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Karate_orng_rgb.png'
+    - id: ymca_icon_legalcounsel_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_LegalCounsel_orng_rgb.png'
+    - id: ymca_icon_marketing_and_comms_a_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Marketing&Comms-A_orng_rgb.png'
+    - id: ymca_icon_marketing_and_comms_b_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Marketing&Comms-B_orng_rgb.png'
+    - id: ymca_icon_membership_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Membership_orng_rgb.png'
+    - id: ymca_icon_militaryoutreach_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_MilitaryOutreach_orng_rgb.png'
+    - id: ymca_icon_partnership_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Partnership_orng_rgb.png'
+    - id: ymca_icon_pickleball_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Pickleball_orng_rgb.png'
+    - id: ymca_icon_pumpkin_holiday_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Pumpkin-Holiday_orng_rgb.png'
+    - id: ymca_icon_pumpkin_seasonal_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Pumpkin-Seasonal_orng_rgb.png'
+    - id: ymca_icon_questionmark_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_QuestionMark_orng_rgb.png'
+    - id: ymca_icon_racquetball_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Racquetball_orng_rgb.png'
+    - id: ymca_icon_reading_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Reading_orng_rgb.png'
+    - id: ymca_icon_respect_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Respect_orng_rgb.png'
+    - id: ymca_icon_responsibility_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Responsibility_orng_rgb.png'
+    - id: ymca_icon_rollerblading_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Rollerblading_orng_rgb.png'
+    - id: ymca_icon_rollerskating_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Rollerskating_orng_rgb.png'
+    - id: ymca_icon_ropeschallenge_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_RopesChallenge_orng_rgb.png'
+    - id: ymca_icon_running_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Running_orng_rgb.png'
+    - id: ymca_icon_stem_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_STEM_orng_rgb.png'
+    - id: ymca_icon_skateboard_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Skateboard_orng_rgb.png'
+    - id: ymca_icon_snowflake_seasonal_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Snowflake-Seasonal_orng_rgb.png'
+    - id: ymca_icon_soccer_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Soccer_orng_rgb.png'
+    - id: ymca_icon_socialresponsibility_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_SocialResponsibility_orng_rgb.png'
+    - id: ymca_icon_socialservices_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_SocialServices_orng_rgb.png'
+    - id: ymca_icon_star_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Star_orng_rgb.png'
+    - id: ymca_icon_stopwatch_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Stopwatch_orng_rgb.png'
+    - id: ymca_icon_sun_seasonal_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Sun-Seasonal_orng_rgb.png'
+    - id: ymca_icon_swim_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Swim_orng_rgb.png'
+    - id: ymca_icon_tennis_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Tennis_orng_rgb.png'
+    - id: ymca_icon_tree_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Tree_orng_rgb.png'
+    - id: ymca_icon_turkey_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Turkey_orng_rgb.png'
+    - id: ymca_icon_volleyball_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Volleyball_orng_rgb.png'
+    - id: ymca_icon_weightlifting_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Weightlifting_orng_rgb.png'
+    - id: ymca_icon_wellness_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Wellness_orng_rgb.png'
+    - id: ymca_icon_workout_orng
+      name: 'M&C_WebIcons-Color-Application-452424_YMCA-Icons_Workout_orng_rgb.png'
+  ids:
+    id:
+      type: string
+  constants:
+    source_relative_path: assets/icons
+    uri_file: 'public://icons'
+    module: y_lb_demo_content_icons
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  module_path:
+    plugin: module_path
+    source: constants/module
+  source_full_path:
+    -
+      plugin: concat
+      delimiter: /
+      source:
+        - '@module_path'
+        - constants/source_relative_path
+        - name
+    -
+      plugin: urlencode
+  uri_file:
+    -
+      plugin: concat
+      delimiter: /
+      source:
+        - constants/uri_file
+        - name
+    -
+      plugin: urlencode
+  filename: name
+  uri:
+    plugin: file_copy
+    source:
+      - '@source_full_path'
+      - '@uri_file'
+  status:
+    -
+      plugin: default_value
+      default_value: 1
+  uid:
+    -
+      plugin: default_value
+      default_value: 1
+destination:
+  plugin: 'entity:file'
+migration_dependencies:
+  required: {}
+  optional: {}
