@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: y_lb_demo_content_icons
+label: 'Y Layout Builder - Demo Icon Content'
+description: 'Imports YMCA branded icon images as Drupal Media entities.'
+module: y_lb_demo_content_icons
+

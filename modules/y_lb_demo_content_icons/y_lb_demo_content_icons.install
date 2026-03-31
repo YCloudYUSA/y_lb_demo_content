@@ -1,0 +1,30 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for y_lb_demo_content_icons module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function y_lb_demo_content_icons_install(): void {
+  $importer = \Drupal::service('openy_migrate.importer');
+  $importer->importByTag('y_lb_demo_content_icons');
+}
+
+/**
+ * Implements hook_uninstall().
+ *
+ * Intentionally does NOT roll back the icon file and media entities.
+ * These icons are general-purpose assets that may already be referenced by
+ * content outside of this module. Deleting them on uninstall would silently
+ * break those references. The imported media entities are left in place as
+ * permanent site assets.
+ *
+ * To manually remove the imported media, run:
+ *   drush migrate:rollback --tag=y_lb_demo_content_icons
+ */
+function y_lb_demo_content_icons_uninstall(): void {
+  // No rollback — see docblock above.
+}

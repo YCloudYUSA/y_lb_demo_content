@@ -1,0 +1,12 @@
+name: 'Y Layout Builder - Demo Icon Content'
+type: module
+description: 'Stores migrations to import YMCA branded icon images as Drupal Media entities. Includes blue, green, and orange color variants of all YMCA icon set icons.'
+package: 'YMCA Website Services'
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:migrate
+  - migrate_plus:migrate_plus
+  - migrate_tools:migrate_tools
+  - openy_migrate
+  - openy_media_image
+
