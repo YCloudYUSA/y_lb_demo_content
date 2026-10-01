@@ -39,7 +39,7 @@ class YLbDemoContentMigrationSubscriber implements EventSubscriberInterface {
    *
    * @inheritdoc
    */
-  public static function getSubscribedEvents() {
+  public static function getSubscribedEvents(): array {
     $events[MigrateEvents::PRE_IMPORT][] = ['onMigratePreImport'];
     $events[MigrateEvents::POST_IMPORT][] = ['onMigratePostImport'];
     return $events;
